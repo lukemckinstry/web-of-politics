@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style> /* set the CSS */
+
+
+.textPath {
+  fill: #6B6B6B;
+  font-size: 13px;
+  font-family: 'Courgette', sans-serif;
+}
+
+.link {
+  fill: none;
+  stroke-width: 1px;
+}
+
+.chamber_arc {
+  font-size: 3.5px;
+  font-family: sans-serif;
+  letter-spacing: 1px;
+  stroke: none;
+  font-weight: bold;
+  opacity: 0.5;
+  
+}
+
+.chamber_arc path {
+
+  fill: orange;
+}
+
+.level_arc {
+  font-size: 8px;
+  font-family: sans-serif;
+  letter-spacing: 1px;
+  stroke: none;
+  font-weight: bold;
+  fill: steelblue;
+}
+
+.buttons {
+  position:fixed;
+  left:50%;
+  transform: translate(-50%);
+  padding:17px;
+  background: #d2d5de;
+  top: 20px;
+}
+
+  div.tooltip { 
+    position:fixed;
+    left:50%;
+    transform: translate(-50%);
+    padding:17px;
+    background: #d2d5de;
+    top: 80px;             
+    text-align: left;
+    margin: 10px;
+    font: 12px 'Courgette', sans-serif;           
+    border: 1px;      
+    border-radius: 2px;           
+    pointer-events: none;         
+    border-radius:5px;
+    font-size:12px;
+    width:auto;
+    padding:20px;
+    box-shadow: 0px 2px 8px 2px rgba(0, 0, 0, 0.08);
+  }
+  div.tooltip h4{
+    margin:0;
+    font-size:14px;
+    text-align: left;
+  }
+  div.tooltip table{
+    table-layout:fixed;
+  }
+
+  button {
+    font: 12px 'Courgette', sans-serif; 
+  }
+
+  div.legend { 
+    position:fixed;
+    left:75%;
+    padding:17px;
+    background: #d2d5de;
+    top: 40px;             
+    text-align: left;
+    margin: 10px;
+    font: 12px 'Courgette', sans-serif;           
+    border: 1px;      
+    pointer-events: none;         
+    border-radius:2px;
+    font-size:12px;
+    width:auto;
+    padding:20px;
+    opacity:1;
+    box-shadow: 0px 2px 8px 2px rgba(0, 0, 0, 0.08);
+  }
+
+
+</style>
+<body>
+<div class="buttons">
+<button type="button" onclick="draw( 'static/pa-out.csv', 'PA' )">PA</button>
+<button type="button" onclick="draw( 'static/nj-out.csv', 'NJ' )">NJ</button>
+<button type="button" onclick="draw( 'static/ny-out.csv', 'NY' )">NY</button>
+<button type="button" onclick="draw( 'static/ca-out.csv', 'CA' )">CA</button>
+<button type="button" onclick="draw( 'static/tx-out.csv', 'TX' )">TX</button>
+</div>
+<div class="" id="viz-holder"></div>
+<!-- <svg id="svg_donut" width="600" height="600"></svg> -->
+
+<!-- load the d3.js library -->    	
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script>
+
+function draw( data_path, state_label ) {
+
+  if ( document.contains(document.getElementById("viz"))) {
+                    document.getElementById("viz").remove();
+                    }
+  if ( document.contains(document.getElementById("viz-div"))) {
+                    document.getElementById("viz-div").remove();
+                    }
+  if ( document.contains(document.getElementById("tooltip"))) {
+                    document.getElementById("tooltip").remove();
+                    }
+  if ( document.contains(document.getElementById("legend"))) {
+                    document.getElementById("legend").remove();
+                    }
+
+
+var vis = d3.select('#viz-holder')
+    .append("div")
+    .classed("svg-container", true).attr("id", "viz-div") 
+    .append('svg').attr("id", "viz")
+    .attr("preserveAspectRatio", "xMinYMin meet")
+    .attr("viewBox", "0 0 600 600")
+    //class to make it responsive
+    .classed("svg-content-responsive", true);
+
+var width = 600/2;
+
+d3.csv( data_path , type, function(error, poldata) {
+
+  console.log( poldata )
+
+  var legendscale = d3.scaleOrdinal()
+      .domain(["n", "r", "d", "i", "w", "v"])
+      .range(["#C0C0C0", "salmon", "steelblue", "purple", "yellow", "#2F4F4F"]);
+
+  levels = [
+            {id: "nu", l:"US Senators"},
+            {id: "nl", l:"US Representatives"},
+            {id: "se", l:"State Executive Offices"},
+            {id: "su", l:"State Upper Legislature"},
+            {id: "sl", l:"State Lower Legislature"},
+            {id: "le", l:"Local Executive Offices"},
+            {id: "ll", l:"Local Legislative Offices"}]
+
+  //get chambers per level
+  levels.forEach( function(l)  {
+    var rel_level_recs = poldata.filter(d => d.tier === l.id)
+
+    chamber_ids = Array.from( new Set(d3.values( rel_level_recs.map(function(d) { return  d.chamber_id }))));
+    chambers = new Array();
+    for (var i = 0; i < chamber_ids.length; i++) {
+        chambers.push({
+            id: chamber_ids[i]
+        });
+    }
+    let level = levels.find(o => o.id === l.id);
+    let index = levels.indexOf(level);
+    levels.fill(level.chambers = chambers, index, index++);
+   
+    //get num district seats per chamber, to properly scale the visualization
+    chamber_ids.forEach( function(c, counter) {
+      var rel_chamber_recs = poldata.filter(d => d.chamber_id === c)
+      var districts = Array.from( new Set(d3.values( rel_chamber_recs.filter(d => Number.isInteger(d.label) ).map(function(d) { return  d.label }))));
+      let level = levels.find(o => o.id === l.id);
+      let chamber = level.chambers.find(o => o.id === c )
+      let chamber_index = level.chambers.indexOf(chamber);
+      level.chambers.fill( chamber.num_district = districts.length, chamber_index, chamber_index++);
+
+      //get at-large officials per chamber  
+      var al_recs = Array.from( new Set(d3.values( rel_chamber_recs.filter(d => !Number.isInteger(d.label) ).map(function(d) { return  d.official_sk }))));
+      chamber['al_off'] = []
+      al_recs.forEach( function(al, al_counter) {
+        chamber['al_off'].push( al );
+      } )
+    })
+  });
+
+  console.log( levels )
+
+  //get number of districts per level 
+  levels.forEach( function(l) {
+    var sum = l.chambers.reduce(function(prevVal, elem) {
+      //console.log( elem.al_off.length )
+      return prevVal + elem.num_district + elem.al_off.length;
+    }, 0);
+    l.num_officials = sum
+  } )
+  
+  //domain of time scale, also see date filtering in onload function
+  var yFloor = new Date("2011/01/01")
+  var yCeiling = new Date("2018/12/31")
+
+  //radius scale for each level
+  const num_levels = Object.keys(levels).length; //TODO change this to just levels with officials?
+  const radius_level_padding = 10;
+  radius_seg = (width-50 - (  num_levels )) / num_levels 
+  levels.forEach( function(l, counter) {
+    var i_bound = 50 + ( radius_seg * counter) + (  counter ) ;
+    var o_bound = 50 + ( radius_seg * (counter+1)) + (  (counter +1));
+    var seg_radius_scale = d3.scaleLinear().range([i_bound, o_bound - radius_level_padding]).domain([yCeiling, yFloor])
+    l.radius_scale = seg_radius_scale;
+  })
+  
+  //use the most crowded level to determine radian of each seat 
+  var max_slots = d3.max( d3.values( levels.map(function(d) { return  d.num_officials + d.chambers.length }) ) )
+  var radians_seg = ((2 * pi) - (pi/3) - (  pi/3 )) / max_slots
+
+  //radians scale for each chamber
+  levels.forEach( function(l, counter) {
+
+    l.chambers.forEach( function(c, c_counter) {
+      var name_formal =  Array.from( new Set(d3.values( poldata.filter(p => p.chamber_id === c.id).map(function(d) { return  d.name_formal }))))[0] ;
+      
+      //idea is to make executive seats easier to see and differentiate, TODO maybe labeling is a better strategy here
+      var exec_multiplier =  l.id.substring( 1,2) === 'e'? 3 : 1; 
+
+      //get num officials in previous chambers on level, to determine radian where next chamber starts 
+      var prev_chambers_onlevel = l.chambers.slice(0, c_counter)
+      var prev_officials_onlevel = prev_chambers_onlevel.reduce(function(prevVal, elem) {
+        return prevVal + elem.num_district + elem.al_off.length;
+      }, 0);
+      var num_officials = c.num_district + c.al_off.length;
+      var l_bound = pi/3 + (((prev_officials_onlevel * exec_multiplier) + c_counter) * radians_seg) 
+      var u_bound = pi/3 + (((prev_officials_onlevel * exec_multiplier) + num_officials + c_counter) * radians_seg)  
+      var seg_radians_scale = d3.scaleLinear().range([l_bound, u_bound]).domain([ 0, (num_officials / exec_multiplier) + 2  ]); 
+      c.radians_scale = seg_radians_scale;
+      c.name_formal = name_formal;
+    } )
+  })
+
+
+
+  //draw arcs for each record //TODO enumerate at large seats? how to make them consistent accross terms?
+  //TODO link official tenure accross terms
+  var arc_bar = d3.arc()
+          .innerRadius(function(d){
+            return levels.find(o => o.id === d.tier).radius_scale( d.valid_to ) ;
+             })
+
+          .outerRadius(function(d){
+            return levels.find(o => o.id === d.tier).radius_scale( d.valid_from ) ;
+             })
+
+          .startAngle(function(d){
+            var lev = levels.find(o => o.id === d.tier)
+            var chamber = lev.chambers.find(o => o.id === d.chamber_id);
+            if ( !Number.isInteger(d.label) ) {
+              return chamber.radians_scale( chamber.num_district + chamber.al_off.indexOf( d.official_sk ))
+            } else {              
+              return chamber.radians_scale( d.label )
+            }
+          })
+
+          .endAngle(function(d){
+            var lev = levels.find(o => o.id === d.tier)
+            var chamber = lev.chambers.find(o => o.id === d.chamber_id);
+            if ( !Number.isInteger(d.label) ) {
+              return chamber.radians_scale( chamber.num_district + chamber.al_off.indexOf( d.official_sk ) + 1 )
+            } else {
+              return chamber.radians_scale( d.label + 1 )
+            }
+          })
+          .cornerRadius(2);   
+          //TODO break this out into function
+          
+
+  //plot arcs
+  vis.selectAll("path")
+              .data(poldata)
+              .enter()
+              .append("path")
+              .attr("d", arc_bar)
+              .attr("class", "arc")
+              .attr("id", function(d) {
+                return 'arc' + d.id;
+              })
+              .attr("stroke", "None" )
+              .style("fill", function(d) {
+                    if ( d.last_name.toLowerCase() === "vacant" ) {
+                      return legendscale( "v" );
+                    } else {
+                      return legendscale( d.party );
+                  }
+                })
+              .attr("transform", "translate(300,300)")
+              .on("mouseover", function(d) { highlight_link( d.id , d.links[0] )})
+              .on("mouseout", function(d) { release_link_highlight( d.id, d.links[0] )});
+
+    //plot links
+    vis.selectAll("path").each(function(d, i) {
+      d.links.forEach( function(l) {
+        if( Number.isInteger(l)) {
+          var dest = poldata.find(o => o.id === l && o.chamber_id !== d.chamber_id )
+          var start_rec = levels.map(function(e) { return e.id; }).indexOf( d.tier )
+          var end_rec = levels.map(function(e) { return e.id; }).indexOf( dest.tier )
+          //TODO var versus const
+          if( start_rec > end_rec ) { 
+            var s_cent = arc_bar.centroid( d ) 
+            var e_cent = arc_bar.centroid( dest )
+            vis.append("line")
+              .attr("id", 'oppo' + dest.id )
+              .attr("x1", s_cent[0])
+              .attr("y1", s_cent[1])
+              .attr("x2", e_cent[0])
+              .attr("y2", e_cent[1])
+              .attr("class", "link")
+              .attr("stroke", party_fill( dest ))
+              .attr("transform", "translate(300,300)")
+              .on("mouseover", function() { highlight_link(d.id, dest.id ) })
+              .on("mouseout", function() { release_link_highlight(d.id, dest.id ) })
+          }
+        }
+      })
+    });
+    
+
+  //global vars toggle chamber via arrow keys
+  var focus_lev = 0;
+  var focus_chm = 0;
+  var focus_off = 0;
+  var focus_chm_links = get_focus_chm_links( levels[focus_lev].chambers[ focus_chm].id )
+
+
+  //keyboard event listener
+  document.body.addEventListener('keydown', function(e) {
+    //msg.textContent = 'keydown:' + e.keyCode;
+    toggle_keys( e.keyCode );
+    
+  });
+
+  function toggle_keys( keystroke ) {
+    release_highlight_chamber( levels[focus_lev].chambers[ focus_chm].id )
+    if( focus_chm_links.length > 0 ) {
+      release_link_highlight( focus_chm_links[focus_off].id, focus_chm_links[focus_off].links[0]  )
+    }
+    var max_lev = levels.length-1;
+    var max_chm = levels[focus_lev].chambers.length-1;
+    
+    //up-down toggle level
+    if( keystroke === 38 ) {
+      focus_off = 0;
+      focus_lev = Math.min( focus_lev += 1, max_lev) ;
+      focus_chm = Math.min( focus_chm, levels[focus_lev].chambers.length-1);
+    } else if ( keystroke === 40 ) {
+      focus_off = 0;
+      focus_lev = Math.max( focus_lev -= 1, 0);
+      focus_chm = Math.min( focus_chm, levels[focus_lev].chambers.length-1);
+    }
+
+    focus_chm_links = get_focus_chm_links( levels[focus_lev].chambers[ focus_chm].id )
+    
+    //left-right toggle office and chamber 
+    if( keystroke === 37 ) {
+      if( focus_off === 0) {
+        focus_chm = Math.max( focus_chm -= 1, 0);
+        focus_chm_links = get_focus_chm_links( levels[focus_lev].chambers[ focus_chm].id )
+        focus_off = Math.max( focus_chm_links.length-1, 0);
+      } else {
+        focus_off -= 1;
+      }
+
+    } else if ( keystroke === 39 ) {
+      if( focus_off > (focus_chm_links.length -2)  ) {
+        focus_chm = Math.min( focus_chm += 1, max_chm) ;
+        focus_off = 0;
+      } else {
+        focus_off += 1;
+      } 
+    }
+    highlight_chamber( levels[focus_lev].chambers[ focus_chm].id )
+    //might have changed
+    focus_chm_links = get_focus_chm_links( levels[focus_lev].chambers[ focus_chm].id )
+
+    //console.log( "THIS FOCUS ", focus_lev, focus_chm, focus_off, "num_links_hlchm", focus_chm_links.length )
+    if( focus_chm_links.length > 0 ) {
+      highlight_link( focus_chm_links[focus_off].id, focus_chm_links[focus_off].links[0]  );
+      position_tt( focus_chm_links[focus_off].id, focus_chm_links[focus_off].links[0], levels[focus_lev].chambers[ focus_chm].name_formal )
+    } else {
+      chm_tt_html( divtt, levels[focus_lev].chambers[ focus_chm].name_formal );
+    }
+  }
+
+  function release_highlight_chamber( chamber_id ) {
+      var rel_chamber_recs = poldata.filter(d => d.chamber_id === chamber_id)
+      rel_chamber_recs.forEach( function(r) {
+        d3.select( '.arc#arc' + r.id ).style("stroke","none");
+      } )
+    }
+
+
+    function highlight_chamber( chamber_id ) {
+      var rel_chamber_recs = poldata.filter(d => d.chamber_id === chamber_id )
+      var rel_link_recs = poldata.filter(d => d.chamber_id === chamber_id && Number.isInteger( d.links[0]))
+      rel_chamber_recs.forEach( function(r) {
+        d3.select( '.arc#arc' + r.id ).style("stroke","green");
+      } )
+    }
+
+
+    function get_focus_chm_links( chamber_id ) {
+      return poldata.filter(d => d.chamber_id === chamber_id && Number.isInteger( d.links[0]))
+    }
+
+    function party_fill( obj) {
+        if (obj.last_name.toLowerCase() === "vacant" ) { return legendscale( "v" ) }
+         else { return legendscale( obj.party ) }     
+    }
+
+    function highlight_link( start_id, dest_id ) {
+      if (dest_id !== "#") {
+        d3.select( '.link#oppo'+ dest_id ).attr("stroke","black");
+        d3.select( '.link#oppo'+ start_id ).attr("stroke","black");
+        d3.select( '.arc#arc' + dest_id ).style("fill","black");
+        d3.select( '.arc#arc' + start_id ).style("fill","black");
+      }
+      return
+    }
+
+    function release_link_highlight( start, dest ) {
+      if (dest !== "#") { 
+        start_obj = poldata.find(o => o.id === start )
+        dest_obj = poldata.find(o => o.id === dest )
+        d3.select( '.link#oppo'+ dest ).attr("stroke",party_fill(dest_obj));
+        d3.select( '.link#oppo'+ start ).attr("stroke",party_fill(start_obj));
+        d3.select( '.arc#arc' + dest ).style("fill",party_fill(dest_obj));
+        d3.select( '.arc#arc' + start ).style("fill",party_fill(start_obj));
+      }
+      return
+    }
+
+    function chm_tt_html( div, name ) {
+
+      divtt.transition()    
+                  .duration(200)    
+                  .style("opacity", 1);
+      divtt.html("<h4>"+name+"</h4><table>"+
+                        "<tr><td>"  +"</td><td></td></tr>"+
+                        "<tr><td>"+ "</td></tr>"+
+                        "<tr><td></td><td></td></tr>"+
+                        "</table>") 
+              //.style("left",  (arc_bar.centroid( obj )[0] + 300) * (div_x /600)   + "px")
+              //.style("top", (arc_bar.centroid( obj )[1] + 300) * (div_x /600) + "px");
+    }
+
+
+    //TODO modify for single tooltip instead of two
+    function link_tt_html( div, start_obj, dest_obj, chm_name ) {
+
+      divtt.transition()    
+                  .duration(200)    
+                  .style("opacity", 1);
+      divtt.html("<h4>"+chm_name+"</h4><table>"+
+                        "<tr><td>"  +"</td><td></td></tr>"+
+                        "<tr><td>"+ "</td></tr>"+
+                        "<tr><td>"+ "</td></tr>"+
+                        "<h4>"+start_obj.first_name + " " +start_obj.last_name+" - Start</h4><table>"+
+                        "<tr><td>"+start_obj.name_formal + " " +start_obj.label +"</td><td></td></tr>"+
+                        "<tr><td>"+ start_obj.valid_from.getFullYear() + " to " + start_obj.valid_to.getFullYear() +"</td></tr>"+
+                        "<tr><td>"+dest_obj.name_formal + " " +dest_obj.label +"</td><td></td></tr>"+
+                        "<tr><td>"+dest_obj.valid_from.getFullYear() + " to " + dest_obj.valid_to.getFullYear() +"</td></tr>"+
+                        "<tr><td></td><td></td></tr>"+
+                        "</table>") 
+              //.style("left",  (arc_bar.centroid( obj )[0] + 300) * (div_x /600)   + "px")
+              //.style("top", (arc_bar.centroid( obj )[1] + 300) * (div_x /600) + "px");
+    }
+
+    function position_tt(start, dest, chm_name ) {
+        start_obj = poldata.find(o => o.id === start )
+        dest_obj = poldata.find(o => o.id === dest )
+        link_tt_html( divtt, start_obj, dest_obj, chm_name )
+        //plot_tt_html( divd, dest_obj )
+      return
+    }
+
+
+    console.log( levels )
+
+    //label each level
+    levels.forEach( function(l) {
+
+      var level_arc = d3.arc()
+        // .innerRadius( l.radius_scale( new Date("2015/01/01") ))
+        // .outerRadius( l.radius_scale( new Date("2015/03/30") ))
+        .innerRadius( l.radius_scale( yFloor ))
+        .outerRadius( l.radius_scale( yCeiling ))
+        .startAngle( -pi/3) 
+        .endAngle(  pi/3  ) 
+
+      vis.append("path")
+        .attr("d", level_arc)
+        .attr("id", "pathsh" + l.id )
+        .attr("transform", "translate(300,300)")
+        .style("opacity", "0.1")
+
+      // Add a text label.
+      var shLabelText = vis.append("text")
+          .attr("x", 40)
+          .attr("dy", 16);
+
+      shLabelText.append("textPath")
+        .attr("class","level_arc")
+        .attr("xlink:href","#pathsh" + l.id)
+        .text( state_label + " " +l.l );
+      } )
+
+    // label each chamber
+    levels.forEach( function(l) {
+
+      l.chambers.forEach( function(c, counter) {
+
+        var chamber_arc = d3.arc()
+        .innerRadius( l.radius_scale( yFloor ))
+        .outerRadius( l.radius_scale( yCeiling ))
+        .startAngle( c.radians_scale(0)  ) //convert from degs to radians
+        .endAngle(  c.radians_scale( c.num_district + c.al_off.length )  ) //just radians
+
+      vis.append("path")
+        .attr("d", chamber_arc)
+        .attr("id", "pathsh" + c.id )
+        .attr("transform", "translate(300,300)")
+        .style("fill", "orange" )
+        .style("opacity", ".1")
+
+      // // Add a text label.
+      // var shLabelText = vis.append("text")
+      //     .attr("x", 0)
+      //     .attr("dy", 10)
+      //     //.attr("transform", "rotate(90)")
+
+      // shLabelText.append("textPath")
+      //   .attr("class","chamber_arc"  )
+        
+      //   .attr("xlink:href","#pathsh" + c.id)
+      //   .text( c.name_formal );
+
+      centroid = chamber_arc.centroid( c ) 
+
+      vis.append("text")
+            .attr("class","chamber_arc"  )
+            .attr("text-anchor", function(t) {
+              return Math.abs(centroid[0]) < 100? "middle":  centroid[0]<0? "start" : "end";
+            })
+            .attr("transform", "translate(300,300)")
+            .attr("x", centroid[0])
+            .attr("y", centroid[1])
+            .attr("dy", ".35em")
+            .text(c.name_formal);
+
+
+      } )
+      } )
+
+    //add legend
+    var legend = d3.select("#viz-holder").append("div")
+      .attr("class", "legend").attr("id", "legend")
+
+    var svgLegend = d3.select(".legend").append("svg")
+            .attr("width", 160).attr("height", 110)
+
+    svgLegend.append('text')
+            .attr("x", 20)
+            .attr("y", 10)
+        .text(" Politcal Party")
+
+    var svgLegendAccess = svgLegend.selectAll('.legend')
+            .data( legendscale.domain() )
+            .enter().append('g')
+            .attr("class", "svglegend")
+            .attr("transform", function (d, i) { return "translate(0," + (i+1) * 15 + ")"  })
+        
+        svgLegendAccess.append('rect')
+            .attr("x", 0)
+            .attr("y", 0)
+            .attr("width", 15)
+            .attr("height", 10)
+            .style("fill", function (d, i) {
+            return legendscale(i)
+        })
+        
+        svgLegendAccess.append('text')
+            .attr("x", 20)
+            .attr("y", 10)
+        .text(function (d) {
+            if (d==="d") {return "Democratic Party"}
+            if (d==="r") {return "Republican Party"}
+            if (d==="i") {return "Independent"}
+            if (d==="w") {return "Working Families Party"}
+            if (d==="v") {return "Vacant Office"}
+            else {return "Party Info Not Available"}
+        }).style("text-anchor", "start")
+  });
+
+//var vis = d3.select("#svg_donut");
+var pi = Math.PI;
+   
+//process data on load
+function type(d) {
+  d.id= +d.id; //coerce to number
+  d.label= parseInt( +d.district_id, 10 ) || d.district_id; //coerce to number
+  d.party = d.party.substring(0, 1).toLowerCase() || 'n'; // shorten
+  var time_parser = d3.timeParse("%Y-%m-%d %H:%M:%S%Z");
+  d.valid_from = new Date(Math.max.apply(null,[new Date("2011/01/01"),new Date( time_parser(d.valid_from) )])) ; // parse date  
+  var valid_to_raw = new Date(Math.min.apply(null,[new Date("2018/12/31"),new Date( time_parser(d.valid_to) )]))
+  if( valid_to_raw < d.valid_from ) {
+    d.valid_to = new Date("2018/12/31")
+  } else {
+    d.valid_to = valid_to_raw
+  }
+  d.links = d.links.split(',').map(x => +x || x)
+
+
+  d.name_formal = d.name_formal.replace("County", "Co").replace("United States", "US")
+
+  //divide offices to tiers
+  if( d.gov_type == "NATIONAL") {
+    if(d.chamber_type == "UPPER" ) {
+      d.tier = "nu"
+    } else if ( d.chamber_type == "LOWER" ) {
+    d.tier = "nl"
+    } else { d.tier = "ne" }
+  } else if( d.gov_type == "STATE") {
+      if(d.chamber_type == "UPPER" ) {
+        d.tier = "su"
+      } else if ( d.chamber_type == "LOWER" ) {
+      d.tier = "sl"
+      } else { d.tier = "se" }
+    } else { 
+      if(d.chamber_type == "UPPER" ) {
+        d.tier = "lu"
+      } else if ( d.chamber_type == "LOWER" ) {
+      d.tier = "ll"
+      } else { d.tier = "le" }
+     }
+  return d;
+}
+
+  var divtt = d3.select("#viz-holder").append("div")
+    .attr("class", "tooltip")
+    .attr("id", "tooltip")
+    .style("opacity", 0);
+  return
+}
+
+draw( 'static/pa-out.csv', 'PA' )
+
+</script>
+</body>

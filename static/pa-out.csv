@@ -1,0 +1,1026 @@
+chamber_id,num_officials,name_formal,party,valid_to,state,district_sk,links,valid_from,chamber_type,last_name,city,gov_type,id,first_name,district_id,official_sk
+2652,0,Pennsylvania House of Representatives,,2012-05-08 00:00:00+00,PA,10079,#,2012-01-03 00:00:00+00,LOWER,VACANT,,STATE,24715,VACANT,000000000153,4175
+793,7,Delaware County Controller,,2018-01-01 00:00:00+00,PA,2580,#,2011-01-01 00:00:00+00,EXEC,O'Lone,Delaware,LOCAL,181571,Edward,At Large,510
+2652,1,Pennsylvania House of Representatives,Republican,2018-12-01 00:00:00+00,PA,758972,#,2014-12-01 00:00:00+00,LOWER,Gillespie,,STATE,188245,Keith,47,13691
+2652,0,Pennsylvania House of Representatives,,2013-06-04 00:00:00+00,PA,10099,#,2013-01-15 14:28:02+00,LOWER,VACANT,,STATE,55374,VACANT,000000000095,43633
+2652,1,Pennsylvania House of Representatives,Democrat,2016-12-01 00:00:00+00,PA,758956,#,2014-12-01 00:00:00+00,LOWER,Santarsiero,,STATE,106935,Steven,31,11896
+4309,1,Pennsylvania Senate,Republican,2018-12-01 00:00:00+00,PA,758921,#,2014-12-01 00:00:00+00,UPPER,Bartolotta,,STATE,158852,Camera,46,79989
+2652,0,Pennsylvania House of Representatives,Democrat,2009-01-06 00:00:00+00,PA,10136,#,0001-01-01 00:00:00+00,LOWER,Wojnaroski,,STATE,10682,Edward,000000000071,10682
+2652,1,Pennsylvania House of Representatives,,2018-01-02 00:00:00+00,PA,759058,#,2017-09-08 00:00:00+00,LOWER,VACANT,,STATE,188431,VACANT,133,179258
+2652,0,Pennsylvania House of Representatives,Democrat,2014-12-01 00:00:00+00,PA,10113,#,2011-01-04 00:00:00+00,LOWER,Brown,,STATE,77584,Vanessa,000000000190,14708
+4490,2,Allegheny County Council,Democrat,2020-01-01 00:00:00+00,PA,393469,#,2014-01-01 00:00:00+00,LOWER,DeFazio,Allegheny,LOCAL,192177,John,At Large,11602
+4490,1,Allegheny County Council,Democrat,2020-01-01 00:00:00+00,PA,393459,#,2012-01-01 00:00:00+00,LOWER,Palmiere,Allegheny,LOCAL,192144,John,000000000006,15842
+2652,0,Pennsylvania House of Representatives,Democrat,2009-01-06 00:00:00+00,PA,10143,#,0001-01-01 00:00:00+00,LOWER,Petrone,,STATE,17319,Thomas,000000000027,17319
+505,5,Pennsylvania State Treasurer,,2015-06-26 00:00:00+00,PA,734,#,2015-01-30 00:00:00+00,EXEC,Craig,,STATE,132220,Christopher,PA,106756
+2652,1,Pennsylvania House of Representatives,Democrat,2018-12-01 00:00:00+00,PA,758970,#,2016-12-01 00:00:00+00,LOWER,Kulik,,STATE,183886,Anita,45,134396
+1547,1,Pittsburgh City Council,Democrat,2022-01-03 00:00:00+00,PA,758122,#,2018-01-01 00:00:00+00,LOWER,Coghill,Pittsburgh,LOCAL,196921,Anthony,4,183045
+1628,8,Harrisburg City Council,Democrat,2022-01-01 00:00:00+00,PA,2115,#,2014-01-01 00:00:00+00,LOWER,Allatt,Harrisburg,LOCAL,192063,Ben,At Large,65400
+2545,5,Chester County District Attorney,,2014-01-01 00:00:00+00,PA,2582,#,2011-01-01 00:00:00+00,LOWER,Carroll,Chester,LOCAL,69086,Joe,At Large,15094
+4309,1,Pennsylvania Senate,Republican,2018-12-01 00:00:00+00,PA,758913,#,2014-12-01 00:00:00+00,UPPER,Vulakovich,,STATE,187403,Randy,38,9836
+1131,3,Dauphin County Commissioners,,2020-01-06 00:00:00+00,PA,392885,#,2016-01-04 00:00:00+00,LOWER,Haste,Dauphin,LOCAL,198052,Jeff,At Large,19135
+4507,0,United States House of Representatives,Republican,2013-01-03 00:00:00+00,PA,1706,#,2011-01-03 00:00:00+00,LOWER,Barletta,,NATIONAL,21031,Lou,000000000011,12076
+2652,0,Pennsylvania House of Representatives,Democrat,2014-12-01 00:00:00+00,PA,10041,#,2011-01-04 00:00:00+00,LOWER,White,,STATE,77446,Jesse,000000000046,17681
+2652,0,Pennsylvania House of Representatives,Republican,2014-12-01 00:00:00+00,PA,10029,#,2012-12-01 00:00:00+00,LOWER,McGinnis,,STATE,77509,John,000000000079,25067
+2652,0,Pennsylvania House of Representatives,Republican,2014-12-01 00:00:00+00,PA,9968,186467,2011-01-04 00:00:00+00,LOWER,Killion,,STATE,77615,Thomas,000000000168,9198
+2652,1,Pennsylvania House of Representatives,Democrat,2018-12-01 00:00:00+00,PA,758959,#,2014-12-01 00:00:00+00,LOWER,Costa,,STATE,161010,Paul,34,5598
+4309,0,Pennsylvania Senate,Republican,2011-01-04 00:00:00+00,PA,3513,#,0001-01-01 00:00:00+00,UPPER,Wonderling,,STATE,14744,Robert,000000000024,14744
+2652,0,Pennsylvania House of Representatives,Republican,2014-12-01 00:00:00+00,PA,10084,#,2011-01-04 00:00:00+00,LOWER,Vereb,,STATE,77619,Mike,000000000150,10858
+2652,0,Pennsylvania House of Representatives,Republican,2014-12-01 00:00:00+00,PA,10008,186269,2012-12-01 00:00:00+00,LOWER,Regan,,STATE,77522,Mike,000000000092,25118
+2652,1,Pennsylvania House of Representatives,Democrat,2018-12-01 00:00:00+00,PA,758948,#,2014-12-01 00:00:00+00,LOWER,Frankel,,STATE,188412,Dan,23,664
+2652,1,Pennsylvania House of Representatives,Republican,2018-12-01 00:00:00+00,PA,759032,#,2014-12-01 00:00:00+00,LOWER,Masser,,STATE,187022,Kurt,107,7745
+2652,1,Pennsylvania House of Representatives,Republican,2018-12-01 00:00:00+00,PA,759087,#,2014-12-01 00:00:00+00,LOWER,Miccarelli,,STATE,188169,Nick,162,6795
+2652,1,Pennsylvania House of Representatives,Republican,2018-12-01 00:00:00+00,PA,758981,#,2014-12-01 00:00:00+00,LOWER,Dunbar,,STATE,197437,George,56,16064
+2652,0,Pennsylvania House of Representatives,Republican,2014-12-01 00:00:00+00,PA,9989,#,2011-01-04 00:00:00+00,LOWER,Peifer,,STATE,77602,Michael,000000000139,982
+4490,1,Allegheny County Council,Republican,2014-01-01 00:00:00+00,PA,393464,#,2012-01-01 00:00:00+00,LOWER,Gastgeb,Allegheny,LOCAL,65420,Vince,000000000005,8775
+1547,1,Pittsburgh City Council,Democrat,2018-01-10 00:00:00+00,PA,758129,#,2014-01-06 00:00:00+00,LOWER,Gilman,Pittsburgh,LOCAL,191273,Dan,8,65428
+1542,0,Philadelphia City Council,Democrat,2013-04-01 00:00:00+00,PA,2586,#,2012-01-02 00:00:00+00,LOWER,Jones,Philadelphia,LOCAL,51715,Curtis,000000000004,4563
+2652,0,Pennsylvania House of Representatives,Democrat,2014-12-01 00:00:00+00,PA,10128,188993,2011-01-04 00:00:00+00,LOWER,Sabatina,,STATE,77601,John,000000000174,3838
+4309,1,Pennsylvania Senate,Republican,2018-12-01 00:00:00+00,PA,758891,#,2014-12-01 00:00:00+00,UPPER,Browne,,STATE,158862,Patrick,16,14162
+2652,0,Pennsylvania House of Representatives,Democrat,2011-01-06 00:00:00+00,PA,10076,#,2011-01-04 00:00:00+00,LOWER,Taylor,,STATE,9398,Rick,000000000151,9398
+2652,1,Pennsylvania House of Representatives,Democrat,2018-12-01 00:00:00+00,PA,759057,#,2014-12-01 00:00:00+00,LOWER,Schlossberg,,STATE,188223,Michael,132,24677
+1628,8,Harrisburg City Council,,2014-01-01 00:00:00+00,PA,2115,#,2012-12-01 00:00:00+00,LOWER,Weber,Harrisburg,LOCAL,66110,Bruce,At Large,36706
+2553,6,Philadelphia City Commissioners,Democrat,2016-01-04 00:00:00+00,PA,251,#,2012-01-02 00:00:00+00,EXEC,Singer,Philadelphia,LOCAL,120782,Stephanie,PHILADELPHIA,10975
+2652,0,Pennsylvania House of Representatives,Republican,2014-12-01 00:00:00+00,PA,10013,#,2011-01-04 00:00:00+00,LOWER,Rapp,,STATE,77482,Kathy,000000000065,15088
+4309,1,Pennsylvania Senate,Republican,2016-01-05 00:00:00+00,PA,758884,#,2014-12-01 00:00:00+00,UPPER,Pileggi,,STATE,123395,Dominic,9,14294
+2652,0,Pennsylvania House of Representatives,Republican,2014-12-01 00:00:00+00,PA,10135,#,2011-01-04 00:00:00+00,LOWER,Hahn,,STATE,77572,Marcia,000000000138,17017
+2652,0,Pennsylvania House of Representatives,Democrat,2014-12-01 00:00:00+00,PA,9978,#,2011-01-04 00:00:00+00,LOWER,Vitali,,STATE,77620,Greg,000000000166,2517
+4493,2,Erie City Controller,Democrat,2022-01-03 00:00:00+00,PA,187,#,2014-01-06 00:00:00+00,EXEC,Stankiewicz,Erie,LOCAL,192231,Teresa,ERIE,65392
+2652,0,Pennsylvania House of Representatives,Republican,2011-01-06 00:00:00+00,PA,10003,#,2011-01-04 00:00:00+00,LOWER,Beyer,,STATE,8333,Karen,000000000131,8333
+2652,1,Pennsylvania House of Representatives,Democrat,2018-12-01 00:00:00+00,PA,758995,#,2014-12-01 00:00:00+00,LOWER,Bradford,,STATE,161108,Matthew,70,8814
+492,6,Philadelphia Mayor,Democrat,2016-01-04 00:00:00+00,PA,251,#,2012-01-02 00:00:00+00,EXEC,Nutter,Philadelphia,LOCAL,120780,Michael,PHILADELPHIA,1334
+4309,0,Pennsylvania Senate,Republican,2009-01-06 00:00:00+00,PA,3545,#,0001-01-01 00:00:00+00,UPPER,Regola,,STATE,6760,Bob,000000000039,6760
+1542,9,Philadelphia City Council,,2016-01-04 00:00:00+00,PA,2606,#,2015-06-20 00:00:00+00,LOWER,VACANT,Philadelphia,LOCAL,121387,VACANT,At Large,110865
+2652,1,Pennsylvania House of Representatives,,2015-08-25 00:00:00+00,PA,759086,#,2015-05-13 00:00:00+00,LOWER,VACANT,,STATE,117019,VACANT,161,109063
+2652,1,Pennsylvania House of Representatives,Democrat,2016-12-01 00:00:00+00,PA,759119,#,2016-03-22 00:00:00+00,LOWER,Savage,,STATE,127299,Lynwood,192,126615
+2652,0,Pennsylvania House of Representatives,Democrat-Republican,2012-12-01 00:00:00+00,PA,10149,#,2011-01-04 00:00:00+00,LOWER,Smith,,STATE,34202,Matthew,000000000042,8998
+2652,1,Pennsylvania House of Representatives,Democrat,2018-12-01 00:00:00+00,PA,758975,#,2014-12-01 00:00:00+00,LOWER,Snyder,,STATE,163213,Pam,50,24991
+4309,1,Pennsylvania Senate,Democrat,2018-12-01 00:00:00+00,PA,758917,#,2014-12-01 00:00:00+00,UPPER,Fontana,,STATE,158872,Wayne,42,11709
+2652,0,Pennsylvania House of Representatives,Democrat,2014-12-01 00:00:00+00,PA,10157,#,2011-01-04 00:00:00+00,LOWER,Davis,,STATE,77605,Tina,000000000141,18027
+4461,5,Pennsylvania Governor,Democrat,2011-01-18 00:00:00+00,PA,734,#,2009-01-06 00:00:00+00,EXEC,Rendell,,STATE,2136,Edward,PA,2136
+4490,2,Allegheny County Council,Republican,2020-01-01 00:00:00+00,PA,393469,#,2016-01-01 00:00:00+00,LOWER,DeMarco,Allegheny,LOCAL,179118,Samuel,At Large,124631
+2652,0,Pennsylvania House of Representatives,Democrat,2014-12-01 00:00:00+00,PA,10001,#,2011-01-04 00:00:00+00,LOWER,Samuelson,,STATE,77569,Steve,000000000135,9099
+2652,0,Pennsylvania House of Representatives,Democrat,2011-01-04 00:00:00+00,PA,10023,#,2011-01-04 00:00:00+00,LOWER,Eachus,,STATE,1025,Todd,000000000116,1025
+2652,1,Pennsylvania House of Representatives,Republican,2018-12-01 00:00:00+00,PA,759093,#,2016-07-25 00:00:00+00,LOWER,Quinn,,STATE,195910,Christopher,168,130157
+2652,0,Pennsylvania House of Representatives,Democrat,2014-12-01 00:00:00+00,PA,10121,#,2012-12-01 00:00:00+00,LOWER,Clay,,STATE,77595,James,000000000179,24750
+2652,0,Pennsylvania House of Representatives,Republican,2014-12-01 00:00:00+00,PA,9977,#,2011-01-04 00:00:00+00,LOWER,Adolph,,STATE,77622,William,000000000165,16341
+2652,0,Pennsylvania House of Representatives,Democrat,2014-12-01 00:00:00+00,PA,10068,#,2012-12-01 00:00:00+00,LOWER,Kim,,STATE,77535,Patty,000000000103,24521
+2652,1,Pennsylvania House of Representatives,Republican,2016-03-22 00:00:00+00,PA,759125,#,2016-01-04 00:00:00+00,LOWER,Turzai,,STATE,126613,Mike,200,14227
+4302,5,Bucks County District Attorney,,2022-01-06 00:00:00+00,PA,2575,#,2016-09-27 00:00:00+00,LOWER,Weintraub,Bucks,LOCAL,197104,Matthew,At Large,132391
+4309,0,Pennsylvania Senate,Republican,2014-12-01 00:00:00+00,PA,3528,#,2014-04-02 00:00:00+00,UPPER,Wagner,,STATE,77463,Scott,000000000028,72198
+4309,0,Pennsylvania Senate,Democrat,2014-12-01 00:00:00+00,PA,3543,#,2009-01-06 00:00:00+00,UPPER,Costa,,STATE,77494,Jay,000000000043,7368
+2652,0,Pennsylvania House of Representatives,Republican,2014-12-01 00:00:00+00,PA,10047,#,2011-01-04 00:00:00+00,LOWER,Pickett,,STATE,77544,Tina,000000000110,4865
+2652,0,Pennsylvania House of Representatives,Republican,2014-12-01 00:00:00+00,PA,10052,#,2012-12-01 00:00:00+00,LOWER,Lucas,,STATE,77385,Greg,000000000005,24987
+2652,0,Pennsylvania House of Representatives,Democrat,2014-12-01 00:00:00+00,PA,10112,#,2011-01-04 00:00:00+00,LOWER,Roebuck,,STATE,77586,James,000000000188,16771
+2652,1,Pennsylvania House of Representatives,Republican,2018-12-01 00:00:00+00,PA,758940,#,2014-12-01 00:00:00+00,LOWER,Christiana,,STATE,175646,James,15,13584
+4309,0,Pennsylvania Senate,Republican,2012-12-01 00:00:00+00,PA,3529,#,2009-01-06 00:00:00+00,UPPER,Earll,,STATE,21583,Jane,000000000049,58
+4309,1,Pennsylvania Senate,Democrat,2018-12-01 00:00:00+00,PA,758889,#,2014-12-01 00:00:00+00,UPPER,Yudichak,,STATE,186446,John,14,16619
+4490,1,Allegheny County Council,,2016-01-04 00:00:00+00,PA,393467,#,2012-01-02 00:00:00+00,LOWER,Robinson,Allegheny,LOCAL,118253,William,000000000010,14728
+1542,9,Philadelphia City Council,Democrat,2020-01-06 00:00:00+00,PA,2606,#,2012-01-02 00:00:00+00,LOWER,Greenlee,Philadelphia,LOCAL,179840,William,At Large,15658
+2652,1,Pennsylvania House of Representatives,Democrat,2018-12-01 00:00:00+00,PA,759099,110866,2015-08-25 00:00:00+00,LOWER,Neilson,,STATE,160912,Ed,174,74038
+2652,0,Pennsylvania House of Representatives,Republican,2013-09-06 00:00:00+00,PA,10049,#,2011-01-04 00:00:00+00,LOWER,Hess,,STATE,62398,Dick,000000000078,6888
+4507,1,United States House of Representatives,Republican,2019-01-03 00:00:00+00,PA,757314,20055,2013-01-03 00:00:00+00,LOWER,Perry,,NATIONAL,159980,Scott,000000000004,14232
+2652,1,Pennsylvania House of Representatives,Republican,2018-12-01 00:00:00+00,PA,758969,#,2014-12-01 00:00:00+00,LOWER,Mustio,,STATE,188243,Mark,44,9929
+2652,1,Pennsylvania House of Representatives,Republican,2018-12-01 00:00:00+00,PA,759011,#,2014-12-01 00:00:00+00,LOWER,Keller,,STATE,161130,Mark,86,11765
+2652,0,Pennsylvania House of Representatives,Republican,2014-12-01 00:00:00+00,PA,9994,#,2011-01-04 00:00:00+00,LOWER,Kampf,,STATE,77627,Warren,000000000157,344
+2553,9,Philadelphia City Commissioners,Republican,0001-01-02 00:00:00+00,PA,2606,#,0001-01-01 00:00:00+00,EXEC,Duda,Philadelphia,LOCAL,444,Joseph,At Large,444
+2652,1,Pennsylvania House of Representatives,Republican,2018-12-01 00:00:00+00,PA,759124,#,2014-12-01 00:00:00+00,LOWER,Bloom,,STATE,186917,Stephen,199,15545
+2652,1,Pennsylvania House of Representatives,Democrat,2018-12-01 00:00:00+00,PA,758945,#,2014-12-01 00:00:00+00,LOWER,Ravenstahl,,STATE,186859,Adam,20,3230
+2652,0,Pennsylvania House of Representatives,Republican,2009-03-01 00:00:00+00,PA,10059,#,2009-01-06 00:00:00+00,LOWER,Argall,,STATE,12121,David,000000000124,12121
+2652,1,Pennsylvania House of Representatives,Democrat,2017-12-31 00:00:00+00,PA,758973,#,2014-12-01 00:00:00+00,LOWER,Neuman,,STATE,191278,Brandon,48,5990
+4302,5,Bucks County District Attorney,,2016-09-27 00:00:00+00,PA,2575,#,2016-09-02 00:00:00+00,LOWER,VACANT,Bucks,LOCAL,135459,VACANT,At Large,132388
+4507,1,United States House of Representatives,Republican,2018-04-27 00:00:00+00,PA,757317,#,2013-01-03 00:00:00+00,LOWER,Meehan,,NATIONAL,197923,Patrick,000000000007,12095
+2652,1,Pennsylvania House of Representatives,Republican,2018-12-01 00:00:00+00,PA,758965,#,2014-12-01 00:00:00+00,LOWER,Maher,,STATE,188414,John,40,17349
+4490,1,Allegheny County Council,Democrat,2020-01-01 00:00:00+00,PA,393458,#,2012-01-01 00:00:00+00,LOWER,Futules,Allegheny,LOCAL,192145,Nicholas,000000000007,12026
+2652,1,Pennsylvania House of Representatives,Republican,2018-12-01 00:00:00+00,PA,759067,#,2014-12-01 00:00:00+00,LOWER,Farry,,STATE,160833,Frank,142,15547
+4309,0,Pennsylvania Senate,Republican,2014-12-01 00:00:00+00,PA,3545,#,2009-01-06 00:00:00+00,UPPER,Ward,,STATE,77485,Kim,000000000039,2019
+2652,0,Pennsylvania House of Representatives,Democrat,2012-05-07 00:00:00+00,PA,10142,#,2011-01-04 00:00:00+00,LOWER,Wagner,,STATE,9149,Chelsa,000000000022,9149
+2652,1,Pennsylvania House of Representatives,,2016-12-01 00:00:00+00,PA,759128,#,2016-11-14 00:00:00+00,LOWER,VACANT,,STATE,134046,VACANT,203,134031
+2652,1,Pennsylvania House of Representatives,Republican,2018-12-01 00:00:00+00,PA,759072,#,2014-12-01 00:00:00+00,LOWER,Toepel,,STATE,186915,Marcy,147,12995
+2652,0,Pennsylvania House of Representatives,Democrat,2014-12-01 00:00:00+00,PA,10155,#,2011-01-04 00:00:00+00,LOWER,Kotik,,STATE,77444,Nick,000000000045,15920
+4309,0,Pennsylvania Senate,Democrat,2014-12-01 00:00:00+00,PA,3568,#,2009-01-06 00:00:00+00,UPPER,Farnese,,STATE,77399,Lawrence,000000000001,16673
+2652,0,Pennsylvania House of Representatives,Democrat,2014-12-01 00:00:00+00,PA,10140,#,2011-01-04 00:00:00+00,LOWER,Costa,,STATE,77425,Paul,000000000034,5598
+2652,0,Pennsylvania House of Representatives,Republican,2014-12-01 00:00:00+00,PA,9966,#,2011-01-04 00:00:00+00,LOWER,Heffley,,STATE,77556,Doyle,000000000122,12647
+4309,0,Pennsylvania Senate,Democrat,2011-01-04 00:00:00+00,PA,3507,#,0001-01-01 00:00:00+00,UPPER,Musto,,STATE,12475,Raphael,000000000014,12475
+2652,0,Pennsylvania House of Representatives,Democrat,2014-12-01 00:00:00+00,PA,10031,#,2011-01-04 00:00:00+00,LOWER,Petrarca,,STATE,77462,Joseph,000000000055,16693
+2652,1,Pennsylvania House of Representatives,,2017-04-06 00:00:00+00,PA,759122,#,2017-01-03 00:00:00+00,LOWER,VACANT,,STATE,161793,VACANT,197,144857
+2652,1,Pennsylvania House of Representatives,Republican,2016-12-01 00:00:00+00,PA,759017,#,2014-12-01 00:00:00+00,LOWER,Regan,,STATE,107069,Mike,92,25118
+4507,1,United States House of Representatives,Republican,2019-01-03 00:00:00+00,PA,757318,#,2017-01-03 00:00:00+00,LOWER,Fitzpatrick,,NATIONAL,177714,Brian,000000000008,137286
+1629,5,Bucks County Commissioners,Republican,2020-01-06 00:00:00+00,PA,2575,#,2012-01-02 00:00:00+00,LOWER,Loughery,Bucks,LOCAL,172483,Robert,At Large,8649
+2652,0,Pennsylvania House of Representatives,Republican,2014-12-01 00:00:00+00,PA,9995,#,2011-01-04 00:00:00+00,LOWER,Milne,,STATE,77618,Duane,000000000167,17885
+2652,1,Pennsylvania House of Representatives,Democrat,2018-12-01 00:00:00+00,PA,759086,#,2015-08-25 00:00:00+00,LOWER,Krueger-Braneky,,STATE,185507,Leanne,161,117018
+2652,1,Pennsylvania House of Representatives,Republican,2018-12-01 00:00:00+00,PA,759023,#,2014-12-01 00:00:00+00,LOWER,Hickernell,,STATE,186569,David,98,2466
+2652,0,Pennsylvania House of Representatives,Democrat,2011-01-04 00:00:00+00,PA,10073,#,2011-01-04 00:00:00+00,LOWER,Belfanti,,STATE,10985,Robert,000000000107,10985
+4490,1,Allegheny County Council,Democrat,2020-01-01 00:00:00+00,PA,393466,#,2016-01-01 00:00:00+00,LOWER,Russell,Allegheny,LOCAL,192157,Denise,000000000013,121308
+2652,1,Pennsylvania House of Representatives,Republican,2018-12-01 00:00:00+00,PA,758990,#,2014-12-01 00:00:00+00,LOWER,Rapp,,STATE,161101,Kathy,65,15088
+2652,1,Pennsylvania House of Representatives,Democrat,2015-01-03 00:00:00+00,PA,759095,#,2014-12-01 00:00:00+00,LOWER,Boyle,,STATE,91296,Brendan,170,6430
+4309,0,Pennsylvania Senate,Democrat,2014-12-01 00:00:00+00,PA,3542,#,2011-01-04 00:00:00+00,UPPER,Fontana,,STATE,77492,Wayne,000000000042,11709
+1542,1,Philadelphia City Council,Democrat,2016-01-04 00:00:00+00,PA,758008,#,2013-04-01 00:00:00+00,LOWER,Tasco,Philadelphia,LOCAL,116748,Marian,9,3907
+4309,0,Pennsylvania Senate,Republican,2014-12-01 00:00:00+00,PA,3534,#,2011-01-04 00:00:00+00,UPPER,Baker,,STATE,77445,Lisa,000000000020,11002
+2652,1,Pennsylvania House of Representatives,Republican,2018-12-01 00:00:00+00,PA,759007,#,2014-12-01 00:00:00+00,LOWER,Harris,,STATE,161126,C. Adam,82,6362
+4212,7,Erie City Council,Democrat,2012-01-01 00:00:00+00,PA,2086,#,0001-01-01 00:00:00+00,LOWER,Aleskandrowicz,Erie,LOCAL,2076,Mark,At Large,2076
+2652,1,Pennsylvania House of Representatives,Republican,2018-12-01 00:00:00+00,PA,758968,#,2014-12-01 00:00:00+00,LOWER,Greiner,,STATE,188242,Keith,43,24978
+1542,9,Philadelphia City Council,Democrat,2020-01-06 00:00:00+00,PA,2606,#,2012-01-02 00:00:00+00,LOWER,Reynolds Brown,Philadelphia,LOCAL,181675,Blondell,At Large,5979
+2652,1,Pennsylvania House of Representatives,Democrat,2015-06-01 00:00:00+00,PA,759118,#,2014-12-01 00:00:00+00,LOWER,Waters,,STATE,110498,Ronald,191,14615
+2652,0,Pennsylvania House of Representatives,Republican,2014-12-01 00:00:00+00,PA,10025,#,2011-01-04 00:00:00+00,LOWER,Swanger,,STATE,77533,RoseMarie,000000000102,15807
+2652,1,Pennsylvania House of Representatives,Republican,2018-12-01 00:00:00+00,PA,758989,#,2014-12-01 00:00:00+00,LOWER,James,,STATE,188573,R.,64,34845
+2652,1,Pennsylvania House of Representatives,Republican,2018-12-01 00:00:00+00,PA,758982,#,2016-04-05 00:00:00+00,LOWER,Nelson,,STATE,185612,Eric,57,126616
+2652,0,Pennsylvania House of Representatives,Republican,2014-12-01 00:00:00+00,PA,10090,#,2011-01-04 00:00:00+00,LOWER,Ellis,,STATE,77391,Brian,000000000011,12776
+1547,1,Pittsburgh City Council,Democrat,2020-01-06 00:00:00+00,PA,758128,#,2014-01-06 00:00:00+00,LOWER,Gross,Pittsburgh,LOCAL,191759,Deborah,7,65430
+2652,1,Pennsylvania House of Representatives,Republican,2016-12-01 00:00:00+00,PA,759111,#,2014-12-01 00:00:00+00,LOWER,Harhart,,STATE,106831,Julie,183,5172
+2652,0,Pennsylvania House of Representatives,Republican,0001-01-02 00:00:00+00,PA,10062,#,2011-01-04 00:00:00+00,LOWER,Reichley,,STATE,15514,Douglas,000000000134,15514
+2652,1,Pennsylvania House of Representatives,Republican,2018-12-01 00:00:00+00,PA,759030,#,2014-12-01 00:00:00+00,LOWER,Marsico,,STATE,160730,Ron,105,16297
+2652,0,Pennsylvania House of Representatives,Democrat,2012-12-01 00:00:00+00,PA,10091,#,2011-01-04 00:00:00+00,LOWER,George,,STATE,19990,Camille,000000000074,11956
+4507,1,United States House of Representatives,Republican,2018-05-12 00:00:00+00,PA,757325,#,2013-01-03 00:00:00+00,LOWER,Dent,,NATIONAL,200085,Charles,000000000015,1988
+1628,8,Harrisburg City Council,Democrat,2022-01-01 00:00:00+00,PA,2115,#,2014-01-01 00:00:00+00,LOWER,Daniels,Harrisburg,LOCAL,192064,Shamaine,At Large,65403
+4507,1,United States House of Representatives,Republican,2019-01-03 00:00:00+00,PA,757316,115046,2015-01-06 00:00:00+00,LOWER,Costello,,NATIONAL,185607,Ryan,000000000006,19183
+2652,0,Pennsylvania House of Representatives,Democrat,2014-12-01 00:00:00+00,PA,10040,#,2011-01-04 00:00:00+00,LOWER,Matzie,,STATE,77396,Robert,000000000016,9057
+4490,1,Allegheny County Council,Democrat,2022-01-01 00:00:00+00,PA,393468,#,2018-01-01 00:00:00+00,LOWER,Palmosina,Allegheny,LOCAL,197131,Robert,000000000012,182901
+4309,1,Pennsylvania Senate,Democrat,2020-12-01 00:00:00+00,PA,758876,#,2014-12-01 00:00:00+00,UPPER,Farnese,,STATE,188270,Lawrence,1,16673
+2652,0,Pennsylvania House of Representatives,,2012-05-07 00:00:00+00,PA,10110,#,0001-01-01 00:00:00+00,LOWER,VACANT,,STATE,1823,VACANT,000000000186,1823
+1542,1,Philadelphia City Council,Democrat,2020-01-06 00:00:00+00,PA,758007,#,2013-04-01 00:00:00+00,LOWER,Bass,Philadelphia,LOCAL,200148,Cindy,8,1852
+2652,1,Pennsylvania House of Representatives,Republican,2018-12-01 00:00:00+00,PA,759034,#,2014-12-01 00:00:00+00,LOWER,Millard,,STATE,188214,David,109,16358
+2652,1,Pennsylvania House of Representatives,Republican,2018-12-01 00:00:00+00,PA,759026,#,2016-12-01 00:00:00+00,LOWER,Ryan,,STATE,197886,Francis,101,134233
+1627,7,Delaware County Council,Republican,2018-01-01 00:00:00+00,PA,2580,#,2012-01-03 00:00:00+00,LOWER,White,Delaware,LOCAL,168871,David,At Large,9415
+4507,1,United States House of Representatives,Democrat,2019-01-03 00:00:00+00,PA,757328,#,2018-04-02 00:00:00+00,LOWER,Lamb,,NATIONAL,199540,Conor,000000000018,194671
+4309,1,Pennsylvania Senate,Democrat,2016-12-01 00:00:00+00,PA,758890,#,2014-12-01 00:00:00+00,UPPER,Teplitz,,STATE,106683,Rob,15,24550
+1542,0,Philadelphia City Council,,2012-01-01 00:00:00+00,PA,2584,#,0001-01-01 00:00:00+00,LOWER,Miller,Philadelphia,LOCAL,14932,Donna,000000000008,14932
+4309,1,Pennsylvania Senate,Democrat,2020-12-01 00:00:00+00,PA,758886,#,2014-12-01 00:00:00+00,UPPER,Schwank,,STATE,158949,Judy,11,16434
+2652,0,Pennsylvania House of Representatives,Republican,2014-12-01 00:00:00+00,PA,9974,#,2011-01-04 00:00:00+00,LOWER,Miccarelli,,STATE,77628,Nick,000000000162,6795
+2652,0,Pennsylvania House of Representatives,Republican,2014-12-01 00:00:00+00,PA,10094,#,2012-12-01 00:00:00+00,LOWER,Greiner,,STATE,77441,Keith,000000000043,24978
+4309,1,Pennsylvania Senate,Democrat,2016-12-01 00:00:00+00,PA,758878,#,2014-12-01 00:00:00+00,UPPER,Kitchen,,STATE,106646,Shirley,3,11226
+1542,9,Philadelphia City Council,,2016-01-04 00:00:00+00,PA,2606,#,2015-01-30 00:00:00+00,LOWER,VACANT,Philadelphia,LOCAL,121386,VACANT,At Large,97664
+2652,1,Pennsylvania House of Representatives,Republican,2018-12-01 00:00:00+00,PA,758954,#,2014-12-01 00:00:00+00,LOWER,O'Neill,,STATE,161004,Bernard,29,2925
+2652,1,Pennsylvania House of Representatives,,2018-02-05 00:00:00+00,PA,758960,#,2017-11-06 00:00:00+00,LOWER,VACANT,,STATE,192796,VACANT,35,181839
+1628,8,Harrisburg City Council,Democrat,2017-10-03 00:00:00+00,PA,2115,#,2016-01-04 00:00:00+00,LOWER,Hodges,Harrisburg,LOCAL,180142,Destini,At Large,121366
+4309,0,Pennsylvania Senate,Democrat,2011-01-04 00:00:00+00,PA,3558,#,0001-01-01 00:00:00+00,UPPER,Stout,,STATE,10344,Barry,000000000046,10344
+2544,5,Chester County Controller,,2022-01-01 00:00:00+00,PA,2582,#,2018-01-01 00:00:00+00,LOWER,Rief,Chester,LOCAL,197107,Margaret,At Large,183183
+4309,0,Pennsylvania Senate,Republican,2014-01-13 00:00:00+00,PA,3528,#,2011-01-04 00:00:00+00,UPPER,Waugh,,STATE,69231,Michael,000000000028,4441
+4050,1,Allentown City Council,,2020-01-01 00:00:00+00,PA,858894,195737,2016-01-04 00:00:00+00,LOWER,MacLean,Allentown,LOCAL,195739,Roger,At Large,171542
+2652,0,Pennsylvania House of Representatives,Democrat,2013-01-15 00:00:00+00,PA,10099,#,2011-01-04 00:00:00+00,LOWER,DePasquale,,STATE,66251,Eugene,000000000095,5069
+4309,1,Pennsylvania Senate,Democrat,2015-06-19 00:00:00+00,PA,758912,#,2014-12-01 00:00:00+00,UPPER,Smith,,STATE,111195,Matt,37,24561
+4050,1,Allentown City Council,,2022-01-01 00:00:00+00,PA,858894,#,2014-01-06 00:00:00+00,LOWER,Guridy,Allentown,LOCAL,190695,Julio,At Large,171539
+2652,1,Pennsylvania House of Representatives,Republican,2018-12-01 00:00:00+00,PA,758930,#,2014-12-01 00:00:00+00,LOWER,Jozwiak,,STATE,186719,Barry,5,79730
+4309,0,Pennsylvania Senate,Republican,2009-01-06 00:00:00+00,PA,3524,#,0001-01-01 00:00:00+00,UPPER,Punt,,STATE,18280,Terry,000000000033,18280
+2553,6,Philadelphia City Commissioners,Democrat,2020-01-06 00:00:00+00,PA,251,#,2012-01-02 00:00:00+00,EXEC,Clark,Philadelphia,LOCAL,187257,Anthony,PHILADELPHIA,12622
+2652,0,Pennsylvania House of Representatives,Democrat,2009-01-06 00:00:00+00,PA,10010,#,0001-01-01 00:00:00+00,LOWER,Yewcic,,STATE,6818,Tom,000000000072,6818
+4507,1,United States House of Representatives,Democrat,2016-06-23 00:00:00+00,PA,757312,#,2013-01-03 00:00:00+00,LOWER,Fattah,,NATIONAL,129543,Chaka,000000000002,12191
+2652,1,Pennsylvania House of Representatives,Democrat,2018-12-01 00:00:00+00,PA,758949,#,2014-12-01 00:00:00+00,LOWER,Gainey,,STATE,197891,Ed,24,24797
+4395,9,Philadelphia District Attorney,,2018-01-02 00:00:00+00,PA,2606,#,2017-07-24 00:00:00+00,LOWER,Hodge,Philadelphia,LOCAL,175314,Kelley,At Large,175312
+2652,0,Pennsylvania House of Representatives,Republican,2014-12-01 00:00:00+00,PA,10014,#,2011-01-04 00:00:00+00,LOWER,Stevenson,,STATE,77388,Richard,000000000008,12253
+2652,0,Pennsylvania House of Representatives,Democrat,2014-12-01 00:00:00+00,PA,10152,#,2011-01-04 00:00:00+00,LOWER,Ravenstahl,,STATE,77402,Adam,000000000020,3230
+2652,1,Pennsylvania House of Representatives,Republican,2015-04-30 00:00:00+00,PA,759012,#,2014-12-01 00:00:00+00,LOWER,Grell,,STATE,109060,Glen,87,4438
+4309,1,Pennsylvania Senate,Republican,2018-12-01 00:00:00+00,PA,758915,77598,2014-12-01 00:00:00+00,UPPER,Scavello,,STATE,197548,Mario,40,16195
+2652,1,Pennsylvania House of Representatives,Republican,2018-12-01 00:00:00+00,PA,758992,#,2014-12-01 00:00:00+00,LOWER,Causer,,STATE,161103,Martin,67,9386
+2652,1,Pennsylvania House of Representatives,Republican,2018-12-01 00:00:00+00,PA,759096,#,2014-12-01 00:00:00+00,LOWER,Benninghoff,,STATE,187011,Kerry,171,8356
+2652,0,Pennsylvania House of Representatives,Democrat,2014-12-01 00:00:00+00,PA,10039,#,2011-01-04 00:00:00+00,LOWER,Markosek,,STATE,77409,Joseph,000000000025,4945
+1057,7,Delaware County District Attorney,,2018-01-03 00:00:00+00,PA,2580,#,2012-01-03 00:00:00+00,EXEC,Whelan,Delaware,LOCAL,200161,John,At Large,4632
+2652,0,Pennsylvania House of Representatives,Republican,2014-12-01 00:00:00+00,PA,9997,#,2012-12-01 00:00:00+00,LOWER,Corbin,,STATE,66279,Becky,000000000155,24722
+2652,1,Pennsylvania House of Representatives,Democrat,2018-12-01 00:00:00+00,PA,759051,#,2014-12-01 00:00:00+00,LOWER,Rozzi,,STATE,188220,Mark,126,24668
+2652,0,Pennsylvania House of Representatives,Democrat,2014-12-01 00:00:00+00,PA,10035,#,2012-12-01 00:00:00+00,LOWER,Flynn,,STATE,77547,Marty,000000000113,24562
+4308,5,Pennsylvania Attorney General,Republican,2011-05-01 00:00:00+00,PA,734,#,2009-01-20 00:00:00+00,EXEC,Corbett,,STATE,9087,Tom,PA,9087
+2652,1,Pennsylvania House of Representatives,Democrat,2018-12-01 00:00:00+00,PA,759061,#,2014-12-01 00:00:00+00,LOWER,Freeman,,STATE,160812,Robert,136,6686
+2652,0,Pennsylvania House of Representatives,Democrat,2014-12-01 00:00:00+00,PA,10082,#,2012-12-01 00:00:00+00,LOWER,McCarter,,STATE,56076,Steve,000000000154,24717
+4212,7,Erie City Council,Democrat,2022-01-03 00:00:00+00,PA,2086,#,2018-01-01 00:00:00+00,LOWER,Allen,Erie,LOCAL,197139,Liz,At Large,183003
+4309,0,Pennsylvania Senate,Democrat,2014-12-01 00:00:00+00,PA,3558,#,2011-01-04 00:00:00+00,UPPER,Solobay,,STATE,77500,Timothy,000000000046,17789
+2652,1,Pennsylvania House of Representatives,Democrat,2017-11-06 00:00:00+00,PA,758960,#,2014-12-01 00:00:00+00,LOWER,Gergely,,STATE,181838,Marc,35,7555
+2652,1,Pennsylvania House of Representatives,Democrat,2016-12-01 00:00:00+00,PA,759127,#,2014-12-01 00:00:00+00,LOWER,Cohen,,STATE,107065,Mark,202,9427
+4050,1,Allentown City Council,,2018-01-01 00:00:00+00,PA,858894,195736,2014-01-06 00:00:00+00,LOWER,O'Connell,Allentown,LOCAL,174437,Ray,At Large,171528
+2652,1,Pennsylvania House of Representatives,Republican,2018-12-01 00:00:00+00,PA,758962,#,2014-12-01 00:00:00+00,LOWER,Fee,,STATE,188240,Mindy,37,24894
+2652,0,Pennsylvania House of Representatives,Democrat,2014-12-01 00:00:00+00,PA,10099,#,2013-06-04 00:00:00+00,LOWER,Schreiber,,STATE,77525,Kevin,000000000095,55375
+2652,0,Pennsylvania House of Representatives,,2013-06-04 00:00:00+00,PA,10149,#,2012-12-01 16:08:53+00,LOWER,VACANT,,STATE,55376,VACANT,000000000042,34203
+2652,1,Pennsylvania House of Representatives,Republican,2018-12-01 00:00:00+00,PA,758976,#,2016-12-01 00:00:00+00,LOWER,Dowling,,STATE,186919,Matthew,51,134402
+2652,1,Pennsylvania House of Representatives,Democrat,2018-12-01 00:00:00+00,PA,759109,#,2014-12-01 00:00:00+00,LOWER,DeLissio,,STATE,186860,Pamela,194,15656
+2652,1,Pennsylvania House of Representatives,Democrat,2018-12-01 00:00:00+00,PA,758956,#,2016-12-01 00:00:00+00,LOWER,Warren,,STATE,199251,Perry,31,134367
+2652,1,Pennsylvania House of Representatives,Republican,2018-12-01 00:00:00+00,PA,759064,#,2014-12-01 00:00:00+00,LOWER,Peifer,,STATE,160819,Michael,139,982
+1542,0,Philadelphia City Council,Democrat,2013-04-01 00:00:00+00,PA,2601,#,2012-01-02 00:00:00+00,LOWER,Blackwell,Philadelphia,LOCAL,51713,Jannie,000000000003,12294
+4490,2,Allegheny County Council,,2014-01-01 00:00:00+00,PA,393469,#,2012-01-01 00:00:00+00,LOWER,Kress,Allegheny,LOCAL,69222,Edward,At Large,17252
+1547,0,Pittsburgh City Council,,2014-01-06 00:00:00+00,PA,1793,#,2013-06-17 21:23:22+00,LOWER,VACANT,Pittsburgh,LOCAL,66891,VACANT,000000000007,57207
+4309,0,Pennsylvania Senate,Republican,2014-12-01 00:00:00+00,PA,3524,#,2009-01-06 00:00:00+00,UPPER,Alloway,,STATE,77473,Richard,000000000033,4993
+2652,0,Pennsylvania House of Representatives,Democrat,2014-12-01 00:00:00+00,PA,10126,#,2011-01-04 00:00:00+00,LOWER,Cohen,,STATE,77536,Mark,000000000202,9427
+2652,1,Pennsylvania House of Representatives,Republican,2018-12-01 00:00:00+00,PA,758991,#,2014-12-01 00:00:00+00,LOWER,Dush,,STATE,197478,Cris,66,79833
+2652,0,Pennsylvania House of Representatives,Democrat,2014-12-01 00:00:00+00,PA,10083,#,2011-01-04 00:00:00+00,LOWER,Bradford,,STATE,77491,Matthew,000000000070,8814
+2652,0,Pennsylvania House of Representatives,Democrat,2011-01-06 00:00:00+00,PA,10061,#,2011-01-04 00:00:00+00,LOWER,Kessler,,STATE,1371,David,000000000130,1371
+2652,0,Pennsylvania House of Representatives,Democrat,2012-12-01 00:00:00+00,PA,10016,#,2011-01-04 00:00:00+00,LOWER,Hornaman,,STATE,3853,John,000000000003,3853
+4309,1,Pennsylvania Senate,Republican,2018-12-01 00:00:00+00,PA,758923,#,2014-12-01 00:00:00+00,UPPER,Folmer,,STATE,175432,Mike,48,7156
+2652,1,Pennsylvania House of Representatives,,2015-08-25 00:00:00+00,PA,759118,#,2015-06-01 00:00:00+00,LOWER,VACANT,,STATE,117027,VACANT,191,110497
+4309,0,Pennsylvania Senate,Republican,2012-06-29 00:00:00+00,PA,3540,#,2009-01-06 00:00:00+00,UPPER,Pippy,,STATE,19781,John,000000000037,8007
+4309,0,Pennsylvania Senate,Democrat,2014-12-01 00:00:00+00,PA,3560,#,2011-01-04 00:00:00+00,UPPER,Tartaglione,,STATE,77401,Christine,000000000002,5388
+2652,0,Pennsylvania House of Representatives,Democrat,2014-12-01 00:00:00+00,PA,10081,199159,2011-01-04 00:00:00+00,LOWER,Boyle,,STATE,77613,Brendan,000000000170,6430
+1628,8,Harrisburg City Council,,2010-01-03 00:00:00+00,PA,2115,#,2006-01-01 00:00:00+00,LOWER,Miller,Harrisburg,LOCAL,170301,Daniel,At Large,368
+2652,1,Pennsylvania House of Representatives,Republican,2018-12-01 00:00:00+00,PA,759047,#,2014-12-01 00:00:00+00,LOWER,Heffley,,STATE,186930,Doyle,122,12647
+2652,1,Pennsylvania House of Representatives,Republican,2018-12-01 00:00:00+00,PA,759022,#,2014-12-01 00:00:00+00,LOWER,Mentzer,,STATE,161171,Steven,97,25130
+1547,1,Pittsburgh City Council,,2022-01-03 00:00:00+00,PA,758129,#,2018-04-05 00:00:00+00,LOWER,Strassburger,Pittsburgh,LOCAL,197471,Erika,8,194370
+2652,0,Pennsylvania House of Representatives,Democrat,2014-12-01 00:00:00+00,PA,10122,#,2011-01-04 00:00:00+00,LOWER,Youngblood,,STATE,77576,Rosita,000000000198,4864
+4309,1,Pennsylvania Senate,Republican,2020-12-01 00:00:00+00,PA,758900,#,2014-12-01 00:00:00+00,UPPER,Scarnati,,STATE,158947,Joseph,25,9743
+2652,0,Pennsylvania House of Representatives,Republican,2011-01-06 00:00:00+00,PA,9970,#,2009-01-06 00:00:00+00,LOWER,Civera,,STATE,10721,Mario,000000000164,10721
+2652,0,Pennsylvania House of Representatives,Republican,2014-12-01 00:00:00+00,PA,9975,#,2011-01-04 00:00:00+00,LOWER,Hackett,,STATE,77631,Joe,000000000161,16046
+2652,0,Pennsylvania House of Representatives,,2014-02-10 00:00:00+00,PA,10049,#,2013-09-06 17:39:16+00,LOWER,VACANT,,STATE,69833,VACANT,000000000078,62399
+1547,0,Pittsburgh City Council,Democrat,2014-01-06 00:00:00+00,PA,1502,#,2012-01-02 00:00:00+00,LOWER,O'Connor,Pittsburgh,LOCAL,66980,Corey,000000000005,2681
+2652,1,Pennsylvania House of Representatives,,,PA,759103,#,2018-01-01 00:00:00+00,LOWER,VACANT,,STATE,191277,VACANT,178,191277
+2652,1,Pennsylvania House of Representatives,Republican,2018-12-01 00:00:00+00,PA,759010,#,2014-12-01 00:00:00+00,LOWER,Keller,,STATE,186862,Fred,85,8556
+2652,1,Pennsylvania House of Representatives,Republican,2018-12-01 00:00:00+00,PA,758938,#,2014-12-01 00:00:00+00,LOWER,Lawrence,,STATE,160796,John,13,9406
+2652,0,Pennsylvania House of Representatives,,2012-05-07 00:00:00+00,PA,10062,#,0001-01-01 00:00:00+00,LOWER,VACANT,,STATE,11734,VACANT,000000000134,11734
+2652,0,Pennsylvania House of Representatives,Democrat,2014-12-01 00:00:00+00,PA,10063,#,2011-01-04 00:00:00+00,LOWER,Caltagirone,,STATE,77561,Thomas,000000000127,3310
+1627,7,Delaware County Council,Democratic,2022-01-01 00:00:00+00,PA,2580,#,2018-01-01 00:00:00+00,LOWER,Madden,Delaware,LOCAL,197091,Kevin,At Large,183186
+2652,1,Pennsylvania House of Representatives,Democrat,2018-12-01 00:00:00+00,PA,759127,#,2016-12-01 00:00:00+00,LOWER,Solomon,,STATE,189016,Jared,202,134345
+2675,2,United States Senate,Democrat,2019-01-03 00:00:00+00,PA,59,#,2007-01-03 00:00:00+00,UPPER,Casey,,NATIONAL,179492,Robert,PA,15411
+2652,1,Pennsylvania House of Representatives,Republican,2018-12-01 00:00:00+00,PA,759003,#,2014-12-01 00:00:00+00,LOWER,Topper,,STATE,163219,Jesse,78,69426
+2652,1,Pennsylvania House of Representatives,Republican,2016-12-01 00:00:00+00,PA,759040,#,2014-12-01 00:00:00+00,LOWER,Parker,,STATE,106909,David,115,79914
+2652,0,Pennsylvania House of Representatives,Republican,2009-01-06 00:00:00+00,PA,10083,#,0001-01-01 00:00:00+00,LOWER,Moyer,,STATE,11508,Jay,000000000070,11508
+2652,0,Pennsylvania House of Representatives,Democrat,2011-01-06 00:00:00+00,PA,9973,#,2009-01-06 00:00:00+00,LOWER,Donatucci,,STATE,4898,Robert,000000000185,4898
+726,5,Pennsylvania Auditor General,Democrat,2017-01-17 00:00:00+00,PA,734,#,2013-01-15 00:00:00+00,EXEC,DePasquale,,STATE,132224,Eugene,PA,25831
+2652,1,Pennsylvania House of Representatives,,2015-08-25 00:00:00+00,PA,759012,#,2015-05-13 00:00:00+00,LOWER,VACANT,,STATE,117016,VACANT,87,109061
+1547,0,Pittsburgh City Council,Democrat,2014-01-06 00:00:00+00,PA,729,#,2010-01-02 00:00:00+00,LOWER,Kail-Smith,Pittsburgh,LOCAL,66977,Theresa,000000000002,13215
+1627,7,Delaware County Council,Republican,2020-01-01 00:00:00+00,PA,2580,#,2012-01-03 00:00:00+00,LOWER,Morrone,Delaware,LOCAL,191927,Colleen,At Large,10785
+4212,7,Erie City Council,Democrat,2020-01-06 00:00:00+00,PA,2086,#,2016-01-04 00:00:00+00,LOWER,Arrington,Erie,LOCAL,192233,Sonya,At Large,121353
+2652,0,Pennsylvania House of Representatives,Republican,2014-12-01 00:00:00+00,PA,9998,#,2011-01-04 00:00:00+00,LOWER,Truitt,,STATE,77626,Dan,000000000156,5272
+1628,8,Harrisburg City Council,,2018-01-01 00:00:00+00,PA,2115,#,2017-10-03 00:00:00+00,LOWER,VACANT,Harrisburg,LOCAL,182934,VACANT,At Large,180143
+4309,1,Pennsylvania Senate,Republican,2018-12-01 00:00:00+00,PA,758881,#,2014-12-01 00:00:00+00,UPPER,Tomlinson,,STATE,179139,Robert,6,3795
+4309,1,Pennsylvania Senate,Democrat,2020-12-01 00:00:00+00,PA,758880,77601,2015-06-08 00:00:00+00,UPPER,Sabatina,,STATE,188993,John,5,3838
+4309,0,Pennsylvania Senate,Republican,2014-12-01 00:00:00+00,PA,3547,#,2011-01-04 00:00:00+00,UPPER,McIlhinney,,STATE,77422,Charles,000000000010,16030
+2652,0,Pennsylvania House of Representatives,Republican,2014-12-01 00:00:00+00,PA,10005,#,2011-01-04 00:00:00+00,LOWER,Harhart,,STATE,77591,Julie,000000000183,5172
+2652,1,Pennsylvania House of Representatives,Republican,2018-12-01 00:00:00+00,PA,758983,#,2016-12-01 00:00:00+00,LOWER,Walsh,,STATE,186460,Justin,58,134433
+1542,9,Philadelphia City Council,,2014-08-14 00:00:00+00,PA,2606,#,2014-02-18 00:00:00+00,LOWER,VACANT,Philadelphia,LOCAL,76737,VACANT,At Large,70076
+2652,0,Pennsylvania House of Representatives,Democrat,2012-12-01 00:00:00+00,PA,10036,#,2011-01-04 00:00:00+00,LOWER,Smith,,STATE,20081,Ken,000000000112,5768
+2652,1,Pennsylvania House of Representatives,Republican,2018-12-01 00:00:00+00,PA,759054,#,2014-12-01 00:00:00+00,LOWER,Cox,,STATE,188222,Jim,129,10905
+2652,1,Pennsylvania House of Representatives,Democrat,2018-12-01 00:00:00+00,PA,759084,#,2016-12-01 00:00:00+00,LOWER,Kirkland,,STATE,160884,Brian,159,134295
+1131,3,Dauphin County Commissioners,,2020-01-06 00:00:00+00,PA,392885,#,2016-01-04 00:00:00+00,LOWER,Pries,Dauphin,LOCAL,198053,Mike,At Large,19136
+2652,1,Pennsylvania House of Representatives,Republican,2018-12-01 00:00:00+00,PA,759080,#,2014-12-01 00:00:00+00,LOWER,Corbin,,STATE,197634,Becky,155,24722
+4490,1,Allegheny County Council,Republican,2016-01-04 00:00:00+00,PA,393462,#,2012-01-01 00:00:00+00,LOWER,Rea,Allegheny,LOCAL,118245,Jan,000000000002,3886
+1542,9,Philadelphia City Council,,2012-01-01 00:00:00+00,PA,2606,#,0001-01-01 00:00:00+00,LOWER,Kelly,Philadelphia,LOCAL,9126,Jack,At Large,9126
+4309,1,Pennsylvania Senate,Republican,2018-12-01 00:00:00+00,PA,758909,#,2014-12-01 00:00:00+00,UPPER,Corman,,STATE,158863,Jacob,34,11137
+2548,5,Montgomery County Controller,Democrat,2020-01-06 00:00:00+00,PA,2577,#,2016-01-04 00:00:00+00,LOWER,Sanchez,Montgomery,LOCAL,178203,Karen,At Large,121350
+2652,0,Pennsylvania House of Representatives,Republican,2014-12-01 00:00:00+00,PA,10095,#,2012-12-01 00:00:00+00,LOWER,Fee,,STATE,77430,Mindy,000000000037,24894
+4309,0,Pennsylvania Senate,Democrat,2014-12-01 00:00:00+00,PA,3507,#,2011-01-05 00:00:00+00,UPPER,Yudichak,,STATE,77431,John,000000000014,16619
+4507,0,United States House of Representatives,Democrat,2013-01-03 00:00:00+00,PA,1746,#,2011-01-03 00:00:00+00,LOWER,Fattah,,NATIONAL,36425,Chaka,000000000002,12191
+4507,0,United States House of Representatives,Republican,2009-01-03 00:00:00+00,PA,1723,#,2007-01-04 00:00:00+00,LOWER,English,,NATIONAL,2371,Phil,000000000003,2371
+2652,0,Pennsylvania House of Representatives,Democrat,2014-12-01 00:00:00+00,PA,10038,#,2011-01-04 00:00:00+00,LOWER,Sainato,,STATE,77389,Chris,000000000009,2744
+4050,1,Allentown City Council,,2022-01-01 00:00:00+00,PA,858894,#,2014-01-06 00:00:00+00,LOWER,Mota,Allentown,LOCAL,190696,Cynthia,At Large,171546
+2652,1,Pennsylvania House of Representatives,Republican,2018-12-01 00:00:00+00,PA,758966,#,2014-12-01 00:00:00+00,LOWER,Miller,,STATE,187061,Brett,41,79786
+2652,1,Pennsylvania House of Representatives,Democrat,2018-12-01 00:00:00+00,PA,759065,#,2014-12-01 00:00:00+00,LOWER,Galloway,,STATE,186856,John,140,10320
+1542,9,Philadelphia City Council,Democrat,2015-06-20 00:00:00+00,PA,2606,160912,2014-08-14 00:00:00+00,LOWER,Neilson,Philadelphia,LOCAL,110866,Ed,At Large,74038
+2652,0,Pennsylvania House of Representatives,Democrat,2014-12-01 00:00:00+00,PA,9973,#,2011-02-01 00:00:00+00,LOWER,Donatucci,,STATE,77589,Maria,000000000185,17005
+1627,7,Delaware County Council,Democratic,2022-01-01 00:00:00+00,PA,2580,#,2018-01-01 00:00:00+00,LOWER,Zidek,Delaware,LOCAL,197092,Brian,At Large,183185
+4309,0,Pennsylvania Senate,Republican,2014-12-01 00:00:00+00,PA,3537,#,2009-01-06 00:00:00+00,UPPER,Vogel,,STATE,77502,Elder,000000000047,10440
+2315,6,Philadelphia Register of Wills,,2020-01-06 00:00:00+00,PA,251,#,2008-01-01 00:00:00+00,EXEC,Donatucci,Philadelphia,LOCAL,186325,Ronald,PHILADELPHIA,54402
+1633,5,Chester County Commissioners,,2020-01-06 00:00:00+00,PA,2582,#,2014-12-16 00:00:00+00,LOWER,Kichline,Chester,LOCAL,168929,Michelle,At Large,115047
+2652,1,Pennsylvania House of Representatives,Democrat,2018-12-01 00:00:00+00,PA,759052,#,2014-12-01 00:00:00+00,LOWER,Caltagirone,,STATE,188221,Thomas,127,3310
+2652,1,Pennsylvania House of Representatives,Republican,2018-12-01 00:00:00+00,PA,759005,#,2014-12-01 00:00:00+00,LOWER,Ward,,STATE,187013,Judith,80,79864
+2652,0,Pennsylvania House of Representatives,Republican,2011-01-04 00:00:00+00,PA,9987,#,2011-01-04 00:00:00+00,LOWER,Phillips,,STATE,3145,Merle,000000000108,3145
+2652,0,Pennsylvania House of Representatives,Democrat,2012-12-01 00:00:00+00,PA,10064,#,2011-01-04 00:00:00+00,LOWER,Santoni,,STATE,20077,Dante,000000000126,12709
+2553,6,Philadelphia City Commissioners,Republican,2020-01-06 00:00:00+00,PA,251,#,2012-01-02 00:00:00+00,EXEC,Schmidt,Philadelphia,LOCAL,175652,Al,PHILADELPHIA,18264
+2652,1,Pennsylvania House of Representatives,Republican,2018-12-01 00:00:00+00,PA,758999,#,2014-12-01 00:00:00+00,LOWER,Lewis,,STATE,186815,Harry,74,79846
+4309,0,Pennsylvania Senate,Republican,2012-05-18 00:00:00+00,PA,3511,#,2011-01-04 00:00:00+00,UPPER,Orie,,STATE,19354,Jane,000000000040,5645
+1627,7,Delaware County Council,Republican,2018-01-01 00:00:00+00,PA,2580,#,2012-01-03 00:00:00+00,LOWER,Civera,Delaware,LOCAL,168750,Mario,At Large,16860
+1542,1,Philadelphia City Council,Democrat,2020-01-06 00:00:00+00,PA,758003,#,2013-04-01 00:00:00+00,LOWER,Johnson,Philadelphia,LOCAL,196198,Kenyatta,2,3857
+1633,5,Chester County Commissioners,Democrat,2020-01-06 00:00:00+00,PA,2582,#,2012-01-01 00:00:00+00,LOWER,Cozzone,Chester,LOCAL,170903,Kathi,At Large,16590
+1547,1,Pittsburgh City Council,Democrat,2022-01-03 00:00:00+00,PA,758124,#,2014-01-06 00:00:00+00,LOWER,Lavelle,Pittsburgh,LOCAL,191758,R.,6,3162
+2652,1,Pennsylvania House of Representatives,Democrat,2018-12-01 00:00:00+00,PA,758934,#,2014-12-01 00:00:00+00,LOWER,Sainato,,STATE,163273,Chris,9,2744
+4507,0,United States House of Representatives,Republican,2009-01-03 00:00:00+00,PA,1728,#,2007-01-04 00:00:00+00,LOWER,Peterson,,NATIONAL,18268,John,000000000005,18268
+4309,0,Pennsylvania Senate,Democrat,2014-12-01 00:00:00+00,PA,3520,#,2011-04-05 00:00:00+00,UPPER,Schwank,,STATE,77424,Judy,000000000011,16434
+2652,0,Pennsylvania House of Representatives,Republican,2011-01-06 00:00:00+00,PA,10007,#,2011-01-04 00:00:00+00,LOWER,Gabig,,STATE,16219,Will,000000000199,16219
+2652,0,Pennsylvania House of Representatives,Democrat,2014-12-01 00:00:00+00,PA,10110,#,2012-12-01 00:00:00+00,LOWER,Harris,,STATE,77588,Jordan,000000000186,24757
+1542,1,Philadelphia City Council,Democrat,2020-01-06 00:00:00+00,PA,758005,#,2013-04-01 00:00:00+00,LOWER,Jones,Philadelphia,LOCAL,179830,Curtis,4,4563
+2652,0,Pennsylvania House of Representatives,Democrat,2014-12-01 00:00:00+00,PA,9980,#,2011-01-04 00:00:00+00,LOWER,Kula,,STATE,77457,Deberah,000000000052,166
+1635,5,Montgomery County Commissioners,Democrat,2016-01-04 00:00:00+00,PA,2577,#,2012-01-03 00:00:00+00,LOWER,Richards,Montgomery,LOCAL,116867,Leslie,At Large,17472
+2652,1,Pennsylvania House of Representatives,Republican,2018-12-01 00:00:00+00,PA,759004,#,2014-12-01 00:00:00+00,LOWER,McGinnis,,STATE,161121,John,79,25067
+1628,8,Harrisburg City Council,,2020-01-01 00:00:00+00,PA,2115,#,2017-09-05 00:00:00+00,LOWER,Madsen,Harrisburg,LOCAL,197119,Dave,At Large,181649
+4490,2,Allegheny County Council,,2014-01-01 00:00:00+00,PA,393469,#,2012-01-01 00:00:00+00,LOWER,McCullough,Allegheny,LOCAL,69223,Chuck,At Large,7191
+1627,7,Delaware County Council,Republican,2020-01-01 00:00:00+00,PA,2580,#,2012-01-03 00:00:00+00,LOWER,McBlain,Delaware,LOCAL,191933,John,At Large,10761
+2652,0,Pennsylvania House of Representatives,Republican,2011-01-06 00:00:00+00,PA,10096,#,2011-01-04 00:00:00+00,LOWER,True,,STATE,11524,Katie,000000000041,11524
+4309,1,Pennsylvania Senate,Republican,2020-12-01 00:00:00+00,PA,758922,#,2014-12-01 00:00:00+00,UPPER,Vogel,,STATE,186469,Elder,47,10440
+1633,5,Chester County Commissioners,,2012-01-01 00:00:00+00,PA,2582,#,2008-01-01 00:00:00+00,LOWER,Aichele,Chester,LOCAL,19182,Carol,At Large,7269
+4309,0,Pennsylvania Senate,Republican,2014-12-01 00:00:00+00,PA,3513,#,2011-01-04 00:00:00+00,UPPER,Mensch,,STATE,77453,Bob,000000000024,3596
+1542,1,Philadelphia City Council,Democrat,2020-01-06 00:00:00+00,PA,758002,#,2013-04-01 00:00:00+00,LOWER,Squilla,Philadelphia,LOCAL,179826,Mark,1,15929
+4507,1,United States House of Representatives,Democrat,2019-01-03 00:00:00+00,PA,757324,#,2013-01-03 00:00:00+00,LOWER,Doyle,,NATIONAL,159993,Michael,000000000014,7500
+4212,7,Erie City Council,,2014-01-01 00:00:00+00,PA,2086,#,2013-01-01 15:08:54+00,LOWER,Evans,Erie,LOCAL,67206,John,At Large,67206
+2652,1,Pennsylvania House of Representatives,Republican,2018-12-01 00:00:00+00,PA,758936,#,2014-12-01 00:00:00+00,LOWER,Ellis,,STATE,188250,Brian,11,12776
+1542,9,Philadelphia City Council,Democrat,2015-01-30 00:00:00+00,PA,2606,188291,2012-01-02 00:00:00+00,LOWER,Kenney,Philadelphia,LOCAL,97663,James,At Large,15451
+4309,1,Pennsylvania Senate,,2015-11-24 00:00:00+00,PA,758912,#,2015-06-19 00:00:00+00,UPPER,VACANT,,STATE,122220,VACANT,37,110726
+2652,0,Pennsylvania House of Representatives,Democrat,2014-12-01 00:00:00+00,PA,10138,#,2011-01-04 00:00:00+00,LOWER,Costa,,STATE,77403,Dom,000000000021,7536
+2652,1,Pennsylvania House of Representatives,Democrat,2018-12-01 00:00:00+00,PA,759125,#,2016-12-01 00:00:00+00,LOWER,Rabb,,STATE,160962,Christopher,200,134343
+4212,7,Erie City Council,,2020-01-06 00:00:00+00,PA,2086,#,2012-01-02 00:00:00+00,LOWER,Merski,Erie,LOCAL,192236,Robert,At Large,626
+4309,0,Pennsylvania Senate,Democrat,2014-12-01 00:00:00+00,PA,3544,#,2010-11-02 00:00:00+00,UPPER,Brewster,,STATE,77498,James,000000000045,1783
+2652,1,Pennsylvania House of Representatives,Republican,2018-12-01 00:00:00+00,PA,759027,#,2014-12-01 00:00:00+00,LOWER,Diamond,,STATE,160726,Russell,102,80451
+2652,0,Pennsylvania House of Representatives,Democrat,2014-12-01 00:00:00+00,PA,10064,#,2012-12-01 00:00:00+00,LOWER,Rozzi,,STATE,77560,Mark,000000000126,24668
+2652,0,Pennsylvania House of Representatives,Democrat,2014-12-01 00:00:00+00,PA,10137,#,2011-01-04 00:00:00+00,LOWER,Haluska,,STATE,77497,Gary,000000000073,16106
+4309,1,Pennsylvania Senate,Republican,2020-12-01 00:00:00+00,PA,758896,#,2014-12-01 00:00:00+00,UPPER,Hutchinson,,STATE,179296,Scott,21,24553
+2550,8,Harrisburg City Controller,Democrat,2014-01-01 00:00:00+00,PA,2115,#,2010-01-01 00:00:00+00,LOWER,Miller,Harrisburg,LOCAL,498,Daniel,At Large,498
+2652,1,Pennsylvania House of Representatives,Republican,2018-12-01 00:00:00+00,PA,758935,#,2016-12-01 00:00:00+00,LOWER,Bernstine,,STATE,186415,Aaron,10,134231
+4507,1,United States House of Representatives,,2018-04-02 00:00:00+00,PA,757328,#,2017-10-20 00:00:00+00,LOWER,VACANT,,NATIONAL,194672,VACANT,000000000018,180300
+4507,0,United States House of Representatives,Democrat,2013-01-03 00:00:00+00,PA,1712,#,2011-01-03 00:00:00+00,LOWER,Altmire,,NATIONAL,8695,Jason,000000000004,8695
+2652,0,Pennsylvania House of Representatives,Democrat,2014-12-01 00:00:00+00,PA,10141,#,2011-01-04 00:00:00+00,LOWER,Readshaw,,STATE,77428,Harry,000000000036,15925
+4490,1,Allegheny County Council,,0001-01-02 00:00:00+00,PA,393459,#,0001-01-01 00:00:00+00,LOWER,Cleary,Allegheny,LOCAL,15254,Joan,000000000006,15254
+4394,9,Philadelphia City Controller,Democrat,2022-01-03 00:00:00+00,PA,2606,#,2018-01-02 00:00:00+00,LOWER,Rhynhart,Philadelphia,LOCAL,196774,Rebecca,At Large,182248
+2652,0,Pennsylvania House of Representatives,Democrat,2014-12-01 00:00:00+00,PA,10079,#,2012-05-08 00:00:00+00,LOWER,Dean,,STATE,55893,Madeleine,000000000153,19131
+2545,5,Chester County District Attorney,Republican,2020-01-01 00:00:00+00,PA,2582,#,2014-01-01 00:00:00+00,LOWER,Hogan,Chester,LOCAL,195852,Thomas,At Large,69087
+2652,0,Pennsylvania House of Representatives,Democrat,2014-12-01 00:00:00+00,PA,10117,#,2011-01-04 00:00:00+00,LOWER,Thomas,,STATE,77593,W. Curtis,000000000181,1001
+4305,2,Allegheny County Controller,Democrat,2020-01-01 00:00:00+00,PA,393485,#,2012-01-01 00:00:00+00,EXEC,Wagner,Allegheny County,LOCAL,179120,Chelsa,ALLEGHENY COUNTY,9524
+2652,1,Pennsylvania House of Representatives,,2018-12-01 00:00:00+00,PA,758993,#,2018-02-19 00:00:00+00,LOWER,VACANT,,STATE,198770,VACANT,68,198552
+2652,1,Pennsylvania House of Representatives,Republican,2016-12-01 00:00:00+00,PA,759075,#,2014-12-01 00:00:00+00,LOWER,Vereb,,STATE,106998,Mike,150,10858
+2652,1,Pennsylvania House of Representatives,Republican,2018-12-01 00:00:00+00,PA,759029,#,2014-12-01 00:00:00+00,LOWER,Helm,,STATE,188213,Susan,104,7317
+2652,1,Pennsylvania House of Representatives,Republican,2018-12-01 00:00:00+00,PA,758971,#,2014-12-01 00:00:00+00,LOWER,Ortitay,,STATE,179125,Jason,46,79809
+4490,1,Allegheny County Council,Democrat,2016-12-31 00:00:00+00,PA,393463,#,2012-01-01 00:00:00+00,LOWER,Finnerty,Allegheny,LOCAL,144961,Michael,000000000004,2119
+2652,0,Pennsylvania House of Representatives,Democrat,2011-01-06 00:00:00+00,PA,9994,#,2011-01-04 00:00:00+00,LOWER,Drucker,,STATE,15041,Paul,000000000157,15041
+2652,1,Pennsylvania House of Representatives,Republican,2018-12-01 00:00:00+00,PA,758937,#,2014-12-01 00:00:00+00,LOWER,Metcalfe,,STATE,198546,Daryl,12,12870
+2652,1,Pennsylvania House of Representatives,Democrat,2018-12-01 00:00:00+00,PA,759073,#,2014-12-01 00:00:00+00,LOWER,Daley,,STATE,160847,Mary Jo,148,24699
+2553,6,Philadelphia City Commissioners,Democrat,2020-01-06 00:00:00+00,PA,251,#,2016-01-04 00:00:00+00,EXEC,Deeley,Philadelphia,LOCAL,187256,Lisa,PHILADELPHIA,121368
+2652,1,Pennsylvania House of Representatives,Democrat,2018-12-01 00:00:00+00,PA,759043,#,2014-12-01 00:00:00+00,LOWER,Carroll,,STATE,186850,Mike,118,910
+2652,0,Pennsylvania House of Representatives,Democrat,2011-01-06 00:00:00+00,PA,10058,#,2011-01-04 00:00:00+00,LOWER,Seip,,STATE,717,,000000000125,717
+2652,0,Pennsylvania House of Representatives,Republican,2012-12-01 00:00:00+00,PA,10094,#,2011-01-04 00:00:00+00,LOWER,Boyd,,STATE,19942,Scott,000000000043,5579
+4309,1,Pennsylvania Senate,Republican,2020-12-01 00:00:00+00,PA,758924,#,2016-12-01 00:00:00+00,UPPER,Laughlin,,STATE,186465,Daniel,49,134690
+2652,0,Pennsylvania House of Representatives,Republican,2014-12-01 00:00:00+00,PA,10159,#,2011-01-04 00:00:00+00,LOWER,Farry,,STATE,77607,Frank,000000000142,15547
+2652,0,Pennsylvania House of Representatives,Republican,2014-12-01 00:00:00+00,PA,10088,#,2012-12-01 00:00:00+00,LOWER,James,,STATE,77480,R.,000000000064,34845
+726,5,Pennsylvania Auditor General,Democrat,2013-01-15 00:00:00+00,PA,734,#,2009-01-20 00:00:00+00,EXEC,Wagner,,STATE,25829,Jack,PA,13888
+2652,0,Pennsylvania House of Representatives,Democrat,2011-01-06 00:00:00+00,PA,10043,#,2011-01-04 00:00:00+00,LOWER,Levdansky,,STATE,12345,David,000000000039,12345
+4490,1,Allegheny County Council,,0001-01-02 00:00:00+00,PA,393465,#,0001-01-01 00:00:00+00,LOWER,Fitzgerald,Allegheny,LOCAL,9084,Rich,000000000011,9084
+2546,5,Bucks County Controller,,2018-01-06 00:00:00+00,PA,2575,#,2016-07-27 00:00:00+00,LOWER,Gallagher,Bucks,LOCAL,168744,Michael,At Large,132409
+2652,1,Pennsylvania House of Representatives,Democrat,2018-12-01 00:00:00+00,PA,758997,#,2014-12-01 00:00:00+00,LOWER,Burns,,STATE,188247,Frank,72,6573
+2652,1,Pennsylvania House of Representatives,Republican,2018-12-01 00:00:00+00,PA,759095,#,2015-03-26 00:00:00+00,LOWER,White,,STATE,188345,Martina,170,104416
+1628,8,Harrisburg City Council,Democrat,2016-01-04 00:00:00+00,PA,2115,#,2012-01-03 00:00:00+00,LOWER,Reid,Harrisburg,LOCAL,116860,Sandra,At Large,14474
+2652,1,Pennsylvania House of Representatives,Republican,2018-12-01 00:00:00+00,PA,758955,#,2014-12-01 00:00:00+00,LOWER,English,,STATE,186247,Harold,30,24845
+2652,1,Pennsylvania House of Representatives,Republican,2015-04-30 00:00:00+00,PA,759086,#,2014-12-01 00:00:00+00,LOWER,Hackett,,STATE,109062,Joseph,161,16046
+1542,0,Philadelphia City Council,Democrat,2013-04-01 00:00:00+00,PA,2599,#,2012-01-02 00:00:00+00,LOWER,Clarke,Philadelphia,LOCAL,51717,Darrell,000000000005,5829
+4305,2,Allegheny County Controller,,0001-01-02 00:00:00+00,PA,393469,#,0001-01-01 00:00:00+00,EXEC,Flaherty,Allegheny,LOCAL,6984,Mark,At Large,6984
+4309,1,Pennsylvania Senate,Democrat,2020-12-01 00:00:00+00,PA,758894,#,2014-12-01 00:00:00+00,UPPER,Dinniman,,STATE,163318,Andrew,19,3735
+1547,0,Pittsburgh City Council,Democrat,2014-01-06 00:00:00+00,PA,991,#,2012-01-02 00:00:00+00,LOWER,Kraus,Pittsburgh,LOCAL,66979,Bruce,000000000003,11257
+2652,1,Pennsylvania House of Representatives,Republican,2018-12-01 00:00:00+00,PA,758994,#,2014-12-01 00:00:00+00,LOWER,Metzgar,,STATE,186379,Carl,69,1051
+2652,0,Pennsylvania House of Representatives,Republican,2014-12-01 00:00:00+00,PA,10164,#,2011-01-04 00:00:00+00,LOWER,Krieger,,STATE,77467,Tim,000000000057,5530
+2652,0,Pennsylvania House of Representatives,Republican,2014-12-01 00:00:00+00,PA,9986,#,2011-01-04 00:00:00+00,LOWER,Harris,,STATE,77512,C. Adam,000000000082,6362
+4490,1,Allegheny County Council,Democrat,2016-01-04 00:00:00+00,PA,393466,#,2012-01-02 00:00:00+00,LOWER,Hawkins,Allegheny,LOCAL,118256,Amanda,000000000013,14166
+4507,1,United States House of Representatives,Republican,2019-01-03 00:00:00+00,PA,757326,77429,2017-01-03 00:00:00+00,LOWER,Smucker,,NATIONAL,159995,Lloyd,000000000016,12689
+1542,1,Philadelphia City Council,Democrat,2020-01-06 00:00:00+00,PA,758006,#,2013-04-01 00:00:00+00,LOWER,Clarke,Philadelphia,LOCAL,179831,Darrell,5,5829
+2652,1,Pennsylvania House of Representatives,Republican,2018-02-19 00:00:00+00,PA,758993,#,2014-12-01 00:00:00+00,LOWER,Baker,,STATE,198553,Matthew,68,8216
+492,6,Philadelphia Mayor,Democrat,2020-01-06 00:00:00+00,PA,251,97663,2016-01-04 00:00:00+00,EXEC,Kenney,Philadelphia,LOCAL,188291,James,PHILADELPHIA,15451
+2652,1,Pennsylvania House of Representatives,Democrat,2018-12-01 00:00:00+00,PA,759112,#,2014-12-01 00:00:00+00,LOWER,Keller,,STATE,160923,William,184,15590
+2652,1,Pennsylvania House of Representatives,,2015-03-26 00:00:00+00,PA,759095,#,2015-01-03 00:00:00+00,LOWER,VACANT,,STATE,104417,VACANT,170,86656
+2652,0,Pennsylvania House of Representatives,Republican,2014-12-01 00:00:00+00,PA,10156,#,2011-01-04 00:00:00+00,LOWER,DiGirolamo,,STATE,77398,Gene,000000000018,18018
+2652,0,Pennsylvania House of Representatives,Democrat,2014-12-01 00:00:00+00,PA,10125,188599,2011-01-04 00:00:00+00,LOWER,Evans,,STATE,77534,Dwight,000000000203,8804
+2652,0,Pennsylvania House of Representatives,Democrat,2014-12-01 00:00:00+00,PA,10087,#,2012-12-01 00:00:00+00,LOWER,Painter,,STATE,77612,Mark,000000000146,24694
+2652,0,Pennsylvania House of Representatives,Democrat,2014-12-01 00:00:00+00,PA,10158,#,2011-01-04 00:00:00+00,LOWER,Galloway,,STATE,77604,John,000000000140,10320
+2652,0,Pennsylvania House of Representatives,Democrat,2014-12-01 00:00:00+00,PA,10147,#,2011-01-04 00:00:00+00,LOWER,DeLuca,,STATE,77421,Anthony,000000000032,17448
+4309,1,Pennsylvania Senate,Republican,2020-12-01 00:00:00+00,PA,758888,#,2016-12-01 00:00:00+00,UPPER,Martin,,STATE,198539,Scott,13,134682
+2652,1,Pennsylvania House of Representatives,Democrat,2018-12-01 00:00:00+00,PA,758941,#,2014-12-01 00:00:00+00,LOWER,Matzie,,STATE,160886,Robert,16,9057
+677,1,Pittsburgh Mayor,Democrat,2022-01-03 00:00:00+00,PA,253,66955,2014-01-06 00:00:00+00,EXEC,Peduto,Pittsburgh,LOCAL,191658,William,PITTSBURGH,4761
+2652,1,Pennsylvania House of Representatives,Democrat,2018-12-01 00:00:00+00,PA,758958,#,2014-12-01 00:00:00+00,LOWER,Dermody,,STATE,161009,Frank,33,8770
+4302,5,Bucks County District Attorney,,2016-09-02 00:00:00+00,PA,2575,#,0001-01-01 00:00:00+00,LOWER,Heckler,Bucks,LOCAL,132390,David,At Large,16118
+2652,1,Pennsylvania House of Representatives,Democrat,2018-12-01 00:00:00+00,PA,758928,#,2014-12-01 00:00:00+00,LOWER,Bizzarro,,STATE,161005,Ryan,3,24816
+2652,1,Pennsylvania House of Representatives,Democrat,2015-12-17 00:00:00+00,PA,759119,#,2014-12-01 00:00:00+00,LOWER,Bishop,,STATE,123048,Louise,192,8685
+2652,1,Pennsylvania House of Representatives,Republican,2018-12-01 00:00:00+00,PA,759009,#,2014-12-01 00:00:00+00,LOWER,Everett,,STATE,161128,Garth,84,1400
+2652,0,Pennsylvania House of Representatives,Republican,2012-12-01 00:00:00+00,PA,10088,#,2011-01-04 00:00:00+00,LOWER,Hutchinson,,STATE,20012,Scott,000000000064,10794
+2652,1,Pennsylvania House of Representatives,Republican,2018-12-01 00:00:00+00,PA,759041,#,2014-12-01 00:00:00+00,LOWER,Toohil,,STATE,188217,Tarah,116,10243
+4309,1,Pennsylvania Senate,Democrat,2018-12-01 00:00:00+00,PA,758897,#,2014-12-01 00:00:00+00,UPPER,Blake,,STATE,158855,John,22,11957
+1542,9,Philadelphia City Council,Independent,2012-01-01 00:00:00+00,PA,2606,#,0001-01-01 00:00:00+00,LOWER,Rizzo,Philadelphia,LOCAL,5061,Frank,At Large,5061
+2652,1,Pennsylvania House of Representatives,Republican,2018-12-01 00:00:00+00,PA,759077,#,2014-12-01 00:00:00+00,LOWER,Murt,,STATE,188177,Thomas,152,8995
+2652,1,Pennsylvania House of Representatives,Republican,2018-12-01 00:00:00+00,PA,759053,#,2014-12-01 00:00:00+00,LOWER,Gillen,,STATE,186923,Mark,128,10995
+2652,0,Pennsylvania House of Representatives,Democrat,2012-12-01 00:00:00+00,PA,10035,#,2011-01-04 00:00:00+00,LOWER,Murphy,,STATE,16572,Kevin,000000000113,16572
+1542,1,Philadelphia City Council,Democrat,2020-01-06 00:00:00+00,PA,758008,77574,2016-01-04 00:00:00+00,LOWER,Parker,Philadelphia,LOCAL,179837,Cherelle,9,4513
+2652,0,Pennsylvania House of Representatives,Democrat,2014-12-01 00:00:00+00,PA,10104,#,2011-01-04 00:00:00+00,LOWER,Neuman,,STATE,77449,Brandon,000000000048,5990
+2652,0,Pennsylvania House of Representatives,Democrat,2014-12-01 00:00:00+00,PA,10133,#,2011-01-04 00:00:00+00,LOWER,Freeman,,STATE,77570,Robert,000000000136,6686
+1547,0,Pittsburgh City Council,,2014-01-06 00:00:00+00,PA,1276,#,2010-01-04 00:00:00+00,LOWER,Rudiak,Pittsburgh,LOCAL,66854,Natalia,000000000004,11166
+4309,0,Pennsylvania Senate,Republican,2014-12-01 00:00:00+00,PA,3548,#,2011-01-04 00:00:00+00,UPPER,Tomlinson,,STATE,77412,Robert,000000000006,3795
+2652,1,Pennsylvania House of Representatives,Democrat,2018-12-01 00:00:00+00,PA,758996,#,2014-12-01 00:00:00+00,LOWER,Barbin,,STATE,161109,Bryan,71,7769
+4309,0,Pennsylvania Senate,Democrat,2014-12-01 00:00:00+00,PA,3541,#,2011-01-04 00:00:00+00,UPPER,Ferlo,,STATE,77483,Jim,000000000038,1639
+2548,5,Montgomery County Controller,,0001-01-02 00:00:00+00,PA,2577,#,2008-01-01 00:00:00+00,LOWER,Morgan,Montgomery,LOCAL,12098,Diane,At Large,12098
+1547,1,Pittsburgh City Council,,2018-01-01 00:00:00+00,PA,758122,#,2014-01-06 00:00:00+00,LOWER,Rudiak,Pittsburgh,LOCAL,177791,Natalia,4,11166
+2652,1,Pennsylvania House of Representatives,Democrat,2018-12-01 00:00:00+00,PA,759040,#,2016-12-01 00:00:00+00,LOWER,Madden,,STATE,160761,Maureen,115,134247
+2652,0,Pennsylvania House of Representatives,Republican,2014-12-01 00:00:00+00,PA,10009,#,2011-01-04 00:00:00+00,LOWER,Grell,,STATE,77517,Glen,000000000087,4438
+4507,1,United States House of Representatives,Democrat,2019-01-03 00:00:00+00,PA,757312,77534,2016-11-14 00:00:00+00,LOWER,Evans,,NATIONAL,188599,Dwight,000000000002,8804
+2652,1,Pennsylvania House of Representatives,Democrat,2018-12-01 00:00:00+00,PA,759081,#,2016-12-17 00:00:00+00,LOWER,Comitta,,STATE,160872,Carolyn,156,145473
+1629,5,Bucks County Commissioners,Democrat,2020-01-06 00:00:00+00,PA,2575,#,2012-01-02 00:00:00+00,LOWER,Ellis-Marseglia,Bucks,LOCAL,168742,Diane,At Large,14208
+2586,5,Pennsylvania Lieutenant Governor,Republican,2015-01-01 00:00:00+00,PA,734,#,2011-01-01 00:00:00+00,EXEC,Cawley,,STATE,76981,Jim,PA,3724
+4490,1,Allegheny County Council,,2016-01-04 00:00:00+00,PA,393465,#,2015-06-03 00:00:00+00,LOWER,Klein,Allegheny,LOCAL,118254,Terri,000000000011,110107
+4461,5,Pennsylvania Governor,Republican,2011-01-18 00:00:00+00,PA,734,#,2008-11-01 00:00:00+00,EXEC,Scarnati,,STATE,16070,Joe,PA,16070
+1542,9,Philadelphia City Council,Democrat,2020-01-06 00:00:00+00,PA,2606,#,2016-01-04 00:00:00+00,LOWER,Domb,Philadelphia,LOCAL,199858,Allan,At Large,121379
+2652,0,Pennsylvania House of Representatives,Republican,2014-12-01 00:00:00+00,PA,10119,#,2011-01-04 00:00:00+00,LOWER,Taylor,,STATE,77597,John,000000000177,8383
+4490,2,Allegheny County Council,,0001-01-02 00:00:00+00,PA,393469,#,0001-01-01 00:00:00+00,LOWER,DeFazio,Allegheny,LOCAL,11602,John,At Large,11602
+2652,0,Pennsylvania House of Representatives,Democrat,2014-12-01 00:00:00+00,PA,9976,#,2011-01-04 00:00:00+00,LOWER,Kirkland,,STATE,77632,Thaddeus,000000000159,8615
+4309,0,Pennsylvania Senate,Democrat,2011-01-04 00:00:00+00,PA,3535,#,0001-01-01 00:00:00+00,UPPER,Mellow,,STATE,4524,Robert,000000000022,4524
+2652,0,Pennsylvania House of Representatives,Democrat,2010-11-30 00:00:00+00,PA,10058,#,2007-01-02 00:00:00+00,LOWER,Seip,,STATE,20144,Tim,000000000125,717
+4309,0,Pennsylvania Senate,Democrat,2014-12-01 00:00:00+00,PA,3518,#,2009-01-06 00:00:00+00,UPPER,Wozniak,,STATE,77477,John,000000000035,14048
+2652,1,Pennsylvania House of Representatives,Republican,2018-12-01 00:00:00+00,PA,759042,#,2014-12-01 00:00:00+00,LOWER,Boback,,STATE,198550,Karen,117,5328
+4507,0,United States House of Representatives,Republican,2013-01-03 00:00:00+00,PA,1748,#,2011-01-03 00:00:00+00,LOWER,Gerlach,,NATIONAL,6827,Jim,000000000006,6827
+4309,1,Pennsylvania Senate,Democrat,2020-12-01 00:00:00+00,PA,758918,#,2014-12-01 00:00:00+00,UPPER,Costa,,STATE,158866,Jay,43,7368
+2652,0,Pennsylvania House of Representatives,Democrat,2014-12-01 00:00:00+00,PA,10124,#,2012-12-01 00:00:00+00,LOWER,Kinsey,,STATE,77573,Stephen,000000000201,24779
+4309,0,Pennsylvania Senate,Republican,2012-12-01 00:00:00+00,PA,3517,#,2009-01-06 00:00:00+00,UPPER,Piccola,,STATE,21577,Jeffrey,000000000015,15702
+4309,0,Pennsylvania Senate,,2014-04-02 00:00:00+00,PA,3528,#,2014-01-13 17:37:18+00,UPPER,VACANT,,STATE,72197,VACANT,000000000028,69232
+2652,1,Pennsylvania House of Representatives,Democrat,2018-12-01 00:00:00+00,PA,759048,#,2014-12-01 00:00:00+00,LOWER,Goodman,,STATE,188408,Neal,123,14656
+4507,0,United States House of Representatives,Republican,2013-01-03 00:00:00+00,PA,1739,#,2011-01-03 00:00:00+00,LOWER,Murphy,,NATIONAL,2185,Timothy,000000000018,2185
+1547,0,Pittsburgh City Council,Democrat,2014-01-06 00:00:00+00,PA,440,#,2012-01-02 00:00:00+00,LOWER,Harris,Pittsburgh,LOCAL,66978,Darlene,000000000001,1019
+1542,9,Philadelphia City Council,Democrat,2020-01-06 00:00:00+00,PA,2606,#,2016-01-04 00:00:00+00,LOWER,Gym,Philadelphia,LOCAL,179841,Helen,At Large,121377
+2652,0,Pennsylvania House of Representatives,Republican,2009-01-06 00:00:00+00,PA,9985,#,0001-01-01 00:00:00+00,LOWER,McIlhattan,,STATE,9118,Fred,000000000063,9118
+2652,1,Pennsylvania House of Representatives,Republican,2018-01-01 00:00:00+00,PA,759103,#,2014-12-01 00:00:00+00,LOWER,Petri,,STATE,191276,Scott,178,6086
+2652,0,Pennsylvania House of Representatives,Republican,2014-12-01 00:00:00+00,PA,10091,#,2012-12-01 00:00:00+00,LOWER,Sankey,,STATE,77499,Thomas,000000000074,25055
+2652,0,Pennsylvania House of Representatives,,2012-12-01 00:00:00+00,PA,9983,#,2012-04-27 00:00:00+00,LOWER,VACANT,,STATE,24993,VACANT,000000000050,19121
+1628,8,Harrisburg City Council,,2022-01-01 00:00:00+00,PA,2115,#,2018-01-01 00:00:00+00,LOWER,Green,Harrisburg,LOCAL,197118,Ausha,At Large,182936
+2652,1,Pennsylvania House of Representatives,Republican,2018-12-01 00:00:00+00,PA,759055,#,2014-12-01 00:00:00+00,LOWER,Maloney,,STATE,175643,David,130,11487
+4493,7,Erie City Controller,Democrat,2014-01-01 00:00:00+00,PA,2086,192235,0001-01-01 00:00:00+00,EXEC,Kwitowski,Erie,LOCAL,65817,Casimir,At Large,16406
+4309,0,Pennsylvania Senate,Republican,2014-12-01 00:00:00+00,PA,3532,#,2009-01-06 00:00:00+00,UPPER,Yaw,,STATE,77452,Gene,000000000023,16552
+2652,0,Pennsylvania House of Representatives,Republican,2014-12-01 00:00:00+00,PA,10043,#,2011-01-04 00:00:00+00,LOWER,Saccone,,STATE,77434,Rick,000000000039,9043
+3711,1,Allentown Mayor,,2020-01-01 00:00:00+00,PA,859060,174437,2018-03-30 00:00:00+00,EXEC,O'Connell,Allentown,LOCAL,195736,Ray,ALLENTOWN,171528
+4416,1,Harrisburg Mayor,Democrat,2014-01-01 00:00:00+00,PA,204,#,2010-01-04 00:00:00+00,EXEC,Thompson,Harrisburg,LOCAL,6138,Linda,HARRISBURG,6138
+2652,1,Pennsylvania House of Representatives,Democrat,2015-05-19 00:00:00+00,PA,759099,#,2014-12-01 00:00:00+00,LOWER,Sabatina,,STATE,109710,John,174,3838
+2652,1,Pennsylvania House of Representatives,Republican,2018-12-01 00:00:00+00,PA,759014,#,2014-12-01 00:00:00+00,LOWER,Kauffman,,STATE,161135,Rob,89,4340
+4507,0,United States House of Representatives,Democrat,2013-01-03 00:00:00+00,PA,1743,#,2011-01-03 00:00:00+00,LOWER,Schwartz,,NATIONAL,15159,Allyson,000000000013,15159
+2652,0,Pennsylvania House of Representatives,Republican,2014-12-01 00:00:00+00,PA,10096,186934,2011-01-04 00:00:00+00,LOWER,Aument,,STATE,77437,Ryan,000000000041,8868
+2652,1,Pennsylvania House of Representatives,Republican,2018-12-01 00:00:00+00,PA,759070,#,2014-12-01 00:00:00+00,LOWER,Staats,,STATE,187062,Craig,145,79932
+4309,1,Pennsylvania Senate,Republican,2018-12-01 00:00:00+00,PA,758911,77437,2014-12-01 00:00:00+00,UPPER,Aument,,STATE,186934,Ryan,36,8868
+2652,1,Pennsylvania House of Representatives,Republican,2015-12-29 00:00:00+00,PA,758982,#,2014-12-01 00:00:00+00,LOWER,Krieger,,STATE,122769,Tim,57,5530
+4309,0,Pennsylvania Senate,Democrat,2014-12-01 00:00:00+00,PA,3538,#,2011-01-04 00:00:00+00,UPPER,Boscola,,STATE,77440,Lisa,000000000018,905
+2652,0,Pennsylvania House of Representatives,Republican,2014-12-01 00:00:00+00,PA,10051,179140,2011-01-04 00:00:00+00,LOWER,Brooks,,STATE,77397,Michele,000000000017,2481
+2652,1,Pennsylvania House of Representatives,Republican,2018-12-01 00:00:00+00,PA,759006,#,2014-12-01 00:00:00+00,LOWER,Irvin,,STATE,186816,Rich,81,79866
+2652,0,Pennsylvania House of Representatives,Democrat,2009-01-06 00:00:00+00,PA,10110,#,0001-01-01 00:00:00+00,LOWER,James,,STATE,17421,Harold,000000000186,17421
+4309,0,Pennsylvania Senate,Republican,2014-12-01 00:00:00+00,PA,3509,#,2011-01-04 00:00:00+00,UPPER,Corman,,STATE,77475,Jacob,000000000034,11137
+2652,1,Pennsylvania House of Representatives,Republican,2018-12-01 00:00:00+00,PA,759045,#,2014-12-01 00:00:00+00,LOWER,Kaufer,,STATE,186690,Aaron,120,80154
+4507,1,United States House of Representatives,Republican,2019-01-03 00:00:00+00,PA,757321,#,2013-01-03 00:00:00+00,LOWER,Barletta,,NATIONAL,162475,Louis,000000000011,12076
+4309,1,Pennsylvania Senate,Democrat,2020-12-01 00:00:00+00,PA,758920,#,2014-12-01 00:00:00+00,UPPER,Brewster,,STATE,186399,James,45,1783
+2652,0,Pennsylvania House of Representatives,Democrat,2009-01-06 00:00:00+00,PA,10040,#,0001-01-01 00:00:00+00,LOWER,Ramaley,,STATE,12447,Sean,000000000016,12447
+2652,1,Pennsylvania House of Representatives,Democrat,2016-12-01 00:00:00+00,PA,758935,#,2014-12-01 00:00:00+00,LOWER,Gibbons,,STATE,106803,Jaret,10,1276
+4309,0,Pennsylvania Senate,Republican,2014-12-01 00:00:00+00,PA,3506,#,2009-03-17 00:00:00+00,UPPER,Argall,,STATE,77464,David,000000000029,10803
+2652,0,Pennsylvania House of Representatives,Democrat,2014-12-01 00:00:00+00,PA,9964,#,2011-01-04 00:00:00+00,LOWER,Conklin,,STATE,77506,H. Scott,000000000077,5707
+4050,1,Allentown City Council,,2022-01-01 00:00:00+00,PA,858894,#,2018-01-01 00:00:00+00,LOWER,Zucal,Allentown,LOCAL,196799,Ed,At Large,183166
+2652,0,Pennsylvania House of Representatives,Republican,2014-12-01 00:00:00+00,PA,10146,#,2012-12-01 00:00:00+00,LOWER,English,,STATE,77418,Harold,000000000030,24845
+1628,8,Harrisburg City Council,,2012-01-01 00:00:00+00,PA,2115,#,0001-01-01 00:00:00+00,LOWER,Martin-Roberts,Harrisburg,LOCAL,170298,Gloria,At Large,5441
+2652,0,Pennsylvania House of Representatives,Republican,2014-12-01 00:00:00+00,PA,9992,#,2011-01-04 00:00:00+00,LOWER,Rock,,STATE,77520,Todd,000000000090,11760
+694,2,Allegheny County Executive,Democrat,0001-01-02 00:00:00+00,PA,393485,#,0001-01-01 00:00:00+00,EXEC,Onorato,Allegheny County,LOCAL,14442,Dan,ALLEGHENY COUNTY,14442
+2652,1,Pennsylvania House of Representatives,,2015-08-25 00:00:00+00,PA,759099,#,2015-05-19 00:00:00+00,LOWER,VACANT,,STATE,117022,VACANT,174,109709
+2652,0,Pennsylvania House of Representatives,Democrat,2014-12-01 00:00:00+00,PA,10092,#,2011-01-04 00:00:00+00,LOWER,Sturla,,STATE,77526,P. Michael,000000000096,17158
+2652,0,Pennsylvania House of Representatives,Democrat,2014-12-01 00:00:00+00,PA,10111,#,2011-01-04 00:00:00+00,LOWER,Keller,,STATE,77590,William,000000000184,15590
+2652,1,Pennsylvania House of Representatives,Democrat,2018-12-01 00:00:00+00,PA,759037,#,2016-12-01 00:00:00+00,LOWER,Haggerty,,STATE,187039,Kevin,112,24533
+2652,0,Pennsylvania House of Representatives,Republican,2014-12-01 00:00:00+00,PA,9969,#,2011-01-04 00:00:00+00,LOWER,Barrar,,STATE,77633,Stephen,000000000160,10481
+2652,0,Pennsylvania House of Representatives,Republican,2014-12-01 00:00:00+00,PA,10075,#,2011-01-04 00:00:00+00,LOWER,Murt,,STATE,77623,Thomas,000000000152,8995
+2652,0,Pennsylvania House of Representatives,Democrat,2012-12-01 00:00:00+00,PA,10118,#,2012-05-08 00:00:00+00,LOWER,Williams,,STATE,21305,Gary,000000000197,19134
+2652,0,Pennsylvania House of Representatives,Democrat,2014-12-01 00:00:00+00,PA,10086,#,2011-01-04 00:00:00+00,LOWER,Delissio,,STATE,77580,Pamela,000000000194,15656
+4507,0,United States House of Representatives,Republican,2013-01-03 00:00:00+00,PA,1751,#,2011-01-03 00:00:00+00,LOWER,Shuster,,NATIONAL,11585,William,000000000009,11585
+726,5,Pennsylvania Auditor General,Democrat,2021-01-01 00:00:00+00,PA,734,#,2017-01-17 00:00:00+00,EXEC,DePasquale,,STATE,172493,Eugene,PA,172489
+2652,1,Pennsylvania House of Representatives,Republican,2018-12-01 00:00:00+00,PA,759102,#,2014-12-01 00:00:00+00,LOWER,Taylor,,STATE,188184,John,177,8383
+2652,1,Pennsylvania House of Representatives,Republican,2018-12-01 00:00:00+00,PA,758931,#,2014-12-01 00:00:00+00,LOWER,Roae,,STATE,161095,Brad,6,8051
+2652,1,Pennsylvania House of Representatives,Democrat,2018-12-01 00:00:00+00,PA,758957,#,2014-12-01 00:00:00+00,LOWER,DeLuca,,STATE,198547,Anthony,32,17448
+4309,1,Pennsylvania Senate,Republican,2018-12-01 00:00:00+00,PA,758885,#,2014-12-01 00:00:00+00,UPPER,McIlhinney,,STATE,188235,Charles,10,16030
+2652,0,Pennsylvania House of Representatives,Republican,2014-12-01 00:00:00+00,PA,10097,#,2011-01-04 00:00:00+00,LOWER,Denlinger,,STATE,77529,Gordon,000000000099,18000
+4309,0,Pennsylvania Senate,Democrat,2014-12-01 00:00:00+00,PA,3551,#,2009-01-06 00:00:00+00,UPPER,Leach,,STATE,77438,Daylin,000000000017,13291
+505,5,Pennsylvania State Treasurer,Democrat,2015-01-17 00:00:00+00,PA,734,#,2009-01-20 00:00:00+00,EXEC,McCord,,STATE,106757,Rob,PA,10399
+4507,1,United States House of Representatives,Republican,2017-01-03 00:00:00+00,PA,757326,#,2013-01-03 00:00:00+00,LOWER,Pitts,,NATIONAL,131315,Joseph,000000000016,18118
+2652,0,Pennsylvania House of Representatives,Republican,2014-12-01 00:00:00+00,PA,10077,#,2011-01-04 00:00:00+00,LOWER,Harper,,STATE,77474,Kate,000000000061,9672
+2652,0,Pennsylvania House of Representatives,Democrat,2011-01-06 00:00:00+00,PA,10046,#,2011-01-04 00:00:00+00,LOWER,Surra,,STATE,13547,Dan,000000000075,13547
+4212,7,Erie City Council,Democrat,2016-01-04 00:00:00+00,PA,2086,#,2012-01-04 00:00:00+00,LOWER,Horan-Kunco,Erie,LOCAL,116848,Jessica,At Large,11891
+1635,5,Montgomery County Commissioners,,2020-01-06 00:00:00+00,PA,2577,#,2017-01-23 00:00:00+00,LOWER,Lawrence,Montgomery,LOCAL,178430,Kenneth,At Large,150538
+677,1,Pittsburgh Mayor,,2014-01-06 00:00:00+00,PA,253,#,2010-01-04 00:00:00+00,EXEC,Ravenstahl,Pittsburgh,LOCAL,7995,Luke,PITTSBURGH,7995
+4212,7,Erie City Council,,2022-01-03 00:00:00+00,PA,2086,#,2018-01-01 00:00:00+00,LOWER,Schaaf,Erie,LOCAL,197140,Kathleen,At Large,183006
+1542,0,Philadelphia City Council,Democrat,2013-04-01 00:00:00+00,PA,2591,#,2012-01-02 00:00:00+00,LOWER,Quiñones-Sánchez,Philadelphia,LOCAL,51721,Maria,000000000007,12163
+4490,1,Allegheny County Council,Democrat,2020-01-01 00:00:00+00,PA,393465,#,2016-01-01 00:00:00+00,LOWER,Klein,Allegheny,LOCAL,192154,Paul,000000000011,121307
+4309,0,Pennsylvania Senate,Democrat,2014-12-01 00:00:00+00,PA,3553,#,2011-01-04 00:00:00+00,UPPER,Kasunic,,STATE,77470,Richard,000000000032,14538
+2652,1,Pennsylvania House of Representatives,Democrat,2018-12-01 00:00:00+00,PA,759038,#,2014-12-01 00:00:00+00,LOWER,Flynn,,STATE,199959,Marty,113,24562
+2652,1,Pennsylvania House of Representatives,Republican,2018-12-01 00:00:00+00,PA,759050,#,2014-12-01 00:00:00+00,LOWER,Tobash,,STATE,186995,Mike,125,9360
+4309,1,Pennsylvania Senate,Democrat,2016-12-01 00:00:00+00,PA,758924,#,2014-12-01 00:00:00+00,UPPER,Wiley,,STATE,106691,Sean,49,24568
+4507,1,United States House of Representatives,Democrat,2019-01-03 00:00:00+00,PA,757327,#,2013-01-03 00:00:00+00,LOWER,Cartwright,,NATIONAL,186413,Matthew,000000000017,33473
+2652,0,Pennsylvania House of Representatives,Democrat,2014-12-01 00:00:00+00,PA,10153,#,2011-01-04 00:00:00+00,LOWER,Frankel,,STATE,77406,Dan,000000000023,664
+2652,1,Pennsylvania House of Representatives,Democrat,2018-12-01 00:00:00+00,PA,759091,#,2014-12-01 00:00:00+00,LOWER,Vitali,,STATE,198551,Greg,166,2517
+4309,0,Pennsylvania Senate,,2011-04-05 00:00:00+00,PA,3520,#,0001-01-01 00:00:00+00,UPPER,VACANT,,STATE,3517,VACANT,000000000011,3517
+4395,9,Philadelphia District Attorney,Democrat,2017-06-29 00:00:00+00,PA,2606,#,2012-01-02 00:00:00+00,LOWER,Williams,Philadelphia,LOCAL,171754,R. Seth,At Large,10191
+1628,8,Harrisburg City Council,,2017-08-11 00:00:00+00,PA,2115,#,2014-05-12 00:00:00+00,LOWER,Baltimore,Harrisburg,LOCAL,175778,Jeffrey,At Large,73144
+2652,1,Pennsylvania House of Representatives,Democrat,2018-12-01 00:00:00+00,PA,759117,#,2014-12-01 00:00:00+00,LOWER,Brown,,STATE,160934,Vanessa,190,14708
+4211,2,Erie Mayor,Democrat,2022-01-03 00:00:00+00,PA,187,#,2018-01-01 00:00:00+00,EXEC,Schember,Erie,LOCAL,197141,Joe,ERIE,183000
+4050,1,Allentown City Council,,2020-01-01 00:00:00+00,PA,858894,#,2018-01-01 00:00:00+00,LOWER,Robinson,Allentown,LOCAL,196800,Courtney,At Large,183167
+2652,1,Pennsylvania House of Representatives,Democrat,2016-12-01 00:00:00+00,PA,758976,#,2014-12-01 00:00:00+00,LOWER,Mahoney,,STATE,106865,Tim,51,1017
+1542,0,Philadelphia City Council,,2012-01-01 00:00:00+00,PA,2595,#,0001-01-01 00:00:00+00,LOWER,Krajewski,Philadelphia,LOCAL,9763,Joan,000000000006,9763
+2652,1,Pennsylvania House of Representatives,,2016-03-22 00:00:00+00,PA,759119,#,2015-12-17 00:00:00+00,LOWER,VACANT,,STATE,126618,VACANT,192,123049
+4507,1,United States House of Representatives,Democrat,2019-01-03 00:00:00+00,PA,757323,77613,2015-01-06 00:00:00+00,LOWER,Boyle,,NATIONAL,199159,Brendan,000000000013,6430
+2652,0,Pennsylvania House of Representatives,Democrat,2012-12-01 00:00:00+00,PA,10080,#,2011-01-04 00:00:00+00,LOWER,Gerber,,STATE,19991,Michael,000000000148,7563
+2675,2,United States Senate,Democrat,2011-01-03 00:00:00+00,PA,59,#,2005-01-03 00:00:00+00,UPPER,Specter,,NATIONAL,1524,Arlen,PA,1524
+2652,0,Pennsylvania House of Representatives,Republican,2014-12-01 00:00:00+00,PA,9987,#,2011-01-04 00:00:00+00,LOWER,Culver,,STATE,77542,Lynda,000000000108,6637
+4212,7,Erie City Council,,0001-01-02 00:00:00+00,PA,2086,#,0001-01-01 00:00:00+00,LOWER,Jenkins-Husband,Erie,LOCAL,2672,Rubye,At Large,2672
+2652,1,Pennsylvania House of Representatives,Republican,2018-12-01 00:00:00+00,PA,758929,#,2014-12-01 00:00:00+00,LOWER,Sonney,,STATE,188241,Curtis,4,6333
+2652,0,Pennsylvania House of Representatives,Republican,2014-12-01 00:00:00+00,PA,10065,#,2011-01-04 00:00:00+00,LOWER,Gillen,,STATE,77562,Mark,000000000128,10995
+1547,0,Pittsburgh City Council,,2010-01-01 00:00:00+00,PA,729,#,0001-01-01 00:00:00+00,LOWER,Deasy,Pittsburgh,LOCAL,14414,Daniel,000000000002,14414
+1635,5,Montgomery County Commissioners,,0001-01-02 00:00:00+00,PA,2577,#,0001-01-01 00:00:00+00,LOWER,Matthews,Montgomery,LOCAL,7764,James,At Large,7764
+2652,0,Pennsylvania House of Representatives,Republican,2014-12-01 00:00:00+00,PA,10050,#,2011-01-04 00:00:00+00,LOWER,Metzgar,,STATE,77489,Carl,000000000069,1051
+2652,0,Pennsylvania House of Representatives,Democrat,2014-12-01 00:00:00+00,PA,10026,#,2011-01-04 00:00:00+00,LOWER,Pashinski,,STATE,77555,Eddie,000000000121,648
+4212,7,Erie City Council,Democrat,2018-01-01 00:00:00+00,PA,2086,#,2010-01-04 00:00:00+00,LOWER,Jones,Erie,LOCAL,175229,Curtis,At Large,305
+2652,1,Pennsylvania House of Representatives,Republican,2016-12-01 00:00:00+00,PA,759031,#,2014-12-01 00:00:00+00,LOWER,Payne,,STATE,106911,John,106,10504
+2652,0,Pennsylvania House of Representatives,Democrat,2011-01-06 00:00:00+00,PA,10134,#,2011-01-04 00:00:00+00,LOWER,Grucela,,STATE,789,Richard,000000000137,789
+1628,8,Harrisburg City Council,,2014-05-12 00:00:00+00,PA,2115,#,2014-04-11 00:00:00+00,LOWER,VACANT,Harrisburg,LOCAL,73143,VACANT,At Large,73143
+2652,1,Pennsylvania House of Representatives,Republican,2018-12-01 00:00:00+00,PA,759101,#,2014-12-01 00:00:00+00,LOWER,Rader,,STATE,186718,Jack,176,79990
+2652,1,Pennsylvania House of Representatives,,,PA,758973,#,2017-12-31 00:00:00+00,LOWER,VACANT,,STATE,191279,VACANT,48,191279
+2652,0,Pennsylvania House of Representatives,Democrat,2011-01-06 00:00:00+00,PA,10104,#,2011-01-04 00:00:00+00,LOWER,Solobay,,STATE,12376,Timothy,000000000048,12376
+2652,0,Pennsylvania House of Representatives,Republican,2014-12-01 00:00:00+00,PA,10093,#,2012-12-01 00:00:00+00,LOWER,Mentzer,,STATE,77527,Steven,000000000097,25130
+2652,1,Pennsylvania House of Representatives,Democrat,2018-12-01 00:00:00+00,PA,759066,#,2014-12-01 00:00:00+00,LOWER,Davis,,STATE,186693,Tina,141,18027
+4490,1,Allegheny County Council,Democrat,2020-01-01 00:00:00+00,PA,393467,#,2016-01-01 00:00:00+00,LOWER,Walton,Allegheny,LOCAL,192148,DeWitt,000000000010,121306
+4309,0,Pennsylvania Senate,Democrat,2009-01-06 00:00:00+00,PA,3537,#,0001-01-01 00:00:00+00,UPPER,LaValle,,STATE,12367,Gerald,000000000047,12367
+1542,0,Philadelphia City Council,Democrat,2013-04-01 00:00:00+00,PA,2597,#,2012-01-02 00:00:00+00,LOWER,Johnson,Philadelphia,LOCAL,51711,Kenyatta,000000000002,3857
+4490,1,Allegheny County Council,Democrat,2022-01-01 00:00:00+00,PA,393463,#,2017-02-03 00:00:00+00,LOWER,Catena,Allegheny,LOCAL,192211,Patrick,000000000004,153602
+4309,0,Pennsylvania Senate,Democrat,2009-01-06 00:00:00+00,PA,3568,#,0001-01-01 00:00:00+00,UPPER,Fumo,,STATE,13732,Vincent,000000000001,13732
+2652,0,Pennsylvania House of Representatives,Republican,2014-12-01 00:00:00+00,PA,10100,#,2011-01-04 00:00:00+00,LOWER,Gillespie,,STATE,77448,Keith,000000000047,13691
+4309,0,Pennsylvania Senate,Republican,2014-12-01 00:00:00+00,PA,3503,#,2009-01-06 00:00:00+00,UPPER,White,,STATE,77490,Donald,000000000041,2870
+2652,1,Pennsylvania House of Representatives,Democrat,2018-12-01 00:00:00+00,PA,758950,#,2014-12-01 00:00:00+00,LOWER,Markosek,,STATE,160996,Joseph,25,4945
+2652,0,Pennsylvania House of Representatives,Republican,2009-01-06 00:00:00+00,PA,10163,#,0001-01-01 00:00:00+00,LOWER,Steil,,STATE,7425,David,000000000031,7425
+2652,1,Pennsylvania House of Representatives,Democrat,2018-12-01 00:00:00+00,PA,758926,#,2014-12-01 00:00:00+00,LOWER,Harkins,,STATE,160722,Patrick,1,7949
+2652,1,Pennsylvania House of Representatives,Republican,2016-12-01 00:00:00+00,PA,759081,#,2014-12-01 00:00:00+00,LOWER,Truitt,,STATE,145471,Dan,156,5272
+2652,0,Pennsylvania House of Representatives,Republican,2014-12-01 00:00:00+00,PA,9965,#,2011-01-04 00:00:00+00,LOWER,Benninghoff,,STATE,77608,Kerry,000000000171,8356
+1628,8,Harrisburg City Council,,2010-01-02 00:00:00+00,PA,2115,#,2002-01-01 00:00:00+00,LOWER,Thompson,Harrisburg,LOCAL,170303,Linda,At Large,9153
+2652,1,Pennsylvania House of Representatives,Republican,2018-12-01 00:00:00+00,PA,759036,#,2016-12-01 00:00:00+00,LOWER,Fritz,,STATE,186956,Jonathan,111,134243
+1542,9,Philadelphia City Council,Democrat,2016-01-04 00:00:00+00,PA,2606,#,2012-01-02 00:00:00+00,LOWER,Goode,Philadelphia,LOCAL,123708,W.,At Large,18001
+2652,1,Pennsylvania House of Representatives,Republican,2018-12-01 00:00:00+00,PA,758979,#,2014-12-01 00:00:00+00,LOWER,Evankovich,,STATE,188572,Eli,54,15895
+2652,0,Pennsylvania House of Representatives,Republican,2014-12-01 00:00:00+00,PA,10165,#,2011-01-04 00:00:00+00,LOWER,Dunbar,,STATE,77465,George,000000000056,16064
+2652,1,Pennsylvania House of Representatives,Democrat,2018-12-01 00:00:00+00,PA,759107,#,2014-12-01 00:00:00+00,LOWER,Thomas,,STATE,186858,W. Curtis,181,1001
+4309,1,Pennsylvania Senate,Republican,2020-12-01 00:00:00+00,PA,758902,#,2014-12-01 00:00:00+00,UPPER,Gordner,,STATE,158873,John,27,1206
+2652,1,Pennsylvania House of Representatives,Republican,2018-12-01 00:00:00+00,PA,758953,#,2014-12-01 00:00:00+00,LOWER,Turzai,,STATE,161003,Mike,28,14227
+2652,0,Pennsylvania House of Representatives,Republican,2012-12-01 00:00:00+00,PA,10052,#,2011-01-04 00:00:00+00,LOWER,Evans,,STATE,19981,John,000000000005,15586
+2652,0,Pennsylvania House of Representatives,Republican,2014-12-01 00:00:00+00,PA,10161,#,2011-01-04 00:00:00+00,LOWER,O'Neill,,STATE,77417,Bernard,000000000029,2925
+2652,0,Pennsylvania House of Representatives,Democrat,2014-12-01 00:00:00+00,PA,10106,#,2011-01-04 00:00:00+00,LOWER,Mirabito,,STATE,77513,Rick,000000000083,594
+2652,0,Pennsylvania House of Representatives,Republican,2014-12-01 00:00:00+00,PA,9999,#,2011-01-04 00:00:00+00,LOWER,Lawrence,,STATE,77393,John,000000000013,9406
+2652,0,Pennsylvania House of Representatives,Democrat,2011-01-06 00:00:00+00,PA,9999,#,2011-01-04 00:00:00+00,LOWER,Houghton,,STATE,17679,Tom,000000000013,17679
+2652,1,Pennsylvania House of Representatives,Democrat,2016-12-01 00:00:00+00,PA,758974,#,2014-12-01 00:00:00+00,LOWER,Daley,,STATE,106708,Peter,49,13453
+4211,2,Erie Mayor,Democrat,2018-01-01 00:00:00+00,PA,187,#,2006-01-02 00:00:00+00,EXEC,Sinnott,Erie,LOCAL,175226,Joseph,ERIE,14188
+2652,0,Pennsylvania House of Representatives,Republican,2014-12-01 00:00:00+00,PA,9996,#,2011-01-04 00:00:00+00,LOWER,Hennessey,,STATE,77411,Tim,000000000026,11340
+2652,0,Pennsylvania House of Representatives,Democrat,2014-12-01 00:00:00+00,PA,10139,#,2012-12-01 00:00:00+00,LOWER,Gainey,,STATE,77408,Ed,000000000024,24797
+2652,1,Pennsylvania House of Representatives,Republican,2018-12-01 00:00:00+00,PA,759108,#,2014-12-01 00:00:00+00,LOWER,Tallman,,STATE,187030,Will,193,12466
+4308,5,Pennsylvania Attorney General,Republican,2013-01-15 00:00:00+00,PA,734,#,2011-05-23 00:00:00+00,EXEC,Kelly,,STATE,25796,Linda,PA,5414
+2652,1,Pennsylvania House of Representatives,Republican,2018-12-01 00:00:00+00,PA,759116,#,2014-12-01 00:00:00+00,LOWER,Brown,,STATE,198548,Rosemary,189,9557
+2652,1,Pennsylvania House of Representatives,Democrat,2018-12-01 00:00:00+00,PA,759058,#,2018-01-02 00:00:00+00,LOWER,McNeill,,STATE,199506,Jeanne,133,188430
+2652,1,Pennsylvania House of Representatives,Republican,2016-12-01 00:00:00+00,PA,759090,#,2014-12-01 00:00:00+00,LOWER,Adolph,,STATE,107025,William,165,16341
+2652,0,Pennsylvania House of Representatives,Republican,2014-12-01 00:00:00+00,PA,10105,197548,2011-01-04 00:00:00+00,LOWER,Scavello,,STATE,77598,Mario,000000000176,16195
+2652,1,Pennsylvania House of Representatives,Republican,2018-12-01 00:00:00+00,PA,759075,#,2016-12-01 00:00:00+00,LOWER,Corr,,STATE,186932,Michael,150,134286
+4309,1,Pennsylvania Senate,Democrat,2018-12-01 00:00:00+00,PA,758883,#,2014-12-01 00:00:00+00,UPPER,Williams,,STATE,186455,Anthony,8,4207
+4507,0,United States House of Representatives,Democrat,2011-01-03 00:00:00+00,PA,1732,#,2009-01-03 00:00:00+00,LOWER,Carney,,NATIONAL,2966,Christopher,000000000010,2966
+4309,1,Pennsylvania Senate,Republican,2018-12-01 00:00:00+00,PA,758925,77397,2014-12-01 00:00:00+00,UPPER,Brooks,,STATE,179140,Michele,50,2481
+2652,0,Pennsylvania House of Representatives,Republican,2014-12-01 00:00:00+00,PA,10006,#,2011-01-04 00:00:00+00,LOWER,Delozier,,STATE,77518,Sheryl,000000000088,16964
+1547,0,Pittsburgh City Council,,0001-01-02 00:00:00+00,PA,1276,#,0001-01-01 00:00:00+00,LOWER,Motznik,Pittsburgh,LOCAL,4490,James,000000000004,4490
+4308,5,Pennsylvania Attorney General,Democrat,2019-01-15 00:00:00+00,PA,734,150480,2017-01-17 00:00:00+00,EXEC,Shapiro,,STATE,187155,Josh,PA,16954
+1547,0,Pittsburgh City Council,Democrat,2013-06-17 00:00:00+00,PA,1793,#,2012-01-02 00:00:00+00,LOWER,Dowd,Pittsburgh,LOCAL,57206,Patrick,000000000007,801
+2549,5,Montgomery County District Attorney,Republican,2020-01-06 00:00:00+00,PA,2577,#,2016-01-04 00:00:00+00,LOWER,Steele,Montgomery,LOCAL,178204,Kevin,At Large,121349
+2652,0,Pennsylvania House of Representatives,Democrat,2012-12-01 00:00:00+00,PA,10142,#,2012-05-08 00:00:00+00,LOWER,Schmotzer,,STATE,19838,Martin,000000000022,19129
+2652,0,Pennsylvania House of Representatives,Republican,2014-12-01 00:00:00+00,PA,10048,#,2011-01-04 00:00:00+00,LOWER,Baker,,STATE,77488,Matthew,000000000068,8216
+2544,5,Chester County Controller,Republican,2018-01-01 00:00:00+00,PA,2582,#,2014-01-01 00:00:00+00,LOWER,MacQueen,Chester,LOCAL,168932,Norman,At Large,69085
+1547,0,Pittsburgh City Council,,2010-01-01 00:00:00+00,PA,1670,#,0001-01-01 00:00:00+00,LOWER,Payne,Pittsburgh,LOCAL,12427,Tonya,000000000006,12427
+3711,1,Allentown Mayor,Democrat,2018-03-09 00:00:00+00,PA,859060,#,2014-01-06 00:00:00+00,EXEC,Pawlowski,Allentown,LOCAL,194007,Ed,ALLENTOWN,171547
+2652,1,Pennsylvania House of Representatives,Republican,2018-12-01 00:00:00+00,PA,759033,#,2014-12-01 00:00:00+00,LOWER,Culver,,STATE,185755,Lynda,108,6637
+2652,1,Pennsylvania House of Representatives,,2016-07-25 00:00:00+00,PA,759093,#,2016-05-05 00:00:00+00,LOWER,VACANT,,STATE,130760,VACANT,168,128555
+4309,1,Pennsylvania Senate,Republican,2020-12-01 00:00:00+00,PA,758906,77522,2016-12-01 00:00:00+00,UPPER,Regan,,STATE,186269,Mike,31,25118
+4490,1,Allegheny County Council,Republican,2018-01-01 00:00:00+00,PA,393457,#,2014-01-01 00:00:00+00,LOWER,Kress,Allegheny,LOCAL,178495,Edward,000000000003,65413
+1542,1,Philadelphia City Council,Democrat,2020-01-06 00:00:00+00,PA,758004,#,2013-04-01 00:00:00+00,LOWER,Blackwell,Philadelphia,LOCAL,179829,Jannie,3,12294
+505,5,Pennsylvania State Treasurer,,2017-01-17 00:00:00+00,PA,734,#,2015-06-26 00:00:00+00,EXEC,Reese,,STATE,172484,Timothy,PA,132221
+4507,0,United States House of Representatives,Democrat,2011-01-03 00:00:00+00,PA,1736,#,2009-01-03 00:00:00+00,LOWER,Murphy,,NATIONAL,7454,Patrick,000000000008,7454
+2652,0,Pennsylvania House of Representatives,Republican,2012-12-01 00:00:00+00,PA,10029,#,2011-01-04 00:00:00+00,LOWER,Geist,,STATE,19989,Richard,000000000079,3692
+2652,0,Pennsylvania House of Representatives,Republican,0001-01-02 00:00:00+00,PA,10130,#,2011-01-04 00:00:00+00,LOWER,O'Brien,,STATE,11798,Dennis,000000000169,11798
+4212,7,Erie City Council,Democrat,2022-01-03 00:00:00+00,PA,2086,#,2010-01-04 00:00:00+00,LOWER,Winarski,Erie,LOCAL,192238,James,At Large,2254
+4507,0,United States House of Representatives,Republican,2013-01-03 00:00:00+00,PA,1715,#,2011-01-03 00:00:00+00,LOWER,Meehan,,NATIONAL,12095,Patrick,000000000007,12095
+1542,9,Philadelphia City Council,Republican,2020-01-06 00:00:00+00,PA,2606,#,2016-01-04 00:00:00+00,LOWER,Taubenberger,Philadelphia,LOCAL,179844,Al,At Large,121376
+2652,0,Pennsylvania House of Representatives,Democrat,2014-12-01 00:00:00+00,PA,10002,#,2012-12-01 00:00:00+00,LOWER,McNeill,,STATE,77567,Daniel,000000000133,24678
+2652,1,Pennsylvania House of Representatives,Democrat,2018-12-01 00:00:00+00,PA,759100,#,2014-12-01 00:00:00+00,LOWER,O'Brien,,STATE,188410,Michael,175,13757
+3711,1,Allentown Mayor,,2018-03-30 00:00:00+00,PA,859060,195739,2018-03-09 00:00:00+00,EXEC,MacLean,Allentown,LOCAL,195737,Roger,ALLENTOWN,171542
+1628,8,Harrisburg City Council,Democrat,2022-01-01 00:00:00+00,PA,2115,#,2010-01-01 00:00:00+00,LOWER,Williams,Harrisburg,LOCAL,192070,Wanda,At Large,17447
+2652,1,Pennsylvania House of Representatives,Republican,2018-12-01 00:00:00+00,PA,758985,#,2014-12-01 00:00:00+00,LOWER,Pyle,,STATE,161096,Jeffrey,60,12628
+2652,1,Pennsylvania House of Representatives,Republican,2018-12-01 00:00:00+00,PA,759085,#,2014-12-01 00:00:00+00,LOWER,Barrar,,STATE,186855,Stephen,160,10481
+2652,1,Pennsylvania House of Representatives,Republican,2018-12-01 00:00:00+00,PA,759111,#,2016-12-01 00:00:00+00,LOWER,Mako,,STATE,186946,Zachary,183,134323
+4461,5,Pennsylvania Governor,Republican,2015-01-20 00:00:00+00,PA,734,#,2011-01-04 00:00:00+00,EXEC,Corbett,,STATE,166275,Tom,PA,11182
+2652,1,Pennsylvania House of Representatives,Democrat,2017-09-08 00:00:00+00,PA,759058,#,2014-12-01 00:00:00+00,LOWER,McNeill,,STATE,179257,Daniel,133,24678
+1547,0,Pittsburgh City Council,,2014-01-06 00:00:00+00,PA,1888,191658,2010-01-04 00:00:00+00,LOWER,Peduto,Pittsburgh,LOCAL,66955,William,000000000008,4761
+4212,7,Erie City Council,Democrat,2022-01-03 00:00:00+00,PA,2086,65817,2014-01-06 00:00:00+00,LOWER,Kwitowski,Erie,LOCAL,192235,Casimir,At Large,16406
+1628,8,Harrisburg City Council,Democrat,2014-01-01 00:00:00+00,PA,2115,#,2010-01-01 00:00:00+00,LOWER,Summerford,Harrisburg,LOCAL,66113,Kelly,At Large,8305
+2652,1,Pennsylvania House of Representatives,Democrat,2016-12-01 00:00:00+00,PA,758983,#,2014-12-01 00:00:00+00,LOWER,Harhai,,STATE,106829,R. Ted,58,4677
+2652,1,Pennsylvania House of Representatives,Republican,2018-12-01 00:00:00+00,PA,758987,#,2014-12-01 00:00:00+00,LOWER,Reed,,STATE,161098,Dave,62,8181
+2652,0,Pennsylvania House of Representatives,Democrat,2014-12-01 00:00:00+00,PA,10136,#,2011-01-04 00:00:00+00,LOWER,Barbin,,STATE,77493,Bryan,000000000071,7769
+1628,8,Harrisburg City Council,Democrat,2012-12-01 00:00:00+00,PA,2115,#,2010-01-01 00:00:00+00,LOWER,Kim,Harrisburg,LOCAL,36705,Patty,At Large,7512
+2652,0,Pennsylvania House of Representatives,Democrat,2014-12-01 00:00:00+00,PA,9972,#,2011-01-04 00:00:00+00,LOWER,Waters,,STATE,77583,Ronald,000000000191,14615
+2550,8,Harrisburg City Controller,Democrat,2022-01-01 00:00:00+00,PA,2115,#,2014-01-06 00:00:00+00,LOWER,DeBrunner,Harrisburg,LOCAL,192163,Charles,At Large,65404
+2652,1,Pennsylvania House of Representatives,Republican,2018-12-01 00:00:00+00,PA,758998,#,2014-12-01 00:00:00+00,LOWER,Sankey,,STATE,186861,Thomas,73,25055
+2652,1,Pennsylvania House of Representatives,Democrat,2018-12-01 00:00:00+00,PA,758947,#,2014-12-01 00:00:00+00,LOWER,Schweyer,,STATE,187076,Peter,22,79757
+4309,0,Pennsylvania Senate,Democrat,2009-01-06 00:00:00+00,PA,3551,#,0001-01-01 00:00:00+00,UPPER,Williams,,STATE,7179,Constance ,000000000017,7179
+1635,5,Montgomery County Commissioners,Democrat,2020-01-06 00:00:00+00,PA,2577,#,2016-01-04 00:00:00+00,LOWER,Arkoosh,Montgomery,LOCAL,184313,Valerie,At Large,121346
+4212,7,Erie City Council,Democrat,2018-01-01 00:00:00+00,PA,2086,#,2010-01-04 00:00:00+00,LOWER,Brennan,Erie,LOCAL,175260,David,At Large,65395
+2652,0,Pennsylvania House of Representatives,Democrat,2014-12-01 00:00:00+00,PA,10116,#,2011-01-04 00:00:00+00,LOWER,Bishop,,STATE,77582,Louise,000000000192,8685
+1635,5,Montgomery County Commissioners,Republican,2020-01-06 00:00:00+00,PA,2577,#,2016-01-04 00:00:00+00,LOWER,Gale,Montgomery,LOCAL,187252,Joseph,At Large,121347
+1542,9,Philadelphia City Council,Republican,2020-01-06 00:00:00+00,PA,2606,#,2012-01-02 00:00:00+00,LOWER,Oh,Philadelphia,LOCAL,179842,David,At Large,13005
+2652,0,Pennsylvania House of Representatives,Democrat,2014-12-01 00:00:00+00,PA,10037,#,2011-01-04 00:00:00+00,LOWER,Gibbons,,STATE,77390,Jaret,000000000010,1276
+4212,7,Erie City Council,Democrat,2012-01-01 00:00:00+00,PA,2086,#,0001-01-01 00:00:00+00,LOWER,Cappabianca,Erie,LOCAL,6694,Patrick,At Large,6694
+2652,0,Pennsylvania House of Representatives,Republican,2014-12-01 00:00:00+00,PA,10019,#,2011-01-04 00:00:00+00,LOWER,Sonney,,STATE,77384,Curtis,000000000004,6333
+2652,0,Pennsylvania House of Representatives,Democrat,2014-12-01 00:00:00+00,PA,10129,#,2011-01-04 00:00:00+00,LOWER,Boyle,,STATE,77606,Kevin,000000000172,17221
+2652,1,Pennsylvania House of Representatives,Democrat,2018-12-01 00:00:00+00,PA,759046,#,2014-12-01 00:00:00+00,LOWER,Pashinski,,STATE,160776,Eddie,121,648
+1547,1,Pittsburgh City Council,Democrat,2020-01-06 00:00:00+00,PA,758125,#,2014-01-06 00:00:00+00,LOWER,Kraus,Pittsburgh,LOCAL,191755,Bruce,3,11257
+2652,0,Pennsylvania House of Representatives,Republican,2014-12-01 00:00:00+00,PA,10012,#,2011-01-04 00:00:00+00,LOWER,Christiana,,STATE,77395,James,000000000015,13584
+2652,0,Pennsylvania House of Representatives,Democrat,2011-01-06 00:00:00+00,PA,10114,#,2011-01-04 00:00:00+00,LOWER,Oliver,,STATE,16321,Frank,000000000195,16321
+1547,0,Pittsburgh City Council,Democrat,2012-01-01 00:00:00+00,PA,1502,#,0001-01-01 00:00:00+00,LOWER,Shields,Pittsburgh,LOCAL,15672,Doug,000000000005,15672
+4309,0,Pennsylvania Senate,Democrat,2014-12-01 00:00:00+00,PA,3557,#,2009-01-06 00:00:00+00,UPPER,Kitchen,,STATE,77404,Shirley,000000000003,11226
+2652,1,Pennsylvania House of Representatives,Democrat,2018-12-01 00:00:00+00,PA,759020,#,2016-12-01 00:00:00+00,LOWER,Hill-Evans,,STATE,185613,Carol,95,134479
+1542,1,Philadelphia City Council,Republican,2020-01-06 00:00:00+00,PA,758009,#,2013-04-01 00:00:00+00,LOWER,O'Neill,Philadelphia,LOCAL,179827,Brian,10,15612
+2652,1,Pennsylvania House of Representatives,Republican,2018-12-01 00:00:00+00,PA,759015,#,2014-12-01 00:00:00+00,LOWER,Schemel,,STATE,198872,Paul,90,80467
+2652,0,Pennsylvania House of Representatives,Republican,2014-12-01 00:00:00+00,PA,10011,#,2011-01-04 00:00:00+00,LOWER,Marshall,,STATE,77394,Jim,000000000014,15980
+2652,0,Pennsylvania House of Representatives,Democrat,2011-01-06 00:00:00+00,PA,10086,#,2011-01-04 00:00:00+00,LOWER,Manderino,,STATE,16097,Kathy,000000000194,16097
+2652,0,Pennsylvania House of Representatives,Republican,2009-01-06 00:00:00+00,PA,9981,#,0001-01-01 00:00:00+00,LOWER,Stairs,,STATE,8311,Jess,000000000059,8311
+2652,1,Pennsylvania House of Representatives,Republican,2018-12-01 00:00:00+00,PA,758984,#,2014-12-01 00:00:00+00,LOWER,Reese,,STATE,161094,Mike,59,9061
+2652,1,Pennsylvania House of Representatives,Republican,2016-05-05 00:00:00+00,PA,759093,#,2014-12-01 00:00:00+00,LOWER,Killion,,STATE,128556,Thomas,168,9198
+2652,0,Pennsylvania House of Representatives,Republican,2009-01-06 00:00:00+00,PA,10050,#,0001-01-01 00:00:00+00,LOWER,Bastian,,STATE,4758,Bob,000000000069,4758
+1542,0,Philadelphia City Council,Democrat,2013-04-01 00:00:00+00,PA,2603,#,2012-01-02 00:00:00+00,LOWER,Squilla,Philadelphia,LOCAL,51709,Mark,000000000001,15929
+4309,0,Pennsylvania Senate,,2012-08-31 00:00:00+00,PA,3511,#,2012-05-18 00:00:00+00,UPPER,VACANT,,STATE,20419,VACANT,000000000040,19355
+2652,1,Pennsylvania House of Representatives,Republican,2018-12-01 00:00:00+00,PA,759094,#,2014-12-01 00:00:00+00,LOWER,Klunk,,STATE,197900,Kate,169,80132
+4308,5,Pennsylvania Attorney General,,2017-01-17 00:00:00+00,PA,734,#,2016-08-30 00:00:00+00,EXEC,Beemer,,STATE,132223,Bruce,PA,132223
+2652,0,Pennsylvania House of Representatives,Republican,2009-01-06 00:00:00+00,PA,10060,#,0001-01-01 00:00:00+00,LOWER,Mantz,,STATE,3552,Carl,000000000187,3552
+2652,0,Pennsylvania House of Representatives,Republican,2009-01-06 00:00:00+00,PA,10006,#,0001-01-01 00:00:00+00,LOWER,Nailor,,STATE,7628,Jerry,000000000088,7628
+2652,0,Pennsylvania House of Representatives,Democrat,2014-12-01 00:00:00+00,PA,10080,#,2012-12-01 00:00:00+00,LOWER,Daley,,STATE,77616,Mary Jo,000000000148,24699
+2652,0,Pennsylvania House of Representatives,Democrat,2014-12-01 00:00:00+00,PA,10149,#,2013-06-04 00:00:00+00,LOWER,Miller,,STATE,77439,Daniel,000000000042,55378
+2652,0,Pennsylvania House of Representatives,Democrat,2012-12-01 00:00:00+00,PA,10034,#,2011-01-04 00:00:00+00,LOWER,Staback,,STATE,20085,Edward,000000000115,88
+2652,0,Pennsylvania House of Representatives,Republican,2014-12-01 00:00:00+00,PA,10045,#,2011-01-04 00:00:00+00,LOWER,Tallman,,STATE,77581,Will,000000000193,12466
+2652,0,Pennsylvania House of Representatives,,2012-05-07 00:00:00+00,PA,10130,#,0001-01-01 00:00:00+00,LOWER,VACANT,,STATE,6418,VACANT,000000000169,6418
+2652,0,Pennsylvania House of Representatives,Democrat,2014-12-01 00:00:00+00,PA,10120,#,2011-01-04 00:00:00+00,LOWER,Cruz,,STATE,77594,Angel,000000000180,6018
+2652,1,Pennsylvania House of Representatives,Republican,2018-12-01 00:00:00+00,PA,758943,#,2014-12-01 00:00:00+00,LOWER,DiGirolamo,,STATE,188234,Gene,18,18018
+2652,0,Pennsylvania House of Representatives,Republican,2014-12-01 00:00:00+00,PA,10103,#,2011-01-04 00:00:00+00,LOWER,Saylor,,STATE,77524,Stanley,000000000094,15382
+2652,1,Pennsylvania House of Representatives,Democrat,2018-12-01 00:00:00+00,PA,759074,#,2014-12-01 00:00:00+00,LOWER,Briggs,,STATE,163301,Tim,149,11654
+4308,5,Pennsylvania Attorney General,,2016-08-17 00:00:00+00,PA,734,#,2016-08-16 00:00:00+00,EXEC,VACANT,,STATE,150481,VACANT,PA,130772
+4309,0,Pennsylvania Senate,Democrat,2014-12-01 00:00:00+00,PA,3529,#,2012-12-01 00:00:00+00,UPPER,Wiley,,STATE,77505,Sean,000000000049,24568
+2652,0,Pennsylvania House of Representatives,Democrat,2014-12-01 00:00:00+00,PA,10015,#,2011-01-04 00:00:00+00,LOWER,Longietti,,STATE,77387,Mark,000000000007,14584
+2652,1,Pennsylvania House of Representatives,Democrat,2018-12-01 00:00:00+00,PA,759105,#,2014-12-01 00:00:00+00,LOWER,Cruz,,STATE,160919,Angel,180,6018
+2652,1,Pennsylvania House of Representatives,Democrat,2016-11-14 00:00:00+00,PA,759128,#,2014-12-01 00:00:00+00,LOWER,Evans,,STATE,134033,Dwight,203,8804
+1627,7,Delaware County Council,Republican,2020-01-01 00:00:00+00,PA,2580,#,2015-01-07 00:00:00+00,LOWER,Culp,Delaware,LOCAL,191928,Michael,At Large,121337
+2652,0,Pennsylvania House of Representatives,Democrat,2011-01-04 00:00:00+00,PA,10022,#,2011-01-04 00:00:00+00,LOWER,Yudichak,,STATE,6393,John,000000000119,6393
+2652,1,Pennsylvania House of Representatives,Democrat,2018-12-01 00:00:00+00,PA,759001,#,2014-12-01 00:00:00+00,LOWER,Hanna,,STATE,188248,Michael,76,2214
+4309,0,Pennsylvania Senate,Republican,2012-12-01 00:00:00+00,PA,3504,#,2009-01-06 00:00:00+00,UPPER,White,,STATE,21576,Mary Jo,000000000021,5819
+2652,0,Pennsylvania House of Representatives,Republican,2014-12-01 00:00:00+00,PA,10102,#,2011-01-04 00:00:00+00,LOWER,Miller,,STATE,77523,Ron,000000000093,17762
+2652,0,Pennsylvania House of Representatives,Republican,2011-01-06 00:00:00+00,PA,9988,#,2011-01-04 00:00:00+00,LOWER,Fairchild,,STATE,6754,Russell,000000000085,6754
+4507,0,United States House of Representatives,Democrat,2013-01-03 00:00:00+00,PA,1741,#,2011-01-03 00:00:00+00,LOWER,Doyle,,NATIONAL,7500,Michael,000000000014,7500
+2652,1,Pennsylvania House of Representatives,Republican,2018-12-01 00:00:00+00,PA,758933,#,2014-12-01 00:00:00+00,LOWER,Nesbit,,STATE,185510,Tedd,8,79733
+4309,0,Pennsylvania Senate,Republican,2014-12-01 00:00:00+00,PA,3523,#,2009-01-06 00:00:00+00,UPPER,Vance,,STATE,77468,Patricia,000000000031,18073
+2652,1,Pennsylvania House of Representatives,Republican,2018-12-01 00:00:00+00,PA,758988,#,2014-12-01 00:00:00+00,LOWER,Oberlander,,STATE,161099,Donna,63,13921
+4507,0,United States House of Representatives,Republican,2013-01-03 00:00:00+00,PA,1723,#,2011-01-03 00:00:00+00,LOWER,Kelly,,NATIONAL,15181,Mike,000000000003,15181
+1542,0,Philadelphia City Council,Republican,2013-04-01 00:00:00+00,PA,2589,#,2012-01-02 00:00:00+00,LOWER,O'Neill,Philadelphia,LOCAL,51727,Brian,000000000010,15612
+4395,9,Philadelphia District Attorney,,2017-07-24 00:00:00+00,PA,2606,#,2017-06-29 00:00:00+00,LOWER,VACANT,Philadelphia,LOCAL,175313,VACANT,At Large,171753
+2652,0,Pennsylvania House of Representatives,Republican,2009-01-06 00:00:00+00,PA,10045,#,0001-01-01 00:00:00+00,LOWER,Nickol,,STATE,13609,Steven,000000000193,13609
+4309,0,Pennsylvania Senate,Republican,2014-12-01 00:00:00+00,PA,3549,#,2011-01-04 00:00:00+00,UPPER,Rafferty,,STATE,77496,John,000000000044,12139
+2652,0,Pennsylvania House of Representatives,Republican,2014-12-01 00:00:00+00,PA,10098,#,2011-01-04 00:00:00+00,LOWER,Cutler,,STATE,77531,Bryan,000000000100,2788
+2652,0,Pennsylvania House of Representatives,Democrat,2014-12-01 00:00:00+00,PA,10004,#,2012-12-01 00:00:00+00,LOWER,Schlossberg,,STATE,77566,Mike,000000000132,24677
+4309,1,Pennsylvania Senate,Republican,2020-12-01 00:00:00+00,PA,758914,#,2014-12-01 00:00:00+00,UPPER,Ward,,STATE,186823,Kim,39,2019
+4212,7,Erie City Council,Democrat,2013-01-01 00:00:00+00,PA,2086,#,0001-01-01 00:00:00+00,LOWER,Schember,Erie,LOCAL,67203,Joseph,At Large,7352
+2652,1,Pennsylvania House of Representatives,Democrat,2016-01-04 00:00:00+00,PA,759125,#,2014-12-01 00:00:00+00,LOWER,Parker,,STATE,121419,Cherelle,200,4513
+2652,1,Pennsylvania House of Representatives,Republican,2018-12-01 00:00:00+00,PA,759083,#,2016-12-01 00:00:00+00,LOWER,Roe,,STATE,197916,Eric,158,134294
+1542,1,Philadelphia City Council,Democrat,2020-01-06 00:00:00+00,PA,758011,#,2013-04-01 00:00:00+00,LOWER,Quiñones-Sánchez,Philadelphia,LOCAL,187426,Maria,7,12163
+4309,0,Pennsylvania Senate,Republican,2014-12-01 00:00:00+00,PA,3504,#,2012-12-01 00:00:00+00,UPPER,Hutchinson,,STATE,77447,Scott,000000000021,24553
+2652,1,Pennsylvania House of Representatives,Democrat,2018-12-01 00:00:00+00,PA,758967,#,2014-12-01 00:00:00+00,LOWER,Miller,,STATE,199490,Daniel,42,55378
+2652,0,Pennsylvania House of Representatives,Republican,2014-12-01 00:00:00+00,PA,10070,#,2011-01-04 00:00:00+00,LOWER,Payne,,STATE,77540,John,000000000106,10504
+2652,1,Pennsylvania House of Representatives,,2016-03-22 00:00:00+00,PA,759125,#,2016-01-04 00:00:00+00,LOWER,VACANT,,STATE,126614,VACANT,200,121418
+4309,0,Pennsylvania Senate,Democrat,2014-12-01 00:00:00+00,PA,3521,#,2009-01-06 00:00:00+00,UPPER,Dinniman,,STATE,77443,Andrew,000000000019,3735
+4507,0,United States House of Representatives,Democrat,2013-01-03 00:00:00+00,PA,1755,#,2011-01-03 00:00:00+00,LOWER,Brady,,NATIONAL,19857,Robert,000000000001,2244
+4309,0,Pennsylvania Senate,Republican,2014-12-01 00:00:00+00,PA,3512,#,2011-01-04 00:00:00+00,UPPER,Browne,,STATE,77435,Patrick,000000000016,14162
+4490,1,Allegheny County Council,,2017-02-02 00:00:00+00,PA,393463,#,2016-12-31 00:00:00+00,LOWER,VACANT,Allegheny,LOCAL,153595,VACANT,000000000004,144962
+1547,1,Pittsburgh City Council,,2018-04-05 00:00:00+00,PA,758129,#,2018-01-10 00:00:00+00,LOWER,VACANT,Pittsburgh,LOCAL,194371,VACANT,8,191274
+4507,1,United States House of Representatives,,,PA,757317,#,2018-04-27 00:00:00+00,LOWER,VACANT,,NATIONAL,197925,VACANT,000000000007,197925
+2652,0,Pennsylvania House of Representatives,Democrat,2014-12-01 00:00:00+00,PA,9963,#,2011-01-04 00:00:00+00,LOWER,Hanna,,STATE,77503,Michael,000000000076,2214
+4507,1,United States House of Representatives,Republican,2015-01-06 00:00:00+00,PA,757316,#,2013-01-03 00:00:00+00,LOWER,Gerlach,,NATIONAL,92929,Jim,000000000006,6827
+2548,5,Montgomery County Controller,Republican,2016-01-04 00:00:00+00,PA,2577,#,2012-01-03 00:00:00+00,LOWER,Greenleaf,Montgomery,LOCAL,116866,Stewart,At Large,18
+2652,1,Pennsylvania House of Representatives,Democrat,2018-12-01 00:00:00+00,PA,758961,#,2014-12-01 00:00:00+00,LOWER,Readshaw,,STATE,163417,Harry,36,15925
+1542,0,Philadelphia City Council,Democrat,2013-04-01 00:00:00+00,PA,2595,#,2012-01-02 00:00:00+00,LOWER,Henon,Philadelphia,LOCAL,51719,Bobby,000000000006,17787
+2652,0,Pennsylvania House of Representatives,Republican,2014-12-01 00:00:00+00,PA,10160,#,2011-01-04 00:00:00+00,LOWER,Petri,,STATE,77596,Scott,000000000178,6086
+1635,5,Montgomery County Commissioners,,2017-01-23 00:00:00+00,PA,2577,#,2017-01-17 00:00:00+00,LOWER,VACANT,Montgomery,LOCAL,150504,VACANT,At Large,150501
+1629,5,Bucks County Commissioners,,2012-01-01 00:00:00+00,PA,2575,#,2008-01-01 00:00:00+00,LOWER,Cawley,Bucks,LOCAL,10960,James,At Large,10960
+4490,1,Allegheny County Council,Republican,2020-01-01 00:00:00+00,PA,393464,#,2014-01-01 00:00:00+00,LOWER,Means,Allegheny,LOCAL,192143,Sue,000000000005,65421
+4309,0,Pennsylvania Senate,Republican,2014-12-01 00:00:00+00,PA,3569,#,2009-01-06 00:00:00+00,UPPER,Pileggi,,STATE,77419,Dominic,000000000009,14294
+4308,5,Pennsylvania Attorney General,Democrat,2016-08-16 00:00:00+00,PA,734,#,2013-01-15 00:00:00+00,EXEC,Kane,,STATE,130773,Kathleen,PA,25795
+4490,1,Allegheny County Council,Democrat,2015-05-06 00:00:00+00,PA,393465,#,2012-01-02 00:00:00+00,LOWER,Danko,Allegheny,LOCAL,109751,Barbara,000000000011,653
+2652,1,Pennsylvania House of Representatives,Democrat,2018-12-01 00:00:00+00,PA,759044,#,2014-12-01 00:00:00+00,LOWER,Mullery,,STATE,186852,Gerald,119,10475
+4309,0,Pennsylvania Senate,Republican,2014-12-01 00:00:00+00,PA,3515,#,2011-01-04 00:00:00+00,UPPER,Folmer,,STATE,77504,Mike,000000000048,7156
+2652,1,Pennsylvania House of Representatives,Democrat,2018-12-01 00:00:00+00,PA,759039,#,2014-12-01 00:00:00+00,LOWER,Kavulich,,STATE,188216,Sid,114,17377
+4507,0,United States House of Representatives,Republican,2013-01-03 00:00:00+00,PA,1717,#,2011-01-03 00:00:00+00,LOWER,Platts,,NATIONAL,1729,Todd,000000000019,1729
+4309,0,Pennsylvania Senate,Republican,2014-12-01 00:00:00+00,PA,3556,#,2011-01-04 00:00:00+00,UPPER,Eichelberger,,STATE,77466,John,000000000030,17105
+2652,1,Pennsylvania House of Representatives,Republican,2018-12-01 00:00:00+00,PA,759076,#,2014-12-01 00:00:00+00,LOWER,Stephens,,STATE,188175,Todd,151,9217
+1547,1,Pittsburgh City Council,Democrat,2022-01-03 00:00:00+00,PA,758126,#,2014-01-06 00:00:00+00,LOWER,Kail-Smith,Pittsburgh,LOCAL,191753,Theresa,2,13215
+2546,5,Bucks County Controller,,2016-07-27 00:00:00+00,PA,2575,#,2015-03-01 00:00:00+00,LOWER,VACANT,Bucks,LOCAL,135460,VACANT,At Large,132406
+2652,1,Pennsylvania House of Representatives,Republican,2018-12-01 00:00:00+00,PA,759056,#,2014-12-01 00:00:00+00,LOWER,Simmons,,STATE,186853,Justin,131,1695
+2652,0,Pennsylvania House of Representatives,Republican,2014-12-01 00:00:00+00,PA,10062,#,2012-05-08 00:00:00+00,LOWER,Mackenzie,,STATE,77568,Ryan,000000000134,19130
+2652,1,Pennsylvania House of Representatives,Republican,2018-12-01 00:00:00+00,PA,758939,#,2014-12-01 00:00:00+00,LOWER,Marshall,,STATE,187029,Jim,14,15980
+4212,7,Erie City Council,,0001-01-02 00:00:00+00,PA,2086,#,0001-01-01 00:00:00+00,LOWER,Thompson,Erie,LOCAL,14429,James,At Large,14429
+2652,0,Pennsylvania House of Representatives,Republican,2014-12-01 00:00:00+00,PA,10003,#,2011-01-04 00:00:00+00,LOWER,Simmons,,STATE,77565,Justin,000000000131,1695
+2652,1,Pennsylvania House of Representatives,Democrat,2018-12-01 00:00:00+00,PA,758927,#,2014-12-01 00:00:00+00,LOWER,Fabrizio,,STATE,160964,Florindo,2,6753
+4309,1,Pennsylvania Senate,Republican,2018-12-01 00:00:00+00,PA,758903,#,2014-12-01 00:00:00+00,UPPER,Wagner,,STATE,158958,Scott,28,72198
+2652,0,Pennsylvania House of Representatives,Republican,2014-12-01 00:00:00+00,PA,10071,#,2011-01-04 00:00:00+00,LOWER,Millard,,STATE,77543,David,000000000109,16358
+2652,0,Pennsylvania House of Representatives,Republican,2014-12-01 00:00:00+00,PA,10060,#,2011-01-04 00:00:00+00,LOWER,Day,,STATE,77587,Gary,000000000187,16025
+4309,1,Pennsylvania Senate,Republican,2018-12-01 00:00:00+00,PA,758895,#,2014-12-01 00:00:00+00,UPPER,Baker,,STATE,188231,Lisa,20,11002
+793,7,Delaware County Controller,,2022-01-01 00:00:00+00,PA,2580,#,2018-01-01 00:00:00+00,EXEC,Phillips,Delaware,LOCAL,197089,Joanne,At Large,183195
+2652,0,Pennsylvania House of Representatives,Republican,2014-12-01 00:00:00+00,PA,10059,#,2011-01-04 00:00:00+00,LOWER,Knowles,,STATE,77558,Jerry,000000000124,14977
+1542,9,Philadelphia City Council,Democrat,2014-02-18 00:00:00+00,PA,2606,#,2012-01-02 00:00:00+00,LOWER,Green,Philadelphia,LOCAL,70077,Bill,At Large,1386
+1057,7,Delaware County District Attorney,,0001-01-02 00:00:00+00,PA,2580,#,0001-01-01 00:00:00+00,EXEC,Green,Delaware,LOCAL,3325,G. Michael,At Large,3325
+4309,1,Pennsylvania Senate,Democrat,2018-12-01 00:00:00+00,PA,758877,#,2014-12-01 00:00:00+00,UPPER,Tartaglione,,STATE,187017,Christine,2,5388
+2652,0,Pennsylvania House of Representatives,Democrat,2014-12-01 00:00:00+00,PA,10151,#,2011-01-04 00:00:00+00,LOWER,Gergely,,STATE,77426,Marc,000000000035,7555
+4490,1,Allegheny County Council,Democrat,2018-01-01 00:00:00+00,PA,393468,#,2012-01-01 00:00:00+00,LOWER,Ellenbogen,Allegheny,LOCAL,188868,James,000000000012,4941
+4507,1,United States House of Representatives,Republican,2019-01-03 00:00:00+00,PA,757313,#,2013-01-03 00:00:00+00,LOWER,Kelly,,NATIONAL,172087,George,000000000003,15181
+4309,1,Pennsylvania Senate,Republican,2018-12-01 00:00:00+00,PA,758919,#,2014-12-01 00:00:00+00,UPPER,Rafferty,,STATE,158918,John,44,12139
+1547,0,Pittsburgh City Council,,2014-01-06 00:00:00+00,PA,1947,#,2012-01-02 00:00:00+00,LOWER,Burgess,Pittsburgh,LOCAL,66982,Ricky,000000000009,5732
+2652,1,Pennsylvania House of Representatives,Republican,2018-12-01 00:00:00+00,PA,759031,#,2016-12-01 00:00:00+00,LOWER,Mehaffie,,STATE,185609,Thomas,106,134238
+4507,1,United States House of Representatives,,,PA,757325,#,2018-05-12 00:00:00+00,LOWER,VACANT,,NATIONAL,200088,VACANT,000000000015,200086
+2652,1,Pennsylvania House of Representatives,Democrat,2018-12-01 00:00:00+00,PA,759098,#,2014-12-01 00:00:00+00,LOWER,Driscoll,,STATE,175647,Michael,173,79985
+2652,1,Pennsylvania House of Representatives,Democrat,2017-01-03 00:00:00+00,PA,759122,#,2014-12-01 00:00:00+00,LOWER,Acosta,,STATE,145515,Leslie,197,80012
+2652,1,Pennsylvania House of Representatives,Democrat,2018-12-01 00:00:00+00,PA,759119,#,2016-12-01 00:00:00+00,LOWER,Cephas,,STATE,186921,Morgan,192,134332
+4309,1,Pennsylvania Senate,Republican,2020-12-01 00:00:00+00,PA,758898,#,2014-12-01 00:00:00+00,UPPER,Yaw,,STATE,183857,Gene,23,16552
+2652,0,Pennsylvania House of Representatives,Republican,2014-12-01 00:00:00+00,PA,9991,#,2011-01-04 00:00:00+00,LOWER,Kauffman,,STATE,77519,Rob,000000000089,4340
+2652,0,Pennsylvania House of Representatives,Democrat,2014-08-14 00:00:00+00,PA,10130,#,2012-05-08 00:00:00+00,LOWER,Neilson,,STATE,77644,Ed,000000000169,19132
+2652,0,Pennsylvania House of Representatives,Democrat,2014-12-01 00:00:00+00,PA,10032,#,2011-01-04 00:00:00+00,LOWER,Kavulich,,STATE,77548,Sid,000000000114,17377
+1633,5,Chester County Commissioners,Republican,2020-01-06 00:00:00+00,PA,2582,#,2012-01-01 00:00:00+00,LOWER,Farrell,Chester,LOCAL,168930,Terence,At Large,17580
+2652,0,Pennsylvania House of Representatives,Republican,2014-12-01 00:00:00+00,PA,9988,#,2011-01-04 00:00:00+00,LOWER,Keller,,STATE,77515,Fred,000000000085,8556
+2652,0,Pennsylvania House of Representatives,Democrat,2014-12-01 00:00:00+00,PA,10022,#,2011-01-04 00:00:00+00,LOWER,Mullery,,STATE,77553,Gerald,000000000119,10475
+2652,1,Pennsylvania House of Representatives,,2016-04-05 00:00:00+00,PA,758982,#,2015-12-29 00:00:00+00,LOWER,VACANT,,STATE,143484,VACANT,57,122768
+2652,1,Pennsylvania House of Representatives,Republican,2018-12-01 00:00:00+00,PA,759008,#,2014-12-01 00:00:00+00,LOWER,Wheeland,,STATE,189002,Jeff,83,79867
+2652,0,Pennsylvania House of Representatives,Democrat,2014-12-01 00:00:00+00,PA,10115,#,2011-01-04 00:00:00+00,LOWER,O'Brien,,STATE,77600,Michael,000000000175,13757
+4507,0,United States House of Representatives,Republican,2013-01-03 00:00:00+00,PA,1733,#,2011-01-03 00:00:00+00,LOWER,Dent,,NATIONAL,1988,Charles,000000000015,1988
+2652,0,Pennsylvania House of Representatives,Democrat,2012-05-07 00:00:00+00,PA,10118,#,2011-01-04 00:00:00+00,LOWER,Williams,,STATE,15688,Jewell,000000000197,15688
+2652,1,Pennsylvania House of Representatives,Democrat,2016-12-01 00:00:00+00,PA,758970,#,2014-12-01 00:00:00+00,LOWER,Kotik,,STATE,106857,Nick,45,15920
+4507,0,United States House of Representatives,Republican,2013-01-03 00:00:00+00,PA,1732,#,2011-01-03 00:00:00+00,LOWER,Marino,,NATIONAL,5266,Thomas,000000000010,5266
+1627,7,Delaware County Council,Republican,2015-01-07 00:00:00+00,PA,2580,#,2012-01-03 00:00:00+00,LOWER,McGarrigle,Delaware,LOCAL,121335,Tom,At Large,14346
+1635,5,Montgomery County Commissioners,,0001-01-02 00:00:00+00,PA,2577,#,0001-01-01 00:00:00+00,LOWER,Hoeffel,Montgomery,LOCAL,17592,Joseph,At Large,17592
+2652,1,Pennsylvania House of Representatives,Republican,2018-12-01 00:00:00+00,PA,759088,#,2014-12-01 00:00:00+00,LOWER,Santora,,STATE,187074,James,163,79964
+2652,1,Pennsylvania House of Representatives,Republican,2018-12-01 00:00:00+00,PA,759062,#,2014-12-01 00:00:00+00,LOWER,Emrick,,STATE,186868,Joe,137,2868
+2652,1,Pennsylvania House of Representatives,Republican,2016-12-01 00:00:00+00,PA,759036,#,2014-12-01 00:00:00+00,LOWER,Major,,STATE,106866,Sandra,111,16966
+2546,5,Bucks County Controller,,2015-03-01 00:00:00+00,PA,2575,#,0001-01-01 00:00:00+00,LOWER,McHugh,Bucks,LOCAL,132407,Raymond,At Large,13285
+1635,5,Montgomery County Commissioners,Republican,2016-01-04 00:00:00+00,PA,2577,132222,2012-01-03 00:00:00+00,LOWER,Castor,Montgomery,LOCAL,123425,Bruce,At Large,14888
+2652,0,Pennsylvania House of Representatives,Democrat,2014-12-01 00:00:00+00,PA,10016,#,2012-12-01 00:00:00+00,LOWER,Bizzarro,,STATE,77383,Ryan,000000000003,24816
+4395,9,Philadelphia District Attorney,Democrat,2022-01-03 00:00:00+00,PA,2606,#,2018-01-02 00:00:00+00,LOWER,Krasner,Philadelphia,LOCAL,196775,Lawrence,At Large,182247
+2652,1,Pennsylvania House of Representatives,Republican,2018-12-01 00:00:00+00,PA,759114,#,2014-12-01 00:00:00+00,LOWER,Day,,STATE,186991,Gary,187,16025
+4309,1,Pennsylvania Senate,Democrat,2020-12-01 00:00:00+00,PA,758882,#,2014-12-01 00:00:00+00,UPPER,Hughes,,STATE,187991,Vincent,7,11856
+2675,2,United States Senate,Republican,2023-01-03 00:00:00+00,PA,59,#,2011-01-03 00:00:00+00,UPPER,Toomey,,NATIONAL,188883,Patrick,PA,16603
+2652,1,Pennsylvania House of Representatives,Republican,2018-12-01 00:00:00+00,PA,758951,#,2014-12-01 00:00:00+00,LOWER,Hennessey,,STATE,186994,Tim,26,11340
+2652,0,Pennsylvania House of Representatives,Democrat,2011-01-06 00:00:00+00,PA,10165,#,2011-01-04 00:00:00+00,LOWER,Casorio,,STATE,16084,James,000000000056,16084
+1628,8,Harrisburg City Council,Democrat,2020-01-06 00:00:00+00,PA,2115,#,2016-01-04 00:00:00+00,LOWER,Johnson,Harrisburg,LOCAL,196653,Cornelius,At Large,121365
+4309,1,Pennsylvania Senate,Democrat,2020-12-01 00:00:00+00,PA,758892,#,2014-12-01 00:00:00+00,UPPER,Leach,,STATE,186470,Daylin,17,13291
+2652,0,Pennsylvania House of Representatives,,2014-12-01 00:00:00+00,PA,10130,#,2012-12-01 00:00:00+00,LOWER,VACANT,,STATE,79982,VACANT,000000000169,77645
+2652,0,Pennsylvania House of Representatives,Democrat,2009-01-06 00:00:00+00,PA,10085,#,0001-01-01 00:00:00+00,LOWER,Leach,,STATE,1624,Daylin,000000000149,1624
+2652,1,Pennsylvania House of Representatives,Republican,2018-12-01 00:00:00+00,PA,759121,#,2014-12-01 00:00:00+00,LOWER,Grove,,STATE,199450,Seth,196,13641
+2652,1,Pennsylvania House of Representatives,Republican,2018-12-01 00:00:00+00,PA,759035,#,2014-12-01 00:00:00+00,LOWER,Pickett,,STATE,188215,Tina,110,4865
+1542,9,Philadelphia City Council,Republican,2016-01-04 00:00:00+00,PA,2606,#,2012-01-02 00:00:00+00,LOWER,O'Brien,Philadelphia,LOCAL,116751,Dennis,At Large,14180
+2652,0,Pennsylvania House of Representatives,Democrat,2012-12-01 00:00:00+00,PA,10082,#,2011-01-04 00:00:00+00,LOWER,Curry,,STATE,19963,Lawrence,000000000154,7803
+2652,1,Pennsylvania House of Representatives,Republican,2018-12-01 00:00:00+00,PA,759000,#,2014-12-01 00:00:00+00,LOWER,Gabler,,STATE,186920,Matt,75,14421
+4309,0,Pennsylvania Senate,Democrat,2014-12-01 00:00:00+00,PA,3517,#,2012-12-01 00:00:00+00,UPPER,Teplitz,,STATE,77433,Rob,000000000015,24550
+1547,0,Pittsburgh City Council,,0001-01-02 00:00:00+00,PA,729,#,0001-01-01 00:00:00+00,LOWER,Vacancy,Pittsburgh,LOCAL,17323,Vacancy,000000000002,17323
+2652,0,Pennsylvania House of Representatives,Democrat,2009-01-06 00:00:00+00,PA,10138,#,0001-01-01 00:00:00+00,LOWER,Bennington,,STATE,14023,Lisa,000000000021,14023
+4309,0,Pennsylvania Senate,,2012-12-01 00:00:00+00,PA,3540,#,2012-06-29 00:00:00+00,UPPER,VACANT,,STATE,21573,VACANT,000000000037,19782
+2652,0,Pennsylvania House of Representatives,Republican,2014-12-01 00:00:00+00,PA,10023,#,2011-01-04 00:00:00+00,LOWER,Toohil,,STATE,77550,Tarah,000000000116,10243
+2652,1,Pennsylvania House of Representatives,Democrat,2018-12-01 00:00:00+00,PA,759106,#,2014-12-01 00:00:00+00,LOWER,Donatucci,,STATE,160924,Maria,185,17005
+2652,1,Pennsylvania House of Representatives,Democrat,2018-12-01 00:00:00+00,PA,759115,#,2014-12-01 00:00:00+00,LOWER,Roebuck,,STATE,160928,James,188,16771
+2652,1,Pennsylvania House of Representatives,Republican,2018-12-01 00:00:00+00,PA,759017,#,2016-12-01 00:00:00+00,LOWER,Keefer,,STATE,185522,Dawn,92,134475
+4490,1,Allegheny County Council,Republican,2020-01-01 00:00:00+00,PA,393462,#,2016-01-01 00:00:00+00,LOWER,Kirk,Allegheny,LOCAL,192131,Cindy,000000000002,121302
+2652,0,Pennsylvania House of Representatives,Republican,2014-12-01 00:00:00+00,PA,10131,#,2011-01-04 00:00:00+00,LOWER,Clymer,,STATE,77611,Paul,000000000145,16558
+4309,0,Pennsylvania Senate,Republican,2009-01-06 00:00:00+00,PA,3525,#,0001-01-01 00:00:00+00,UPPER,Armstrong,,STATE,9121,Gibson,000000000013,9121
+2652,1,Pennsylvania House of Representatives,Democrat,2016-12-01 00:00:00+00,PA,759020,#,2014-12-01 00:00:00+00,LOWER,Schreiber,,STATE,106969,Kevin,95,55375
+505,5,Pennsylvania State Treasurer,Democrat,2021-01-01 00:00:00+00,PA,734,#,2017-01-17 00:00:00+00,EXEC,Torsella,,STATE,187393,Joseph,PA,172485
+2652,0,Pennsylvania House of Representatives,Democrat,2012-01-03 00:00:00+00,PA,10079,#,2005-01-04 00:00:00+00,LOWER,Shapiro,,STATE,24713,Josh,000000000153,14678
+4309,0,Pennsylvania Senate,Republican,2014-12-01 00:00:00+00,PA,3526,#,2011-01-04 00:00:00+00,UPPER,Brubaker,,STATE,77479,Michael,000000000036,4776
+2652,1,Pennsylvania House of Representatives,Democrat,2018-12-01 00:00:00+00,PA,759110,#,2014-12-01 00:00:00+00,LOWER,Sims,,STATE,160921,Brian,182,24756
+1547,1,Pittsburgh City Council,Democrat,2020-01-06 00:00:00+00,PA,758121,#,2014-01-06 00:00:00+00,LOWER,Burgess,Pittsburgh,LOCAL,199271,Ricky,9,5732
+2652,0,Pennsylvania House of Representatives,Republican,2014-12-01 00:00:00+00,PA,10055,#,2011-01-04 00:00:00+00,LOWER,Smith,,STATE,77484,Samuel,000000000066,6493
+2652,0,Pennsylvania House of Representatives,Republican,2009-01-06 00:00:00+00,PA,10101,#,0001-01-01 00:00:00+00,LOWER,Mackereth,,STATE,15987,Beverly,000000000196,15987
+4309,0,Pennsylvania Senate,Democrat,2014-12-01 00:00:00+00,PA,3540,#,2012-12-01 00:00:00+00,UPPER,Smith,,STATE,77481,Matt,000000000037,24561
+2652,1,Pennsylvania House of Representatives,Republican,2018-12-01 00:00:00+00,PA,759068,#,2014-12-01 00:00:00+00,LOWER,Quinn,,STATE,163352,Marguerite,143,16292
+2652,0,Pennsylvania House of Representatives,Republican,2014-12-01 00:00:00+00,PA,10054,#,2011-01-04 00:00:00+00,LOWER,Reed,,STATE,77476,Dave,000000000062,8181
+2652,0,Pennsylvania House of Representatives,Democrat,2014-12-01 00:00:00+00,PA,10114,#,2011-01-04 00:00:00+00,LOWER,Brownlee,,STATE,77579,Michelle,000000000195,9983
+2652,1,Pennsylvania House of Representatives,Democrat,2018-12-01 00:00:00+00,PA,758963,#,2014-12-01 00:00:00+00,LOWER,Kortz,,STATE,188413,William,38,5366
+2652,0,Pennsylvania House of Representatives,Democrat,2012-12-01 00:00:00+00,PA,10110,#,2012-05-08 00:00:00+00,LOWER,James,,STATE,21306,Harold,000000000186,19133
+2652,0,Pennsylvania House of Representatives,Republican,2009-01-06 00:00:00+00,PA,9994,#,0001-01-01 00:00:00+00,LOWER,Rubley,,STATE,8321,Carole,000000000157,8321
+4490,1,Allegheny County Council,Democrat,2022-01-01 00:00:00+00,PA,393456,#,2012-01-01 00:00:00+00,LOWER,Martoni,Allegheny,LOCAL,192146,Charles,000000000008,3152
+2652,0,Pennsylvania House of Representatives,,2012-12-01 00:00:00+00,PA,10146,#,2012-08-07 00:00:00+00,LOWER,VACANT,,STATE,24852,VACANT,000000000030,20385
+2652,0,Pennsylvania House of Representatives,Democrat,2011-01-06 00:00:00+00,PA,9966,#,2011-01-04 00:00:00+00,LOWER,McCall,,STATE,9055,Keith,000000000122,9055
+1627,7,Delaware County Council,,2012-01-01 00:00:00+00,PA,2580,#,2008-01-01 00:00:00+00,LOWER,Lewis,Delaware,LOCAL,1752,Andy,At Large,1752
+2652,0,Pennsylvania House of Representatives,Democrat,2014-12-01 00:00:00+00,PA,10034,#,2012-12-01 00:00:00+00,LOWER,Farina,,STATE,77549,Frank,000000000115,24569
+4212,7,Erie City Council,,2020-01-06 00:00:00+00,PA,2086,#,2012-01-02 00:00:00+00,LOWER,Witherspoon,Erie,LOCAL,192239,Melvin,At Large,7344
+2652,0,Pennsylvania House of Representatives,Democrat,2012-12-01 00:00:00+00,PA,10124,#,2011-01-04 00:00:00+00,LOWER,Myers,,STATE,6598,John,000000000201,6598
+2652,0,Pennsylvania House of Representatives,Republican,2014-12-01 00:00:00+00,PA,10049,#,2014-02-10 00:00:00+00,LOWER,Topper,,STATE,77508,Jesse,000000000078,69426
+2544,5,Chester County Controller,,2014-01-01 00:00:00+00,PA,2582,#,2011-01-01 00:00:00+00,LOWER,DiGiorgio,Chester,LOCAL,69084,Valentine,At Large,9567
+2586,5,Pennsylvania Lieutenant Governor,Democrat,2019-01-15 00:00:00+00,PA,734,77410,2015-01-20 00:00:00+00,EXEC,Stack,,STATE,197790,Michael,PA,8568
+1542,0,Philadelphia City Council,Democrat,2013-04-01 00:00:00+00,PA,2593,#,2012-01-02 00:00:00+00,LOWER,Tasco,Philadelphia,LOCAL,51725,Marian,000000000009,3907
+2652,0,Pennsylvania House of Representatives,Democrat,2012-12-01 00:00:00+00,PA,10002,#,2011-01-04 00:00:00+00,LOWER,Brennan,,STATE,19945,Joseph,000000000133,1861
+2652,0,Pennsylvania House of Representatives,Republican,2014-12-01 00:00:00+00,PA,10162,#,2011-01-04 00:00:00+00,LOWER,Watson,,STATE,77610,Katharine,000000000144,9165
+2652,0,Pennsylvania House of Representatives,Republican,2009-01-06 00:00:00+00,PA,9974,#,0001-01-01 00:00:00+00,LOWER,Raymond,,STATE,9657,Ron,000000000162,9657
+2652,0,Pennsylvania House of Representatives,Republican,2012-12-01 00:00:00+00,PA,10095,#,2011-01-04 00:00:00+00,LOWER,Creighton,,STATE,19961,Thomas,000000000037,15689
+2652,0,Pennsylvania House of Representatives,Republican,2014-12-01 00:00:00+00,PA,10046,#,2011-01-04 00:00:00+00,LOWER,Gabler,,STATE,77501,Matt,000000000075,14421
+2652,0,Pennsylvania House of Representatives,Republican,2014-12-01 00:00:00+00,PA,10073,#,2011-01-04 00:00:00+00,LOWER,Masser,,STATE,77541,Kurt,000000000107,7745
+2652,1,Pennsylvania House of Representatives,Democrat,2018-12-01 00:00:00+00,PA,759097,#,2014-12-01 00:00:00+00,LOWER,Boyle,,STATE,186390,Kevin,172,17221
+4050,1,Allentown City Council,,2018-01-01 00:00:00+00,PA,858894,#,2016-02-24 00:00:00+00,LOWER,McGuire,Allentown,LOCAL,174435,David,At Large,171545
+1628,8,Harrisburg City Council,Democrat,2016-01-04 00:00:00+00,PA,2115,#,2012-01-03 00:00:00+00,LOWER,Koplinski,Harrisburg,LOCAL,121362,Brad,At Large,13054
+2652,0,Pennsylvania House of Representatives,Democrat,2014-12-01 00:00:00+00,PA,9970,#,2011-01-04 00:00:00+00,LOWER,Davidson,,STATE,77624,Margo,000000000164,15687
+2652,1,Pennsylvania House of Representatives,Republican,2018-12-01 00:00:00+00,PA,759025,#,2014-12-01 00:00:00+00,LOWER,Cutler,,STATE,160724,Bryan,100,2788
+2652,1,Pennsylvania House of Representatives,Republican,2018-12-01 00:00:00+00,PA,759013,#,2014-12-01 00:00:00+00,LOWER,Delozier,,STATE,161133,Sheryl,88,16964
+4309,1,Pennsylvania Senate,Republican,2020-12-01 00:00:00+00,PA,758912,#,2015-11-24 00:00:00+00,UPPER,Reschenthaler,,STATE,179297,Guy,37,122221
+2652,0,Pennsylvania House of Representatives,Republican,2014-12-01 00:00:00+00,PA,10033,#,2011-01-04 00:00:00+00,LOWER,Major,,STATE,77545,Sandra,000000000111,16966
+4309,1,Pennsylvania Senate,,2015-06-08 00:00:00+00,PA,758880,#,2015-01-20 00:00:00+00,UPPER,VACANT,,STATE,110150,VACANT,5,95366
+4050,1,Allentown City Council,,2020-01-01 00:00:00+00,PA,858894,#,2016-01-04 00:00:00+00,LOWER,Affa,Allentown,LOCAL,195738,Candida,At Large,171533
+1628,8,Harrisburg City Council,Democrat,2016-01-04 00:00:00+00,PA,2115,#,2012-01-03 00:00:00+00,LOWER,Brown Wilson,Harrisburg,LOCAL,116858,Susan,At Large,1873
+4309,1,Pennsylvania Senate,Republican,2020-12-01 00:00:00+00,PA,758884,77615,2016-05-05 00:00:00+00,UPPER,Killion,,STATE,186467,Thomas,9,9198
+2652,1,Pennsylvania House of Representatives,Democrat,2018-12-01 00:00:00+00,PA,759120,#,2015-08-25 00:00:00+00,LOWER,Bullock,,STATE,185511,Donna,195,117029
+1057,7,Delaware County District Attorney,Republican,2020-01-06 00:00:00+00,PA,2580,#,2018-01-19 00:00:00+00,EXEC,Copeland,Delaware,LOCAL,200172,Katayoun,At Large,200172
+2652,0,Pennsylvania House of Representatives,Democrat,2014-12-01 00:00:00+00,PA,10142,#,2012-12-01 00:00:00+00,LOWER,Molchany,,STATE,77405,Erin,000000000022,24790
+2652,1,Pennsylvania House of Representatives,Democrat,2018-12-01 00:00:00+00,PA,759028,#,2014-12-01 00:00:00+00,LOWER,Kim,,STATE,195795,Patty,103,24521
+2652,0,Pennsylvania House of Representatives,Democrat,2012-12-01 00:00:00+00,PA,10139,#,2011-01-04 00:00:00+00,LOWER,Preston,,STATE,20059,Joseph,000000000024,10587
+4309,0,Pennsylvania Senate,Republican,2014-12-01 00:00:00+00,PA,3511,20384,2012-08-31 00:00:00+00,UPPER,Vulakovich,,STATE,77487,Randy,000000000040,9836
+4308,5,Pennsylvania Attorney General,Republican,2016-08-30 00:00:00+00,PA,734,123425,2016-08-17 00:00:00+00,EXEC,Castor,,STATE,132222,Bruce,PA,14888
+2652,0,Pennsylvania House of Representatives,Democrat,2011-01-04 00:00:00+00,PA,10032,#,2011-01-04 00:00:00+00,LOWER,Wansacz,,STATE,7418,James,000000000114,7418
+2652,1,Pennsylvania House of Representatives,Republican,2018-12-01 00:00:00+00,PA,758978,#,2014-12-01 00:00:00+00,LOWER,Godshall,,STATE,161088,Robert,53,3936
+2652,0,Pennsylvania House of Representatives,Republican,2014-12-01 00:00:00+00,PA,10107,#,2011-01-04 00:00:00+00,LOWER,Everett,,STATE,77514,Garth,000000000084,1400
+2652,0,Pennsylvania House of Representatives,Republican,2014-12-01 00:00:00+00,PA,10056,#,2011-01-04 00:00:00+00,LOWER,Pyle,,STATE,77472,Jeffrey,000000000060,12628
+2652,0,Pennsylvania House of Representatives,Democrat,2014-12-01 00:00:00+00,PA,10150,#,2011-01-04 00:00:00+00,LOWER,Kortz,,STATE,77432,William,000000000038,5366
+2652,1,Pennsylvania House of Representatives,Republican,2016-12-01 00:00:00+00,PA,759026,#,2014-12-01 00:00:00+00,LOWER,Gingrich,,STATE,106806,Mauree,101,7236
+4309,1,Pennsylvania Senate,Democrat,2018-12-01 00:00:00+00,PA,758879,#,2014-12-01 00:00:00+00,UPPER,Haywood,,STATE,187015,Arthur,4,79931
+2652,0,Pennsylvania House of Representatives,Republican,2014-12-01 00:00:00+00,PA,10134,#,2011-01-04 00:00:00+00,LOWER,Emrick,,STATE,77571,Joe,000000000137,2868
+4507,1,United States House of Representatives,Republican,2019-01-03 00:00:00+00,PA,757320,#,2013-01-03 00:00:00+00,LOWER,Marino,,NATIONAL,186412,Thomas,000000000010,5266
+2652,0,Pennsylvania House of Representatives,Republican,2014-12-01 00:00:00+00,PA,10078,#,2011-01-04 00:00:00+00,LOWER,Godshall,,STATE,77459,Robert,000000000053,3936
+4507,0,United States House of Representatives,Republican,2013-01-03 00:00:00+00,PA,1736,#,2011-01-03 00:00:00+00,LOWER,Fitzpatrick,,NATIONAL,10851,Mike,000000000008,10851
+694,2,Allegheny County Executive,Democrat,2020-01-01 00:00:00+00,PA,393485,#,2012-01-03 00:00:00+00,EXEC,Fitzgerald,Allegheny County,LOCAL,192118,Rich,ALLEGHENY COUNTY,1621
+2652,0,Pennsylvania House of Representatives,Democrat,2014-12-01 00:00:00+00,PA,10017,#,2011-01-04 00:00:00+00,LOWER,Fabrizio,,STATE,77382,Florindo,000000000002,6753
+2652,1,Pennsylvania House of Representatives,Republican,2018-12-01 00:00:00+00,PA,758964,#,2014-12-01 00:00:00+00,LOWER,Saccone,,STATE,198545,Rick,39,9043
+4309,0,Pennsylvania Senate,Republican,2009-01-06 00:00:00+00,PA,3532,#,0001-01-01 00:00:00+00,UPPER,Madigan,,STATE,9700,Roger,000000000023,9700
+2652,0,Pennsylvania House of Representatives,Democrat,2011-01-06 00:00:00+00,PA,10157,#,2011-01-04 00:00:00+00,LOWER,Melio,,STATE,16159,Anthony,000000000141,16159
+4309,0,Pennsylvania Senate,Republican,2014-12-01 00:00:00+00,PA,3552,#,2011-01-04 00:00:00+00,UPPER,Greenleaf,,STATE,77427,Stewart,000000000012,5924
+2652,1,Pennsylvania House of Representatives,Democrat,2018-12-01 00:00:00+00,PA,758946,#,2014-12-01 00:00:00+00,LOWER,Costa,,STATE,188239,Dom,21,7536
+4490,1,Allegheny County Council,,2014-01-01 00:00:00+00,PA,393461,#,2012-01-01 00:00:00+00,LOWER,Drozd,Allegheny,LOCAL,65409,Matt,000000000001,10814
+4507,1,United States House of Representatives,Republican,2019-01-03 00:00:00+00,PA,757322,#,2013-01-03 00:00:00+00,LOWER,Rothfus,,NATIONAL,163356,Keith,000000000012,33463
+2652,1,Pennsylvania House of Representatives,Democrat,2018-12-01 00:00:00+00,PA,759123,#,2014-12-01 00:00:00+00,LOWER,Youngblood,,STATE,188238,Rosita,198,4864
+2652,1,Pennsylvania House of Representatives,Democrat,2018-12-01 00:00:00+00,PA,758932,#,2014-12-01 00:00:00+00,LOWER,Longietti,,STATE,161107,Mark,7,14584
+2652,0,Pennsylvania House of Representatives,Democrat,2011-01-06 00:00:00+00,PA,9990,#,2011-01-04 00:00:00+00,LOWER,Siptroth,,STATE,9428,John,000000000189,9428
+2652,0,Pennsylvania House of Representatives,,2012-12-01 00:00:00+00,PA,9997,#,2012-05-15 00:00:00+00,LOWER,VACANT,,STATE,24721,VACANT,000000000155,19181
+2652,1,Pennsylvania House of Representatives,Republican,2018-12-01 00:00:00+00,PA,758986,#,2014-12-01 00:00:00+00,LOWER,Harper,,STATE,198894,Kate,61,9672
+2652,0,Pennsylvania House of Representatives,Republican,2014-12-01 00:00:00+00,PA,9985,#,2011-01-04 00:00:00+00,LOWER,Oberlander,,STATE,77478,Donna,000000000063,13921
+4490,2,Allegheny County Council,,2016-01-04 00:00:00+00,PA,393469,#,2012-01-01 00:00:00+00,LOWER,Heidelbaugh,Allegheny,LOCAL,124630,Heather,At Large,69225
+2652,0,Pennsylvania House of Representatives,Democrat,2014-12-01 00:00:00+00,PA,10163,#,2011-01-04 00:00:00+00,LOWER,Santarsiero,,STATE,77420,Steven,000000000031,11896
+1542,1,Philadelphia City Council,Democrat,2020-01-06 00:00:00+00,PA,758010,#,2013-04-01 00:00:00+00,LOWER,Henon,Philadelphia,LOCAL,179832,Bobby,6,17787
+4050,1,Allentown City Council,,2022-01-01 00:00:00+00,PA,858894,#,2014-01-06 00:00:00+00,LOWER,Hendricks,Allentown,LOCAL,190694,Daryl,At Large,171531
+4212,7,Erie City Council,Democrat,2013-01-01 00:00:00+00,PA,2086,#,0001-01-01 00:00:00+00,LOWER,Schwartz,Erie,LOCAL,67205,Joel,At Large,6520
+2652,1,Pennsylvania House of Representatives,Democrat,2018-12-01 00:00:00+00,PA,759002,#,2014-12-01 00:00:00+00,LOWER,Conklin,,STATE,179142,H. Scott,77,5707
+1542,0,Philadelphia City Council,,2012-01-01 00:00:00+00,PA,2597,#,0001-01-01 00:00:00+00,LOWER,Verna,Philadelphia,LOCAL,1145,Anna,000000000002,1145
+4490,1,Allegheny County Council,Democrat,2022-01-01 00:00:00+00,PA,393457,#,2018-01-01 00:00:00+00,LOWER,Prizio,Allegheny,LOCAL,197132,Anita,000000000003,182900
+2652,0,Pennsylvania House of Representatives,Republican,2011-01-06 00:00:00+00,PA,10129,#,2011-01-04 00:00:00+00,LOWER,Perzel,,STATE,603,John,000000000172,603
+505,5,Pennsylvania State Treasurer,,2015-01-30 00:00:00+00,PA,734,#,2015-01-17 00:00:00+00,EXEC,VACANT,,STATE,106758,VACANT,PA,97667
+2652,1,Pennsylvania House of Representatives,Democrat,2018-12-01 00:00:00+00,PA,759089,#,2014-12-01 00:00:00+00,LOWER,Davidson,,STATE,188232,Margo,164,15687
+4309,1,Pennsylvania Senate,Republican,2016-12-01 00:00:00+00,PA,758888,#,2014-12-01 00:00:00+00,UPPER,Smucker,,STATE,106680,Lloyd,13,12689
+2652,0,Pennsylvania House of Representatives,Republican,2014-12-01 00:00:00+00,PA,10027,#,2011-01-04 00:00:00+00,LOWER,Fleck,,STATE,77511,Michael,000000000081,998
+2652,0,Pennsylvania House of Representatives,Republican,2014-12-01 00:00:00+00,PA,10024,#,2011-01-04 00:00:00+00,LOWER,Gingrich,,STATE,77532,Mauree,000000000101,7236
+4507,0,United States House of Representatives,Democrat,2011-01-03 00:00:00+00,PA,1706,#,2009-01-03 00:00:00+00,LOWER,Kanjorski,,NATIONAL,1306,Paul,000000000011,1306
+4309,1,Pennsylvania Senate,Republican,2020-12-01 00:00:00+00,PA,758916,#,2014-12-01 00:00:00+00,UPPER,White,,STATE,163266,Donald,41,2870
+2652,1,Pennsylvania House of Representatives,Republican,2018-12-01 00:00:00+00,PA,758977,#,2014-12-01 00:00:00+00,LOWER,Warner,,STATE,186692,Ryan,52,79812
+2652,1,Pennsylvania House of Representatives,Democrat,2018-12-01 00:00:00+00,PA,759078,#,2014-12-01 00:00:00+00,LOWER,Dean,,STATE,188227,Madeleine,153,19131
+2652,1,Pennsylvania House of Representatives,Republican,2018-12-01 00:00:00+00,PA,759016,#,2014-12-01 00:00:00+00,LOWER,Moul,,STATE,198549,Dan,91,2249
+4309,1,Pennsylvania Senate,Republican,2018-12-01 00:00:00+00,PA,758901,#,2014-12-01 00:00:00+00,UPPER,McGarrigle,,STATE,179128,Thomas,26,79961
+2652,1,Pennsylvania House of Representatives,Democrat,2018-12-01 00:00:00+00,PA,759122,#,2017-04-06 00:00:00+00,LOWER,Vazquez,,STATE,185643,Emilio,197,161792
+2652,0,Pennsylvania House of Representatives,Republican,2011-01-06 00:00:00+00,PA,10074,#,2009-01-06 00:00:00+00,LOWER,Mensch,,STATE,541,Bob,000000000147,541
+2652,0,Pennsylvania House of Representatives,Democrat,2014-12-01 00:00:00+00,PA,10108,#,2011-01-04 00:00:00+00,LOWER,Goodman,,STATE,77557,Neal,000000000123,14656
+4507,0,United States House of Representatives,Democrat,2013-01-03 00:00:00+00,PA,1709,#,2011-01-03 00:00:00+00,LOWER,Holden,,NATIONAL,17698,Thomas,000000000017,17698
+4309,0,Pennsylvania Senate,Democrat,2014-12-01 00:00:00+00,PA,3563,#,2009-01-06 00:00:00+00,UPPER,Hughes,,STATE,77414,Vincent,000000000007,11856
+2652,1,Pennsylvania House of Representatives,Republican,2018-12-01 00:00:00+00,PA,759012,#,2015-08-25 00:00:00+00,LOWER,Rothman,,STATE,185614,Greg,87,117015
+2652,1,Pennsylvania House of Representatives,Democrat,2018-12-01 00:00:00+00,PA,759060,#,2014-12-01 00:00:00+00,LOWER,Samuelson,,STATE,179119,Steve,135,9099
+4507,1,United States House of Representatives,Democrat,2015-01-06 00:00:00+00,PA,757323,#,2013-01-03 00:00:00+00,LOWER,Schwartz,,NATIONAL,92930,Allyson,000000000013,15159
+2652,1,Pennsylvania House of Representatives,Democrat,2016-12-01 00:00:00+00,PA,759037,#,2014-12-01 00:00:00+00,LOWER,Farina,,STATE,106732,Frank,112,24569
+4309,1,Pennsylvania Senate,Democrat,2018-12-01 00:00:00+00,PA,758893,#,2014-12-01 00:00:00+00,UPPER,Boscola,,STATE,158856,Lisa,18,905
+2652,1,Pennsylvania House of Representatives,Democrat,2016-12-01 00:00:00+00,PA,759125,#,2016-03-22 00:00:00+00,LOWER,Cook-Artis,,STATE,127074,Tonyelle,200,126612
+4309,1,Pennsylvania Senate,Republican,2020-12-01 00:00:00+00,PA,758904,#,2014-12-01 00:00:00+00,UPPER,Argall,,STATE,186468,David,29,10803
+4309,1,Pennsylvania Senate,Republican,2018-12-01 00:00:00+00,PA,758887,#,2014-12-01 00:00:00+00,UPPER,Greenleaf,,STATE,158875,Stewart,12,5924
+4309,1,Pennsylvania Senate,Republican,2018-12-01 00:00:00+00,PA,758905,#,2014-12-01 00:00:00+00,UPPER,Eichelberger,,STATE,198541,John,30,17105
+4507,0,United States House of Representatives,Democrat,2013-01-03 00:00:00+00,PA,1753,#,2011-01-03 00:00:00+00,LOWER,Critz,,NATIONAL,4863,Mark,000000000012,4863
+4394,9,Philadelphia City Controller,,2018-01-02 00:00:00+00,PA,2606,#,2012-01-02 00:00:00+00,LOWER,Butkovitz,Philadelphia,LOCAL,179642,Alan,At Large,689
+1633,5,Chester County Commissioners,Republican,2014-12-16 00:00:00+00,PA,2582,185607,2012-01-01 00:00:00+00,LOWER,Costello,Chester,LOCAL,115046,Ryan,At Large,19183
+4309,0,Pennsylvania Senate,Republican,2014-12-01 00:00:00+00,PA,3531,#,2011-01-04 00:00:00+00,UPPER,Robbins,,STATE,77507,Robert,000000000050,11852
+2652,0,Pennsylvania House of Representatives,Republican,2014-12-01 00:00:00+00,PA,10076,#,2011-01-04 00:00:00+00,LOWER,Stephens,,STATE,77621,Todd,000000000151,9217
+2652,0,Pennsylvania House of Representatives,Republican,2014-12-01 00:00:00+00,PA,10132,#,2011-01-04 00:00:00+00,LOWER,Quinn,,STATE,77609,Marguerite,000000000143,16292
+2652,0,Pennsylvania House of Representatives,Republican,2014-12-01 00:00:00+00,PA,9993,#,2011-01-04 00:00:00+00,LOWER,Keller,,STATE,77516,Mark,000000000086,11765
+2652,0,Pennsylvania House of Representatives,Democrat,2011-01-06 00:00:00+00,PA,10030,#,2011-01-04 00:00:00+00,LOWER,Pallone,,STATE,18071,John,000000000054,18071
+4309,0,Pennsylvania Senate,Democrat,2014-12-01 00:00:00+00,PA,3535,#,2011-01-04 00:00:00+00,UPPER,Blake,,STATE,77450,John,000000000022,11957
+2652,0,Pennsylvania House of Representatives,Democrat,2009-01-06 00:00:00+00,PA,10164,#,0001-01-01 00:00:00+00,LOWER,Tangretti,,STATE,17551,Thomas,000000000057,17551
+2549,5,Montgomery County District Attorney,,2016-01-04 00:00:00+00,PA,2577,#,2012-01-03 00:00:00+00,LOWER,Ferman,Montgomery,LOCAL,116865,Risa,At Large,18109
+2652,0,Pennsylvania House of Representatives,Democrat,2009-01-06 00:00:00+00,PA,10159,#,0001-01-01 00:00:00+00,LOWER,King,,STATE,12353,Chris,000000000142,12353
+1628,8,Harrisburg City Council,Democrat,2014-04-11 00:00:00+00,PA,2115,#,2010-01-01 00:00:00+00,LOWER,Smith,Harrisburg,LOCAL,73142,Eugenia,At Large,1888
+2652,0,Pennsylvania House of Representatives,Democrat,2014-12-01 00:00:00+00,PA,10109,#,2012-12-01 00:00:00+00,LOWER,Sims,,STATE,77592,Brian,000000000182,24756
+4309,0,Pennsylvania Senate,Republican,2014-12-01 00:00:00+00,PA,3501,#,2009-01-06 00:00:00+00,UPPER,Gordner,,STATE,77461,John,000000000027,1206
+4416,1,Harrisburg Mayor,Democrat,2022-01-01 00:00:00+00,PA,204,#,2014-01-01 00:00:00+00,EXEC,Papenfuse,Harrisburg,LOCAL,192162,Eric,HARRISBURG,65399
+2652,1,Pennsylvania House of Representatives,Republican,2018-12-01 00:00:00+00,PA,759049,#,2014-12-01 00:00:00+00,LOWER,Knowles,,STATE,186851,Jerry,124,14977
+4507,0,United States House of Representatives,Democrat,2011-01-03 00:00:00+00,PA,1715,#,2009-01-03 00:00:00+00,LOWER,Sestak,,NATIONAL,2726,Joe,000000000007,2726
+1629,5,Bucks County Commissioners,,2010-12-31 00:00:00+00,PA,2575,#,0001-01-01 00:00:00+00,LOWER,VACANT,Bucks,LOCAL,9957,VACANT,At Large,9957
+2652,0,Pennsylvania House of Representatives,Democrat,2009-01-06 00:00:00+00,PA,10035,#,2007-01-06 00:00:00+00,LOWER,Shimkus,,STATE,8785,Frank,000000000113,8785
+2652,0,Pennsylvania House of Representatives,Democrat,2014-12-01 00:00:00+00,PA,9983,#,2012-12-01 00:00:00+00,LOWER,Snyder,,STATE,77454,Pam,000000000050,24991
+2652,0,Pennsylvania House of Representatives,Republican,2014-12-01 00:00:00+00,PA,10030,#,2011-01-04 00:00:00+00,LOWER,Evankovich,,STATE,77460,Eli,000000000054,15895
+2652,0,Pennsylvania House of Representatives,Republican,2014-12-01 00:00:00+00,PA,10028,#,2011-01-04 00:00:00+00,LOWER,Stern,,STATE,77510,Jerry,000000000080,15068
+4490,1,Allegheny County Council,,2015-06-03 00:00:00+00,PA,393465,#,2015-05-06 00:00:00+00,LOWER,VACANT,Allegheny,LOCAL,113910,VACANT,000000000011,109750
+2652,0,Pennsylvania House of Representatives,Republican,2014-12-01 00:00:00+00,PA,10101,#,2011-01-04 00:00:00+00,LOWER,Grove,,STATE,77578,Seth,000000000196,13641
+2652,0,Pennsylvania House of Representatives,Democrat,2009-01-06 00:00:00+00,PA,10113,#,0001-01-01 00:00:00+00,LOWER,Blackwell,,STATE,3811,Thomas,000000000190,3811
+2652,1,Pennsylvania House of Representatives,Republican,2018-12-01 00:00:00+00,PA,759082,#,2014-12-01 00:00:00+00,LOWER,Kampf,,STATE,188230,Warren,157,344
+4507,0,United States House of Representatives,Republican,2013-01-03 00:00:00+00,PA,1728,#,2011-01-06 00:00:00+00,LOWER,Thompson,,NATIONAL,20871,Glenn,000000000005,17174
+2652,1,Pennsylvania House of Representatives,Democrat,2018-12-01 00:00:00+00,PA,759079,#,2014-12-01 00:00:00+00,LOWER,McCarter,,STATE,188228,Stephen,154,24717
+2652,0,Pennsylvania House of Representatives,Republican,2014-12-01 00:00:00+00,PA,10000,#,2011-01-04 00:00:00+00,LOWER,Ross,,STATE,77629,Chris,000000000158,14164
+2652,0,Pennsylvania House of Representatives,Democrat,2011-01-06 00:00:00+00,PA,10152,#,2009-01-06 00:00:00+00,LOWER,Walko,,STATE,4104,Don,000000000020,4104
+2652,0,Pennsylvania House of Representatives,Republican,2009-01-06 00:00:00+00,PA,10081,#,0001-01-01 00:00:00+00,LOWER,Kenney,,STATE,1222,George,000000000170,1222
+2553,9,Philadelphia City Commissioners,,0001-01-02 00:00:00+00,PA,2606,#,0001-01-01 00:00:00+00,EXEC,Tartaglione,Philadelphia,LOCAL,1258,Margaret,At Large,1258
+4507,0,United States House of Representatives,Democrat,2011-01-03 00:00:00+00,PA,1723,#,2009-01-06 00:00:00+00,LOWER,Dahlkemper,,NATIONAL,9338,Kathy,000000000003,9338
+2652,0,Pennsylvania House of Representatives,Democrat,2012-12-01 00:00:00+00,PA,10121,#,2011-01-04 00:00:00+00,LOWER,Payton,,STATE,20053,Tony,000000000179,5502
+2652,1,Pennsylvania House of Representatives,,2015-08-25 00:00:00+00,PA,759120,#,2015-06-08 00:00:00+00,LOWER,VACANT,,STATE,117030,VACANT,195,110500
+2652,1,Pennsylvania House of Representatives,Democrat,2015-06-08 00:00:00+00,PA,759120,#,2014-12-01 00:00:00+00,LOWER,Brownlee,,STATE,110501,Michelle,195,9983
+4309,0,Pennsylvania Senate,Democrat,2014-12-01 00:00:00+00,PA,3554,#,2011-01-04 00:00:00+00,UPPER,Washington,,STATE,77407,LeAnna,000000000004,11453
+4490,1,Allegheny County Council,,2014-01-01 00:00:00+00,PA,393457,#,2012-01-01 00:00:00+00,LOWER,Burn,Allegheny,LOCAL,65412,James,000000000003,10775
+2652,0,Pennsylvania House of Representatives,Democrat,2014-12-01 00:00:00+00,PA,10144,#,2011-01-04 00:00:00+00,LOWER,Dermody,,STATE,77423,Frank,000000000033,8770
+4507,0,United States House of Representatives,Republican,2013-01-03 00:00:00+00,PA,1720,#,2011-01-03 00:00:00+00,LOWER,Pitts,,NATIONAL,18118,Joseph,000000000016,18118
+2652,1,Pennsylvania House of Representatives,Democrat,2018-12-01 00:00:00+00,PA,758960,#,2018-02-05 00:00:00+00,LOWER,Davis,,STATE,193953,Austin,35,192795
+2652,0,Pennsylvania House of Representatives,Democrat,2014-12-01 00:00:00+00,PA,10127,#,2011-01-04 00:00:00+00,LOWER,McGeehan,,STATE,77603,Michael,000000000173,2932
+2652,0,Pennsylvania House of Representatives,Republican,2014-12-01 00:00:00+00,PA,10057,#,2011-01-04 00:00:00+00,LOWER,Cox,,STATE,77563,Jim,000000000129,10905
+2652,1,Pennsylvania House of Representatives,Republican,2018-12-01 00:00:00+00,PA,759024,#,2014-12-01 00:00:00+00,LOWER,Zimmerman,,STATE,186863,David,99,80469
+2652,1,Pennsylvania House of Representatives,Democrat,2018-12-01 00:00:00+00,PA,759104,#,2014-12-01 00:00:00+00,LOWER,Dawkins,,STATE,187075,Jason,179,79991
+4507,1,United States House of Representatives,Republican,2019-01-03 00:00:00+00,PA,757315,#,2013-01-03 00:00:00+00,LOWER,Thompson,,NATIONAL,186848,Glenn,000000000005,17174
+2652,1,Pennsylvania House of Representatives,Republican,2018-12-01 00:00:00+00,PA,759059,#,2014-12-01 00:00:00+00,LOWER,Mackenzie,,STATE,186929,Ryan,134,19130
+2652,0,Pennsylvania House of Representatives,Democrat,2014-12-01 00:00:00+00,PA,10143,#,2011-01-04 00:00:00+00,LOWER,Deasy,,STATE,77413,Daniel,000000000027,13646
+2316,6,Philadelphia Sheriff,,2020-01-06 00:00:00+00,PA,251,#,2012-01-01 00:00:00+00,EXEC,Williams,Philadelphia,LOCAL,159430,Jewell,PHILADELPHIA,54406
+2652,0,Pennsylvania House of Representatives,Republican,2014-12-01 00:00:00+00,PA,10069,#,2011-01-04 00:00:00+00,LOWER,Marsico,,STATE,77539,Ron,000000000105,16297
+2652,1,Pennsylvania House of Representatives,Democrat,2018-12-01 00:00:00+00,PA,759128,#,2016-11-14 00:00:00+00,LOWER,Fitzgerald,,STATE,179127,Isabella,203,134347
+1542,0,Philadelphia City Council,Democrat,2013-04-01 00:00:00+00,PA,2584,#,2012-01-02 00:00:00+00,LOWER,Bass,Philadelphia,LOCAL,51723,Cindy,000000000008,1852
+4309,0,Pennsylvania Senate,Republican,2014-12-01 00:00:00+00,PA,3525,159995,2009-01-06 00:00:00+00,UPPER,Smucker,,STATE,77429,Lloyd,000000000013,12689
+2652,0,Pennsylvania House of Representatives,Democrat,0001-01-02 00:00:00+00,PA,10110,#,2011-01-04 00:00:00+00,LOWER,Johnson,,STATE,200,Kenyatta,000000000186,200
+2652,0,Pennsylvania House of Representatives,Republican,2014-12-01 00:00:00+00,PA,9990,#,2011-01-04 00:00:00+00,LOWER,Brown,,STATE,77585,Rosemary,000000000189,9557
+2652,1,Pennsylvania House of Representatives,Republican,2018-12-01 00:00:00+00,PA,759069,#,2014-12-01 00:00:00+00,LOWER,Watson,,STATE,188224,Katharine,144,9165
+1057,7,Delaware County District Attorney,,2018-01-19 00:00:00+00,PA,2580,#,2018-01-03 00:00:00+00,EXEC,vacant,Delaware,LOCAL,200164,vacant,At Large,200164
+2652,0,Pennsylvania House of Representatives,Republican,2014-12-01 00:00:00+00,PA,9971,#,2011-01-04 00:00:00+00,LOWER,Micozzie,,STATE,77625,Nicholas,000000000163,15457
+2652,0,Pennsylvania House of Representatives,Democrat,2014-12-01 00:00:00+00,PA,9979,#,2011-01-04 00:00:00+00,LOWER,Harhai,,STATE,77469,R. Ted,000000000058,4677
+2652,0,Pennsylvania House of Representatives,Democrat,2012-12-01 00:00:00+00,PA,10004,#,2011-01-04 00:00:00+00,LOWER,Mann,,STATE,20027,Jennifer,000000000132,67
+4309,1,Pennsylvania Senate,Republican,2018-12-01 00:00:00+00,PA,758899,#,2014-12-01 00:00:00+00,UPPER,Mensch,,STATE,198540,Bob,24,3596
+2652,0,Pennsylvania House of Representatives,Democrat,2012-04-27 00:00:00+00,PA,9983,#,2011-01-04 00:00:00+00,LOWER,DeWeese,,STATE,10668,H. William,000000000050,10668
+2652,0,Pennsylvania House of Representatives,Republican,2011-01-06 00:00:00+00,PA,10135,#,2009-01-06 00:00:00+00,LOWER,Dally,,STATE,6877,Craig,000000000138,6877
+2652,0,Pennsylvania House of Representatives,Republican,2014-12-01 00:00:00+00,PA,9981,#,2011-01-04 00:00:00+00,LOWER,Reese,,STATE,77471,Mike,000000000059,9061
+2652,0,Pennsylvania House of Representatives,Democrat,2011-01-06 00:00:00+00,PA,9998,#,2011-01-04 00:00:00+00,LOWER,McIlvaine Smith,,STATE,3595,Barbara,000000000156,3595
+2652,0,Pennsylvania House of Representatives,Democrat,2014-12-01 00:00:00+00,PA,10010,#,2011-01-04 00:00:00+00,LOWER,Burns,,STATE,77495,Frank,000000000072,6573
+2652,0,Pennsylvania House of Representatives,Democrat,2009-01-06 00:00:00+00,PA,10012,#,0001-01-01 00:00:00+00,LOWER,Biancucci,,STATE,18079,Vince,000000000015,18079
+2652,0,Pennsylvania House of Representatives,Republican,2014-12-01 00:00:00+00,PA,10074,#,2011-01-04 00:00:00+00,LOWER,Toepel,,STATE,77614,Marcy,000000000147,12995
+2652,0,Pennsylvania House of Representatives,Democrat,2014-12-01 00:00:00+00,PA,10118,#,2012-12-01 00:00:00+00,LOWER,Miranda,,STATE,77577,J.P.,000000000197,24771
+2652,1,Pennsylvania House of Representatives,Democrat,2018-12-01 00:00:00+00,PA,759113,#,2014-12-01 00:00:00+00,LOWER,Harris,,STATE,160926,Jordan,186,24757
+2652,0,Pennsylvania House of Representatives,Republican,2014-12-01 00:00:00+00,PA,10148,#,2011-01-04 00:00:00+00,LOWER,Mustio,,STATE,77442,Mark,000000000044,9929
+2652,1,Pennsylvania House of Representatives,Democrat,2018-12-01 00:00:00+00,PA,759021,#,2014-12-01 00:00:00+00,LOWER,Sturla,,STATE,161155,P. Michael,96,17158
+4309,1,Pennsylvania Senate,Republican,2020-12-01 00:00:00+00,PA,758910,#,2016-12-01 00:00:00+00,UPPER,Langerholc,,STATE,198895,Wayne,35,134687
+2652,0,Pennsylvania House of Representatives,Republican,2009-01-06 00:00:00+00,PA,10106,#,0001-01-01 00:00:00+00,LOWER,Cappelli,,STATE,7338,Steven,000000000083,7338
+2652,1,Pennsylvania House of Representatives,Republican,2018-12-01 00:00:00+00,PA,759063,#,2014-12-01 00:00:00+00,LOWER,Hahn,,STATE,186854,Marcia,138,17017
+4416,1,Harrisburg Mayor,,2010-01-03 00:00:00+00,PA,204,#,0001-01-01 00:00:00+00,EXEC,Reed,Harrisburg,LOCAL,5409,Stephen,HARRISBURG,5409
+2652,0,Pennsylvania House of Representatives,Republican,2014-12-01 00:00:00+00,PA,10007,#,2011-01-04 00:00:00+00,LOWER,Bloom,,STATE,77575,Stephen,000000000199,15545
+1627,7,Delaware County Council,,2012-01-01 00:00:00+00,PA,2580,#,2008-01-01 00:00:00+00,LOWER,Cannon,Delaware,LOCAL,13004,Christine,At Large,13004
+1542,0,Philadelphia City Council,,2012-01-01 00:00:00+00,PA,2603,#,0001-01-01 00:00:00+00,LOWER,DiCicco,Philadelphia,LOCAL,15151,Frank,000000000001,15151
+1629,5,Bucks County Commissioners,Republican,2020-01-06 00:00:00+00,PA,2575,#,2012-01-02 00:00:00+00,LOWER,Martin,Bucks,LOCAL,168740,Charles,At Large,12619
+2652,0,Pennsylvania House of Representatives,Democrat,2014-12-01 00:00:00+00,PA,9984,#,2011-01-04 00:00:00+00,LOWER,Mahoney,,STATE,77455,Tim,000000000051,1017
+1628,8,Harrisburg City Council,,2017-09-05 00:00:00+00,PA,2115,#,2017-08-11 00:00:00+00,LOWER,VACANT,Harrisburg,LOCAL,181648,VACANT,At Large,175779
+4309,1,Pennsylvania Senate,Republican,2018-12-01 00:00:00+00,PA,758907,#,2014-12-01 00:00:00+00,UPPER,Stefano,,STATE,198542,Patrick,32,79965
+2652,0,Pennsylvania House of Representatives,Republican,2014-12-01 00:00:00+00,PA,10072,#,2011-01-04 00:00:00+00,LOWER,Boback,,STATE,77551,Karen,000000000117,5328
+4309,0,Pennsylvania Senate,Republican,2014-12-01 00:00:00+00,PA,3565,#,2011-01-04 00:00:00+00,UPPER,Erickson,,STATE,77458,Edwin,000000000026,13861
+4309,0,Pennsylvania Senate,Democrat,2014-12-01 00:00:00+00,PA,3562,197790,2009-01-06 00:00:00+00,UPPER,Stack,,STATE,77410,Michael,000000000005,8568
+2652,1,Pennsylvania House of Representatives,Democrat,2016-12-01 00:00:00+00,PA,759084,#,2014-12-01 00:00:00+00,LOWER,Kirkland,,STATE,106853,Thaddeus,159,8615
+1547,1,Pittsburgh City Council,Democrat,2020-01-06 00:00:00+00,PA,758123,#,2014-01-06 00:00:00+00,LOWER,Harris,Pittsburgh,LOCAL,191754,Darlene,1,1019
+2652,1,Pennsylvania House of Representatives,Democrat,2018-12-01 00:00:00+00,PA,759118,#,2015-08-25 00:00:00+00,LOWER,McClinton,,STATE,185512,Joanna,191,117026
+4461,5,Pennsylvania Governor,Democrat,2019-01-15 00:00:00+00,PA,734,#,2015-01-20 00:00:00+00,EXEC,Wolf,,STATE,179040,Tom,PA,86829
+2652,0,Pennsylvania House of Representatives,Republican,2012-08-07 00:00:00+00,PA,10146,77487,2011-01-04 00:00:00+00,LOWER,Vulakovich,,STATE,20384,Randy,000000000030,9836
+2652,0,Pennsylvania House of Representatives,Democrat,2011-01-06 00:00:00+00,PA,9975,#,2011-01-04 00:00:00+00,LOWER,Lentz,,STATE,2383,Bryan,000000000161,2383
+4309,1,Pennsylvania Senate,Republican,2016-12-01 00:00:00+00,PA,758906,#,2014-12-01 00:00:00+00,UPPER,Vance,,STATE,106685,Patricia,31,18073
+2652,1,Pennsylvania House of Representatives,Republican,2018-12-01 00:00:00+00,PA,759071,#,2014-12-01 00:00:00+00,LOWER,Quigley,,STATE,185610,Thomas,146,79933
+2652,0,Pennsylvania House of Representatives,Republican,2011-01-06 00:00:00+00,PA,10065,#,2011-01-04 00:00:00+00,LOWER,Rohrer,,STATE,10575,Sam,000000000128,10575
+2652,1,Pennsylvania House of Representatives,Democrat,2018-12-01 00:00:00+00,PA,758952,#,2014-12-01 00:00:00+00,LOWER,Deasy,,STATE,161002,Daniel,27,13646
+2652,0,Pennsylvania House of Representatives,Democrat,2014-12-01 00:00:00+00,PA,9982,#,2011-01-04 00:00:00+00,LOWER,Daley,,STATE,77451,Peter,000000000049,13453
+4309,0,Pennsylvania Senate,Democrat,2011-04-05 00:00:00+00,PA,3520,#,2009-01-06 00:00:00+00,UPPER,O'Pake,,STATE,3346,Michael,000000000011,3346
+2652,0,Pennsylvania House of Representatives,Republican,2014-12-01 00:00:00+00,PA,10061,#,2011-01-04 00:00:00+00,LOWER,Maloney,,STATE,77564,David,000000000130,11487
+4490,1,Allegheny County Council,Democrat,2022-01-01 00:00:00+00,PA,393460,#,2012-01-01 00:00:00+00,LOWER,Macey,Allegheny,LOCAL,192147,Robert,000000000009,3653
+2652,1,Pennsylvania House of Representatives,Republican,2018-12-01 00:00:00+00,PA,759018,#,2014-12-01 00:00:00+00,LOWER,Phillips-Hill,,STATE,185509,Kristin,93,80468
+2652,0,Pennsylvania House of Representatives,Republican,2014-12-01 00:00:00+00,PA,10145,#,2011-01-04 00:00:00+00,LOWER,Turzai,,STATE,77415,Mike,000000000028,14227
+4309,1,Pennsylvania Senate,,2016-05-05 00:00:00+00,PA,758884,#,2016-01-05 00:00:00+00,UPPER,VACANT,,STATE,128554,VACANT,9,123392
+2652,1,Pennsylvania House of Representatives,Republican,2018-12-01 00:00:00+00,PA,758974,#,2016-12-01 00:00:00+00,LOWER,Cook,,STATE,186414,Donald,49,134398
+1542,9,Philadelphia City Council,Democrat,2020-01-06 00:00:00+00,PA,2606,#,2016-01-04 00:00:00+00,LOWER,Green,Philadelphia,LOCAL,179839,Derek,At Large,121382
+2652,1,Pennsylvania House of Representatives,Democrat,2018-12-01 00:00:00+00,PA,758944,#,2014-12-01 00:00:00+00,LOWER,Wheatley,,STATE,188411,Jake,19,6339
+2652,0,Pennsylvania House of Representatives,Republican,2014-12-01 00:00:00+00,PA,10058,#,2011-01-04 00:00:00+00,LOWER,Tobash,,STATE,77559,Mike,000000000125,9360
+4490,1,Allegheny County Council,Republican,2022-01-01 00:00:00+00,PA,393461,#,2014-01-01 00:00:00+00,LOWER,Baker,Allegheny,LOCAL,192129,Thomas,000000000001,65411
+2652,1,Pennsylvania House of Representatives,Republican,2016-12-01 00:00:00+00,PA,759083,#,2014-12-01 00:00:00+00,LOWER,Ross,,STATE,106928,Chris,158,14164
+2652,0,Pennsylvania House of Representatives,Republican,2014-12-01 00:00:00+00,PA,9967,#,2011-01-04 00:00:00+00,LOWER,Causer,,STATE,77486,Martin,000000000067,9386
+4507,1,United States House of Representatives,Republican,2017-10-20 00:00:00+00,PA,757328,#,2013-01-03 00:00:00+00,LOWER,Murphy,,NATIONAL,180299,Timothy,000000000018,2185
+4507,1,United States House of Representatives,,2016-11-14 00:00:00+00,PA,757312,#,2016-06-23 00:00:00+00,LOWER,VACANT,,NATIONAL,134072,VACANT,000000000002,129544
+2652,0,Pennsylvania House of Representatives,Democrat,2014-12-01 00:00:00+00,PA,10018,#,2011-01-04 00:00:00+00,LOWER,Harkins,,STATE,77381,Patrick,000000000001,7949
+4309,0,Pennsylvania Senate,Republican,2014-12-01 00:00:00+00,PA,3530,#,2009-01-06 00:00:00+00,UPPER,Scarnati,,STATE,77456,Joseph,000000000025,9743
+4309,1,Pennsylvania Senate,Democrat,2015-01-20 00:00:00+00,PA,758880,#,2014-12-01 00:00:00+00,UPPER,Stack,,STATE,95362,Michael,5,8568
+4309,1,Pennsylvania Senate,Republican,2020-12-01 00:00:00+00,PA,758908,#,2014-12-01 00:00:00+00,UPPER,Alloway,,STATE,198543,Richard,33,4993
+4309,1,Pennsylvania Senate,Republican,2020-12-01 00:00:00+00,PA,758890,#,2016-12-01 00:00:00+00,UPPER,DiSanto,,STATE,179292,Giovanni,15,134683
+2652,0,Pennsylvania House of Representatives,Democrat,2014-12-01 00:00:00+00,PA,10020,#,2011-01-04 00:00:00+00,LOWER,Carroll,,STATE,77552,Mike,000000000118,910
+1635,5,Montgomery County Commissioners,Democrat,2017-01-17 00:00:00+00,PA,2577,187155,2012-01-03 00:00:00+00,LOWER,Shapiro,Montgomery,LOCAL,150480,Josh,At Large,16954
+4309,0,Pennsylvania Senate,Democrat,2010-11-02 00:00:00+00,PA,3544,#,2009-01-06 00:00:00+00,UPPER,Logan,,STATE,10010,Sean,000000000045,10010
+1131,3,Dauphin County Commissioners,,2020-01-06 00:00:00+00,PA,392885,#,2012-01-01 00:00:00+00,LOWER,Hartwick,Dauphin,LOCAL,198051,George,At Large,19137
+2652,0,Pennsylvania House of Representatives,Republican,2014-12-01 00:00:00+00,PA,10044,#,2011-01-04 00:00:00+00,LOWER,Moul,,STATE,77521,Dan,000000000091,2249
+4309,0,Pennsylvania Senate,Republican,2009-03-17 00:00:00+00,PA,3506,#,2009-01-06 00:00:00+00,UPPER,Rhoades,,STATE,15881,James,000000000029,15881
+2652,0,Pennsylvania House of Representatives,Democrat,2014-12-01 00:00:00+00,PA,10036,#,2012-12-01 00:00:00+00,LOWER,Haggerty,,STATE,77546,Kevin,000000000112,24533
+2652,0,Pennsylvania House of Representatives,Republican,2009-01-06 00:00:00+00,PA,9999,#,0001-01-01 00:00:00+00,LOWER,Hershey,,STATE,13780,Art,000000000013,13780
+2652,1,Pennsylvania House of Representatives,Republican,2018-12-01 00:00:00+00,PA,759092,#,2014-12-01 00:00:00+00,LOWER,Milne,,STATE,160903,Duane,167,17885
+4309,0,Pennsylvania Senate,Democrat,2014-12-01 00:00:00+00,PA,3567,#,2011-01-04 00:00:00+00,UPPER,Williams,,STATE,77416,Anthony,000000000008,4207
+2652,0,Pennsylvania House of Representatives,Republican,2014-12-01 00:00:00+00,PA,10053,#,2011-01-04 00:00:00+00,LOWER,Roae,,STATE,77386,Brad,000000000006,8051
+2652,0,Pennsylvania House of Representatives,Democrat,2014-12-01 00:00:00+00,PA,10154,#,2011-01-04 00:00:00+00,LOWER,Wheatley,,STATE,77400,Jake,000000000019,6339
+2652,0,Pennsylvania House of Representatives,Democrat,2014-12-01 00:00:00+00,PA,10021,#,2011-01-04 00:00:00+00,LOWER,Mundy,,STATE,80204,Phyllis,000000000120,406
+2652,1,Pennsylvania House of Representatives,Democrat,2018-12-01 00:00:00+00,PA,759126,#,2014-12-01 00:00:00+00,LOWER,Kinsey,,STATE,198908,Stephen,201,24779
+4507,0,United States House of Representatives,Democrat,2010-02-08 00:00:00+00,PA,1753,#,2009-01-03 00:00:00+00,LOWER,Murtha,,NATIONAL,5108,John,000000000012,5108
+2652,0,Pennsylvania House of Representatives,Republican,2014-12-01 00:00:00+00,PA,10089,#,2011-01-04 00:00:00+00,LOWER,Metcalfe,,STATE,77392,Daryl,000000000012,12870
+2652,0,Pennsylvania House of Representatives,Republican,2014-12-01 00:00:00+00,PA,10067,#,2011-01-04 00:00:00+00,LOWER,Helm,,STATE,77537,Susan,000000000104,7317
+2652,0,Pennsylvania House of Representatives,Democrat,2014-12-01 00:00:00+00,PA,10123,179837,2011-01-04 00:00:00+00,LOWER,Parker,,STATE,77574,Cherelle,000000000200,4513
+2652,0,Pennsylvania House of Representatives,Democrat,2012-12-01 00:00:00+00,PA,10109,#,2011-01-04 00:00:00+00,LOWER,Josephs,,STATE,20013,Babette,000000000182,11230
+4309,1,Pennsylvania Senate,Democrat,2020-12-01 00:00:00+00,PA,758878,#,2016-12-01 00:00:00+00,UPPER,Street,,STATE,186482,Sharif,3,134677
+1547,1,Pittsburgh City Council,Democrat,2020-01-06 00:00:00+00,PA,758127,#,2014-01-06 00:00:00+00,LOWER,O'Connor,Pittsburgh,LOCAL,191757,Corey,5,2681
+4507,1,United States House of Representatives,Democrat,2019-01-03 00:00:00+00,PA,757311,#,2013-01-03 00:00:00+00,LOWER,Brady,,NATIONAL,188631,Robert,000000000001,2244
+2652,0,Pennsylvania House of Representatives,Democrat,2012-12-01 00:00:00+00,PA,10068,#,2011-01-04 00:00:00+00,LOWER,Buxton,,STATE,4921,Ron,000000000103,4921
+4507,1,United States House of Representatives,Republican,2019-01-03 00:00:00+00,PA,757319,#,2013-01-03 00:00:00+00,LOWER,Shuster,,NATIONAL,159985,William,000000000009,11585
+2652,1,Pennsylvania House of Representatives,Democrat,2018-12-01 00:00:00+00,PA,758980,#,2014-12-01 00:00:00+00,LOWER,Petrarca,,STATE,161090,Joseph,55,16693
+4507,1,United States House of Representatives,Republican,2017-01-03 00:00:00+00,PA,757318,#,2013-01-03 00:00:00+00,LOWER,Fitzpatrick,,NATIONAL,131309,Michael,000000000008,10851
+2652,0,Pennsylvania House of Representatives,Republican,2012-05-15 00:00:00+00,PA,9997,#,2011-01-04 00:00:00+00,LOWER,Schroder,,STATE,19180,Curt,000000000155,780
+2652,1,Pennsylvania House of Representatives,Republican,2018-12-01 00:00:00+00,PA,759019,#,2014-12-01 00:00:00+00,LOWER,Saylor,,STATE,188575,Stanley,94,15382
+2652,0,Pennsylvania House of Representatives,Democrat,2014-12-01 00:00:00+00,PA,10085,#,2011-01-04 00:00:00+00,LOWER,Briggs,,STATE,77617,Tim,000000000149,11654
+4309,1,Pennsylvania Senate,Democrat,2016-12-01 00:00:00+00,PA,758910,#,2014-12-01 00:00:00+00,UPPER,Wozniak,,STATE,106693,John,35,14048
+2652,1,Pennsylvania House of Representatives,Republican,2018-12-01 00:00:00+00,PA,758942,#,2014-12-01 00:00:00+00,LOWER,Wentling,,STATE,186368,Parke,17,79739
+2652,0,Pennsylvania House of Representatives,Republican,2012-12-01 00:00:00+00,PA,10087,#,2011-01-04 00:00:00+00,LOWER,Quigley,,STATE,20061,Thomas,000000000146,369
+2652,1,Pennsylvania House of Representatives,Republican,2018-12-01 00:00:00+00,PA,759090,#,2016-12-01 00:00:00+00,LOWER,Charlton,,STATE,186966,Alexander,165,134302
+1628,8,Harrisburg City Council,Democrat,2020-01-06 00:00:00+00,PA,2115,#,2016-01-04 00:00:00+00,LOWER,Majors,Harrisburg,LOCAL,192069,Westburn,At Large,121364
+2652,0,Pennsylvania House of Representatives,Republican,2014-12-01 00:00:00+00,PA,10042,#,2011-01-04 00:00:00+00,LOWER,Maher,,STATE,77436,John,000000000040,17349
+2652,0,Pennsylvania House of Representatives,Republican,2014-12-01 00:00:00+00,PA,10066,#,2011-01-04 00:00:00+00,LOWER,Hickernell,,STATE,77528,David,000000000098,2466
+1547,0,Pittsburgh City Council,,2014-01-06 00:00:00+00,PA,1670,#,2010-01-04 00:00:00+00,LOWER,Lavelle,Pittsburgh,LOCAL,66981,Robert,000000000006,3162
+2652,0,Pennsylvania House of Representatives,Republican,2012-12-01 00:00:00+00,PA,10008,159980,2011-01-04 00:00:00+00,LOWER,Perry,,STATE,20055,Scott,000000000092,14232
+2652,0,Pennsylvania House of Representatives,Republican,2012-12-01 00:00:00+00,PA,10093,#,2011-01-04 00:00:00+00,LOWER,Bear,,STATE,19937,John,000000000097,17888
