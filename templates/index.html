@@ -148,7 +148,7 @@ var width = 600/2;
 
 d3.csv( data_path , type, function(error, poldata) {
 
-  console.log( poldata )
+  //console.log( poldata )
 
   var legendscale = d3.scaleOrdinal()
       .domain(["n", "r", "d", "i", "w", "v"])
@@ -196,7 +196,7 @@ d3.csv( data_path , type, function(error, poldata) {
     })
   });
 
-  console.log( levels )
+  //console.log( levels )
 
   //get number of districts per level 
   levels.forEach( function(l) {
@@ -453,8 +453,6 @@ d3.csv( data_path , type, function(error, poldata) {
 
     function highlight_level( lev_num ) {
       //var lev_id = Object.keys( levels )[lev_num].id
-      console.log( levels[lev_num].id )
-      console.log( d3.select( '.level_arc#pathsh' + levels[lev_num].id ) ) 
       d3.select( '.level_arc#pathsh' + levels[lev_num].id ).style("opacity",.5);
     }
 
@@ -557,7 +555,7 @@ d3.csv( data_path , type, function(error, poldata) {
     }
 
 
-    console.log( levels )
+    //console.log( levels )
 
     //label each level
     levels.forEach( function(l) {
