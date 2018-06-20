@@ -11,40 +11,41 @@
 
 .link {
   fill: none;
-  stroke-width: 1px;
+  stroke-width: .5px;
 }
 
-.chamber_arc {
+.arc {
+  stroke-width: .3px;
+}
+
+.chamber_label {
   font-size: 3.5px;
   font-family: sans-serif;
   letter-spacing: 1px;
-  stroke: none;
   font-weight: bold;
-  opacity: 0.5;
-  
+  opacity: 0.6;
 }
 
-.chamber_arc path {
-
-  fill: orange;
-}
 
 .level_arc {
   font-size: 8px;
-  font-family: sans-serif;
+  font-family: 'Courgette', sans-serif;
   letter-spacing: 1px;
   stroke: none;
   font-weight: bold;
   fill: steelblue;
+  border-radius:8px;
 }
 
 .buttons {
   position:fixed;
+  font-family: 'Courgette', sans-serif;
   left:50%;
   transform: translate(-50%);
   padding:17px;
   background: #d2d5de;
   top: 20px;
+  border-radius:2px;
 }
 
   div.tooltip { 
@@ -60,9 +61,8 @@
     border: 1px;      
     border-radius: 2px;           
     pointer-events: none;         
-    border-radius:5px;
     font-size:12px;
-    width:auto;
+    width:400px;
     padding:20px;
     box-shadow: 0px 2px 8px 2px rgba(0, 0, 0, 0.08);
   }
@@ -77,6 +77,10 @@
 
   button {
     font: 12px 'Courgette', sans-serif; 
+    border-radius: 8px;
+    background-color: white;
+    border: 2px solid #4CAF50;
+    width: 50px;
   }
 
   div.legend { 
@@ -111,7 +115,7 @@
 <div class="" id="viz-holder"></div>
 <!-- <svg id="svg_donut" width="600" height="600"></svg> -->
 
-<!-- load the d3.js library -->    	
+<!-- load the d3.js library -->     
 <script src="https://d3js.org/d3.v4.min.js"></script>
 <script>
 
@@ -153,11 +157,11 @@ d3.csv( data_path , type, function(error, poldata) {
   levels = [
             {id: "nu", l:"US Senators"},
             {id: "nl", l:"US Representatives"},
-            {id: "se", l:"State Executive Offices"},
-            {id: "su", l:"State Upper Legislature"},
-            {id: "sl", l:"State Lower Legislature"},
-            {id: "le", l:"Local Executive Offices"},
-            {id: "ll", l:"Local Legislative Offices"}]
+            {id: "se", l:"State Executives"},
+            {id: "su", l:"Upper State House"},
+            {id: "sl", l:"Lower State House"},
+            {id: "le", l:"Local Executives"},
+            {id: "ll", l:"Local Legislatures"}]
 
   //get chambers per level
   levels.forEach( function(l)  {
@@ -277,7 +281,8 @@ d3.csv( data_path , type, function(error, poldata) {
               return chamber.radians_scale( d.label + 1 )
             }
           })
-          .cornerRadius(2);   
+          .cornerRadius(2)
+          .padAngle(.001)   
           //TODO break this out into function
           
 
@@ -291,17 +296,17 @@ d3.csv( data_path , type, function(error, poldata) {
               .attr("id", function(d) {
                 return 'arc' + d.id;
               })
-              .attr("stroke", "None" )
+              .style("opacity", "0.7")
               .style("fill", function(d) {
-                    if ( d.last_name.toLowerCase() === "vacant" ) {
-                      return legendscale( "v" );
-                    } else {
-                      return legendscale( d.party );
-                  }
+                    if ( d.last_name.toLowerCase() === "vacant" ) { return legendscale( "v" ); }
+                    else { return legendscale( d.party );}
                 })
               .attr("transform", "translate(300,300)")
-              .on("mouseover", function(d) { highlight_link( d.id , d.links[0] )})
-              .on("mouseout", function(d) { release_link_highlight( d.id, d.links[0] )});
+              .on("click", function(d) {
+                handle_click(d);                
+              } )
+              
+
 
     //plot links
     vis.selectAll("path").each(function(d, i) {
@@ -323,8 +328,9 @@ d3.csv( data_path , type, function(error, poldata) {
               .attr("class", "link")
               .attr("stroke", party_fill( dest ))
               .attr("transform", "translate(300,300)")
-              .on("mouseover", function() { highlight_link(d.id, dest.id ) })
-              .on("mouseout", function() { release_link_highlight(d.id, dest.id ) })
+              
+              // .on("mouseover", function() { highlight_link(d.id, dest.id ) })
+              // .on("mouseout", function() { release_link_highlight(d.id, dest.id ) })
           }
         }
       })
@@ -336,17 +342,42 @@ d3.csv( data_path , type, function(error, poldata) {
   var focus_chm = 0;
   var focus_off = 0;
   var focus_chm_links = get_focus_chm_links( levels[focus_lev].chambers[ focus_chm].id )
+  var focus_arc;
 
 
-  //keyboard event listener
-  document.body.addEventListener('keydown', function(e) {
-    //msg.textContent = 'keydown:' + e.keyCode;
-    toggle_keys( e.keyCode );
+  function handle_click(e) {
+    release_highlight_chamber( levels[focus_lev].chambers[ focus_chm].id )
+    release_highlight_arc( focus_arc )
+    release_highlight_level( focus_lev )
+    if( focus_chm_links.length > 0 ) {
+      release_link_highlight( focus_chm_links[focus_off].id, focus_chm_links[focus_off].links[0]  )
+    }
+    focus_lev = levels.findIndex( obj => obj.id === e.tier )
+    focus_chm = levels[focus_lev].chambers.findIndex( obj => obj.id === e.chamber_id ) 
+    highlight_chamber( levels[focus_lev].chambers[ focus_chm].id )
+    highlight_level( focus_lev )
+    if ( e.links[0] === '#' ) {
+      focus_off = 0;
+      off_tt_html( divtt, e, levels[focus_lev].chambers[ focus_chm].name_formal )
+      highlight_arc( e )
+    } else {
+      focus_chm_links =  get_focus_chm_links( levels[focus_lev].chambers[ focus_chm].id )
+      focus_off = focus_chm_links.findIndex( obj => obj.id === e.id )
+      highlight_link( focus_chm_links[focus_off].id, focus_chm_links[focus_off].links[0]  );
+      link_tt_html( divtt, focus_chm_links, levels[focus_lev].chambers[ focus_chm].name_formal )
+    }
     
-  });
+  }
+
+  d3.select("body")
+    .on("keydown", function() {
+      toggle_keys( d3.event.keyCode );
+    })
+
 
   function toggle_keys( keystroke ) {
     release_highlight_chamber( levels[focus_lev].chambers[ focus_chm].id )
+    release_highlight_level( focus_lev )
     if( focus_chm_links.length > 0 ) {
       release_link_highlight( focus_chm_links[focus_off].id, focus_chm_links[focus_off].links[0]  )
     }
@@ -388,19 +419,19 @@ d3.csv( data_path , type, function(error, poldata) {
     //might have changed
     focus_chm_links = get_focus_chm_links( levels[focus_lev].chambers[ focus_chm].id )
 
-    //console.log( "THIS FOCUS ", focus_lev, focus_chm, focus_off, "num_links_hlchm", focus_chm_links.length )
     if( focus_chm_links.length > 0 ) {
       highlight_link( focus_chm_links[focus_off].id, focus_chm_links[focus_off].links[0]  );
-      position_tt( focus_chm_links[focus_off].id, focus_chm_links[focus_off].links[0], levels[focus_lev].chambers[ focus_chm].name_formal )
+      link_tt_html( divtt, focus_chm_links, levels[focus_lev].chambers[ focus_chm].name_formal )
     } else {
       chm_tt_html( divtt, levels[focus_lev].chambers[ focus_chm].name_formal );
     }
+    highlight_level( focus_lev )
   }
 
   function release_highlight_chamber( chamber_id ) {
       var rel_chamber_recs = poldata.filter(d => d.chamber_id === chamber_id)
       rel_chamber_recs.forEach( function(r) {
-        d3.select( '.arc#arc' + r.id ).style("stroke","none");
+        d3.select( '.arc#arc' + r.id ).style("opacity",".7").attr("stroke","none" );
       } )
     }
 
@@ -409,8 +440,34 @@ d3.csv( data_path , type, function(error, poldata) {
       var rel_chamber_recs = poldata.filter(d => d.chamber_id === chamber_id )
       var rel_link_recs = poldata.filter(d => d.chamber_id === chamber_id && Number.isInteger( d.links[0]))
       rel_chamber_recs.forEach( function(r) {
-        d3.select( '.arc#arc' + r.id ).style("stroke","green");
+        d3.select( '.arc#arc' + r.id ).style("opacity","1").attr("stroke","darkgrey" );
       } )
+    }
+
+    function release_highlight_level( lev_num ) {
+      if (lev_num>=0) {
+        d3.select( '.level_arc#pathsh' + levels[lev_num].id ).style("opacity",.2);
+      }
+    }
+
+
+    function highlight_level( lev_num ) {
+      //var lev_id = Object.keys( levels )[lev_num].id
+      console.log( levels[lev_num].id )
+      console.log( d3.select( '.level_arc#pathsh' + levels[lev_num].id ) ) 
+      d3.select( '.level_arc#pathsh' + levels[lev_num].id ).style("opacity",.5);
+    }
+
+    function release_highlight_arc( arc ) {
+      if (arc) {
+        d3.select( '.arc#arc' + arc.id ).style("fill", function(d) { return party_fill(d); });
+      }
+    }
+
+
+    function highlight_arc( arc ) {
+      focus_arc = arc;
+      d3.select( '.arc#arc' + focus_arc.id ).style("fill","darkgrey");
     }
 
 
@@ -460,33 +517,43 @@ d3.csv( data_path , type, function(error, poldata) {
     }
 
 
-    //TODO modify for single tooltip instead of two
-    function link_tt_html( div, start_obj, dest_obj, chm_name ) {
+    function off_tt_html( div, official_obj, chm_name ) {
 
       divtt.transition()    
                   .duration(200)    
                   .style("opacity", 1);
-      divtt.html("<h4>"+chm_name+"</h4><table>"+
-                        "<tr><td>"  +"</td><td></td></tr>"+
-                        "<tr><td>"+ "</td></tr>"+
-                        "<tr><td>"+ "</td></tr>"+
-                        "<h4>"+start_obj.first_name + " " +start_obj.last_name+" - Start</h4><table>"+
-                        "<tr><td>"+start_obj.name_formal + " " +start_obj.label +"</td><td></td></tr>"+
-                        "<tr><td>"+ start_obj.valid_from.getFullYear() + " to " + start_obj.valid_to.getFullYear() +"</td></tr>"+
-                        "<tr><td>"+dest_obj.name_formal + " " +dest_obj.label +"</td><td></td></tr>"+
-                        "<tr><td>"+dest_obj.valid_from.getFullYear() + " to " + dest_obj.valid_to.getFullYear() +"</td></tr>"+
+      divtt.html("<h4>"+chm_name+"</h4>"+
+                        "<h4>"+official_obj.first_name + " " +official_obj.last_name+"</h4><table>"+
+                        "<tr><td>"+official_obj.name_formal + " " +official_obj.label +"</td><td></td></tr>"+
+                        "<tr><td>"+ official_obj.valid_from.getFullYear() + " to " + official_obj.valid_to.getFullYear() +"</td></tr>"+
                         "<tr><td></td><td></td></tr>"+
                         "</table>") 
               //.style("left",  (arc_bar.centroid( obj )[0] + 300) * (div_x /600)   + "px")
               //.style("top", (arc_bar.centroid( obj )[1] + 300) * (div_x /600) + "px");
     }
 
-    function position_tt(start, dest, chm_name ) {
-        start_obj = poldata.find(o => o.id === start )
-        dest_obj = poldata.find(o => o.id === dest )
-        link_tt_html( divtt, start_obj, dest_obj, chm_name )
-        //plot_tt_html( divd, dest_obj )
-      return
+
+    //TODO modify for single tooltip instead of two
+    function link_tt_html( div, focus_chm_links, chm_name ) {
+      
+
+
+      start_obj = poldata.find(o => o.id === focus_chm_links[focus_off].id )
+      dest_obj = poldata.find(o => o.id === focus_chm_links[focus_off].links[0] )
+
+      divtt.transition()    
+                  .duration(200)    
+                  .style("opacity", 1);
+      divtt.html("<h4>"+chm_name+"</h4>"+
+                        "<h4>"+start_obj.first_name + " " +start_obj.last_name+"</h4><table>"+
+                        "<tr><td>"+start_obj.name_formal + " " +start_obj.label +"</td><td></td></tr>"+
+                        "<tr><td>"+ start_obj.valid_from.getFullYear() + " to " + start_obj.valid_to.getFullYear() +"</td></tr>"+
+                        "<tr><td>"+dest_obj.name_formal + " " +dest_obj.label +"</td><td></td></tr>"+
+                        "<tr><td>"+dest_obj.valid_from.getFullYear() + " to " + dest_obj.valid_to.getFullYear() +"</td></tr>"+
+                        "<tr><td>Link "+(focus_off+1) + " of " + focus_chm_links.length +" in this chamber</td></tr>"+
+                        "</table>") 
+              //.style("left",  (arc_bar.centroid( obj )[0] + 300) * (div_x /600)   + "px")
+              //.style("top", (arc_bar.centroid( obj )[1] + 300) * (div_x /600) + "px");
     }
 
 
@@ -502,12 +569,14 @@ d3.csv( data_path , type, function(error, poldata) {
         .outerRadius( l.radius_scale( yCeiling ))
         .startAngle( -pi/3) 
         .endAngle(  pi/3  ) 
+        .cornerRadius(2);
 
       vis.append("path")
         .attr("d", level_arc)
+        .attr("class","level_arc")
         .attr("id", "pathsh" + l.id )
         .attr("transform", "translate(300,300)")
-        .style("opacity", "0.1")
+        .style("opacity", "0.2")
 
       // Add a text label.
       var shLabelText = vis.append("text")
@@ -517,43 +586,33 @@ d3.csv( data_path , type, function(error, poldata) {
       shLabelText.append("textPath")
         .attr("class","level_arc")
         .attr("xlink:href","#pathsh" + l.id)
-        .text( state_label + " " +l.l );
+        .text( l.l );
       } )
 
     // label each chamber
     levels.forEach( function(l) {
-
       l.chambers.forEach( function(c, counter) {
-
         var chamber_arc = d3.arc()
         .innerRadius( l.radius_scale( yFloor ))
         .outerRadius( l.radius_scale( yCeiling ))
         .startAngle( c.radians_scale(0)  ) //convert from degs to radians
         .endAngle(  c.radians_scale( c.num_district + c.al_off.length )  ) //just radians
+        .cornerRadius(2);
 
-      vis.append("path")
-        .attr("d", chamber_arc)
-        .attr("id", "pathsh" + c.id )
-        .attr("transform", "translate(300,300)")
-        .style("fill", "orange" )
-        .style("opacity", ".1")
-
-      // // Add a text label.
-      // var shLabelText = vis.append("text")
-      //     .attr("x", 0)
-      //     .attr("dy", 10)
-      //     //.attr("transform", "rotate(90)")
-
-      // shLabelText.append("textPath")
-      //   .attr("class","chamber_arc"  )
-        
-      //   .attr("xlink:href","#pathsh" + c.id)
-      //   .text( c.name_formal );
+      // vis.append("path")
+      //   //.attr("d", chamber_arc  )
+      //   .attr("class", "chamber_arc")
+      //   .attr("id", "pathsh" + c.id )
+      //   .attr("transform", "translate(300,300)")
+      //   .attr("stroke-width", "1px")
+      //   .attr("stroke", "green")
+      //   .style("fill", "orange" )
+      //   .style("opacity", "0")
 
       centroid = chamber_arc.centroid( c ) 
 
       vis.append("text")
-            .attr("class","chamber_arc"  )
+            .attr("class","chamber_label"  )
             .attr("text-anchor", function(t) {
               return Math.abs(centroid[0]) < 100? "middle":  centroid[0]<0? "start" : "end";
             })
@@ -562,9 +621,7 @@ d3.csv( data_path , type, function(error, poldata) {
             .attr("y", centroid[1])
             .attr("dy", ".35em")
             .text(c.name_formal);
-
-
-      } )
+        } )
       } )
 
     //add legend
