@@ -523,7 +523,7 @@ d3.csv( data_path , type, function(error, poldata) {
                   .duration(200)    
                   .style("opacity", 1);
       divtt.html("<h4>"+chm_name+"</h4>"+
-                        "<h4>"+official_obj.first_name + " " +official_obj.last_name+"</h4><table>"+
+                        "<h4>"+official_obj.first_name + " " +official_obj.last_name+ " ("+official_obj.party.toUpperCase()+")</h4><table>"+
                         "<tr><td>"+official_obj.name_formal + " " +official_obj.label +"</td><td></td></tr>"+
                         "<tr><td>"+ official_obj.valid_from.getFullYear() + " to " + official_obj.valid_to.getFullYear() +"</td></tr>"+
                         "<tr><td></td><td></td></tr>"+
@@ -545,7 +545,7 @@ d3.csv( data_path , type, function(error, poldata) {
                   .duration(200)    
                   .style("opacity", 1);
       divtt.html("<h4>"+chm_name+"</h4>"+
-                        "<h4>"+start_obj.first_name + " " +start_obj.last_name+"</h4><table>"+
+                        "<h4>"+start_obj.first_name + " " +start_obj.last_name+" ("+start_obj.party.toUpperCase()+")</h4><table>"+
                         "<tr><td>"+start_obj.name_formal + " " +start_obj.label +"</td><td></td></tr>"+
                         "<tr><td>"+ start_obj.valid_from.getFullYear() + " to " + start_obj.valid_to.getFullYear() +"</td></tr>"+
                         "<tr><td>"+dest_obj.name_formal + " " +dest_obj.label +"</td><td></td></tr>"+
@@ -719,3 +719,4 @@ draw( 'static/pa-out.csv', 'PA' )
 
 </script>
 </body>
+
