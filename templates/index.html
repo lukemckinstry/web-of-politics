@@ -26,6 +26,18 @@
   opacity: 0.6;
 }
 
+.directions {
+  position:fixed;
+  font-family: 'Courgette', sans-serif;
+  font-size: 12px;
+  width: 200px;
+  left:10%;
+  transform: translate(-50%);
+  padding:17px;
+  background: #d2d5de;
+  top: 20px;
+  border-radius:2px;
+}
 
 .level_arc {
   font-size: 8px;
@@ -86,7 +98,6 @@
   div.legend { 
     position:fixed;
     left:75%;
-    padding:17px;
     background: #d2d5de;
     top: 40px;             
     text-align: left;
@@ -105,13 +116,22 @@
 
 </style>
 <body>
+<div class="directions">
+  <div>
+    <img src="static/arrowkeys.png" alt="Arrow Directions" style="width:80px; text-align: center;">
+  </div>
+  Use the arrow keys to scroll through officials who have changed offices
+</div>
 <div class="buttons">
 <button type="button" onclick="draw( 'static/pa-out.csv', 'PA' )">PA</button>
 <button type="button" onclick="draw( 'static/nj-out.csv', 'NJ' )">NJ</button>
 <button type="button" onclick="draw( 'static/ny-out.csv', 'NY' )">NY</button>
 <button type="button" onclick="draw( 'static/ca-out.csv', 'CA' )">CA</button>
 <button type="button" onclick="draw( 'static/tx-out.csv', 'TX' )">TX</button>
+
 </div>
+
+
 <div class="" id="viz-holder"></div>
 <!-- <svg id="svg_donut" width="600" height="600"></svg> -->
 
@@ -452,7 +472,6 @@ d3.csv( data_path , type, function(error, poldata) {
 
 
     function highlight_level( lev_num ) {
-      //var lev_id = Object.keys( levels )[lev_num].id
       d3.select( '.level_arc#pathsh' + levels[lev_num].id ).style("opacity",.5);
     }
 
@@ -717,4 +736,3 @@ draw( 'static/pa-out.csv', 'PA' )
 
 </script>
 </body>
-
