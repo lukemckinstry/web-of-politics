@@ -19,6 +19,7 @@
     <!-- <link rel="stylesheet" href="styles.css" type="text/css"> -->
     <link rel="stylesheet" href="static/css/stateface.css" type="text/css">
 
+
     <link rel="stylesheet" href="static/css/govicons-master/css/govicons.min.css">
 
 
@@ -50,19 +51,6 @@
   opacity: 0.6;
 }
 
-.directions {
-  position:fixed;
-  font-family: 'Courgette', sans-serif;
-  font-size: 12px;
-  width: 200px;
-  left:10%;
-  transform: translate(-50%);
-  padding:17px;
-  background: #d2d5de;
-  top: 20px;
-  border-radius:2px;
-}
-
 .level_arc {
   font-size: 8px;
   font-family: 'Courgette', sans-serif;
@@ -74,23 +62,29 @@
 }
 
 .buttons {
-  /*position:fixed;*/
+  opacity: 0.7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-family: 'Courgette', sans-serif;
   left:50%;
   transform: translate(-50%);
   padding:17px;
   background: #d2d5de;
   top: 20px;
-  border-radius:2px;
 }
 
-  div.tooltip { 
+  div.tooltip {
+    opacity: 0.7;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
     position:fixed;
     left:50%;
     transform: translate(-50%);
     padding:17px;
     background: #d2d5de;
-    top: 80px;             
+    top: 85px;             
     text-align: left;
     margin: 10px;
     font: 12px 'Courgette', sans-serif;           
@@ -112,18 +106,20 @@
   }
 
   button {
-    font: 12px 'Courgette', sans-serif; 
+
+    /*font: 12px 'Courgette', sans-serif; 
     border-radius: 8px;
     background-color: white;
-    border: 2px solid #4CAF50;
-    width: 80px;
+    border: 2px solid #4CAF50;*/
+    width: 60px;
   }
 
   .legend { 
+    opacity: 0.7;
     position:fixed;
     left:75%;
     background: #d2d5de;
-    top: 40px;             
+    top: 17px;             
     text-align: left;
     margin: 10px;
     font: 12px 'Courgette', sans-serif;           
@@ -132,8 +128,7 @@
     border-radius:2px;
     font-size:12px;
     width:auto;
-    padding:20px;
-    opacity:1;
+    padding:17px;
     box-shadow: 0px 2px 8px 2px rgba(0, 0, 0, 0.08);
   }
 
@@ -156,6 +151,7 @@
 <body>
 
 <div class="container">
+  
 
 <!-- state buttons for mobile -->
   <div class="row d-md-none justify-content-center">
@@ -189,7 +185,7 @@
 <!-- state buttons for desktop -->
   <div class="row">
     <div class="col d-none d-md-block">
-      <div class="buttons fixed-top ">
+      <div class="buttons fixed-top justify-content-center">
         <button type="button" class="btn btn-dark" onclick="draw( 'static/pa-out.csv', 'PA' )">
           <span class="stateface stateface-pa">PA</span>
         </button>
@@ -214,22 +210,22 @@
   <div class="row d-md-none justify-content-center" id="mobile-scroll">
     <div class="col-1-auto" >
       <button type="button" id="L" class="btn btn-outline-dark btn-lg btn-block">
-        <i class="fa fa-arrow-left" aria-hidden="true"></i>
+        <i class="fa fa-arrow-circle-left" aria-hidden="true"></i>
       </button>
     </div>    
     <div class="col-1-auto" >
         <button type="button" id="U" class="btn btn-outline-dark btn-lg btn-block">
-          <i class="fa fa-arrow-up" aria-hidden="true"></i>
+          <i class="fa fa-arrow-circle-up" aria-hidden="true"></i>
         </button>
     </div>
     <div class="col-1-auto" >
         <button type="button" id="D" class="btn btn-outline-dark btn-lg btn-block">
-          <i class="fa fa-arrow-down" aria-hidden="true"></i>
+          <i class="fa fa-arrow-circle-down" aria-hidden="true"></i>
         </button>
     </div>
     <div class="col-1-auto" >
       <button type="button" id="R" class="btn btn-outline-dark btn-lg btn-block">
-        <i class="fa fa-arrow-right" aria-hidden="true"></i></i>
+        <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
       </button>
     </div>
   </div>
@@ -238,10 +234,10 @@
 
 <div class="" id="viz-holder"></div>
 
-<!--mobile tooltip display  -->
+
 <div class="row ">
   <div class="col-md-3 col-sm-6 d-md-none justify-content-center">
-    <div class="elig_info" id="stat-table"> </div>
+    <div class="elig_info" id="stat-table"></div>
   </div>
 </div>
 
@@ -655,7 +651,7 @@ d3.csv( data_path , type, function(error, poldata) {
 
       divtt.transition()    
                   .duration(200)    
-                  .style("opacity", 1);
+                  .style("opacity", .8);
       divtt.html(html_input) 
               //.style("left",  (arc_bar.centroid( obj )[0] + 300) * (div_x /600)   + "px")
               //.style("top", (arc_bar.centroid( obj )[1] + 300) * (div_x /600) + "px");
@@ -668,14 +664,14 @@ d3.csv( data_path , type, function(error, poldata) {
                         "<h4>"+official_obj.first_name + " " +official_obj.last_name+" "+
                          (official_obj.party === 'r'? '<i class="gi gi-elephant"></i>' : (official_obj.party === 'd'? '<i class="gi gi-donkey"></i>' :   
                          " ("+official_obj.party.toUpperCase()+") ") )  + "</h4><table>"+
-                        "<tr><td>"+official_obj.name_formal + " " +official_obj.label +"</td><td></td></tr>"+
-                        "<tr><td>"+ official_obj.valid_from.getFullYear() + " to " + official_obj.valid_to.getFullYear() +"</td></tr>"+
-                        "<tr><td></td><td></td></tr>"+
+                       "<tr><td>"+ official_obj.valid_from.getFullYear() + " to " + official_obj.valid_to.getFullYear() +"</td>"+
+                        "<td>"+official_obj.name_formal + " " +official_obj.label +"</td><td></td></tr>"+       
+                        "<td></td><td></td></tr>"+
                         "</table>"
       document.getElementById('stat-table').innerHTML=html_input;
       divtt.transition()
                   .duration(200)    
-                  .style("opacity", 1);
+                  .style("opacity", .8);
       divtt.html(html_input) 
               //.style("left",  (arc_bar.centroid( obj )[0] + 300) * (div_x /600)   + "px")
               //.style("top", (arc_bar.centroid( obj )[1] + 300) * (div_x /600) + "px");
@@ -690,11 +686,11 @@ d3.csv( data_path , type, function(error, poldata) {
       html_input = "<h4>"+chm_name+"</h4>"+
                         "<h4>"+start_obj.first_name + " " +start_obj.last_name+" "+
                          (start_obj.party === 'r'? '<i class="gi gi-elephant"></i>' : (start_obj.party === 'd'? '<i class="gi gi-donkey"></i>' :   
-                         " ("+start_obj.party.toUpperCase()+") ") )  + "</h4><table>"+
-                        "<tr><td>"+start_obj.name_formal + " " +start_obj.label +"</td><td></td></tr>"+
-                        "<tr><td>"+ start_obj.valid_from.getFullYear() + " to " + start_obj.valid_to.getFullYear() +"</td></tr>"+
-                        "<tr><td>"+dest_obj.name_formal + " " +dest_obj.label +"</td><td></td></tr>"+
-                        "<tr><td>"+dest_obj.valid_from.getFullYear() + " to " + dest_obj.valid_to.getFullYear() +"</td></tr>"+
+                         " ("+start_obj.party.toUpperCase()+") ") )+"</h4><table>"+
+                        "<tr><td>"+ start_obj.valid_from.getFullYear() + " to " + start_obj.valid_to.getFullYear() +
+                        " "+start_obj.name_formal + " " +start_obj.label +"</td><td></td></tr>"+
+                        "<tr><td>"+dest_obj.valid_from.getFullYear() + " to " + dest_obj.valid_to.getFullYear() +
+                        " "+dest_obj.name_formal + " " +dest_obj.label +"</td><td></td></tr>"+
                         "<tr><td>Link "+(focus_off+1) + " of " + focus_chm_links.length +" in this chamber</td></tr>"+
                         "</table>"
       document.getElementById('stat-table').innerHTML=html_input;
@@ -702,7 +698,7 @@ d3.csv( data_path , type, function(error, poldata) {
 
       divtt.transition()    
                   .duration(200)    
-                  .style("opacity", 1);
+                  .style("opacity", .8);
       divtt.html(html_input) 
               //.style("left",  (arc_bar.centroid( obj )[0] + 300) * (div_x /600)   + "px")
               //.style("top", (arc_bar.centroid( obj )[1] + 300) * (div_x /600) + "px");
@@ -764,7 +760,7 @@ d3.csv( data_path , type, function(error, poldata) {
       centroid = chamber_arc.centroid( c ) 
 
       vis.append("text")
-            .attr("class","chamber_label"  )
+            .attr("class","chamber_label d-none d-md-block"  )
             .attr("text-anchor", function(t) {
               return Math.abs(centroid[0]) < 100? "middle":  centroid[0]<0? "start" : "end";
             })
@@ -783,10 +779,10 @@ d3.csv( data_path , type, function(error, poldata) {
     var svgLegend = d3.select(".legend").append("svg")
             .attr("width", 160).attr("height", 110)
 
-    svgLegend.append('text')
-            .attr("x", 20)
-            .attr("y", 10)
-        .text(" Politcal Party")
+    // svgLegend.append('text')
+    //         .attr("x", 20)
+    //         .attr("y", 10)
+    //     .text("Party Key")
 
     var svgLegendAccess = svgLegend.selectAll('.legend')
             .data( legendscale.domain() )
@@ -812,8 +808,15 @@ d3.csv( data_path , type, function(error, poldata) {
             if (d==="i") {return "Independent"}
             if (d==="w") {return "Working Families Party"}
             if (d==="v") {return "Vacant Office"}
-            else {return "Party Info Not Available"}
+            else {return "Party Not Available"}
         }).style("text-anchor", "start")
+
+        legend.append('div')
+          .html( '<i class="fa fa-arrow-circle-up" aria-hidden="true"></i>   '+
+          '<i class="fa fa-arrow-circle-down" aria-hidden="true"></i>   Change Government<br><br>'+
+          '<i class="fa fa-arrow-circle-left" aria-hidden="true"></i>   '+
+          '<i class="fa fa-arrow-circle-right" aria-hidden="true"></i>   Change Official')
+
   });
 
 //var vis = d3.select("#svg_donut");
