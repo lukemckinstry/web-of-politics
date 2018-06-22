@@ -269,13 +269,11 @@ function draw( data_path, state_label ) {
 
 
 var vis = d3.select('#viz-holder')
-    .append("div")
-    .classed("svg-container", true).attr("id", "viz-div") 
+    .append("div").attr("id", "viz-div") 
     .append('svg').attr("id", "viz")
     .attr("preserveAspectRatio", "xMinYMin meet")
     .attr("viewBox", "0 0 600 600")
-    //class to make it responsive
-    .classed("svg-content-responsive", true);
+
 
 var width = 600/2;
 
@@ -296,7 +294,7 @@ d3.csv( data_path , type, function(error, poldata) {
             {id: "le", l:"Local Executives"},
             {id: "ll", l:"Local Legislatures"}]
 
-  //get chambers per level
+  //count num chambers per level
   levels.forEach( function(l)  {
     var rel_level_recs = poldata.filter(d => d.tier === l.id)
 
@@ -311,7 +309,7 @@ d3.csv( data_path , type, function(error, poldata) {
     let index = levels.indexOf(level);
     levels.fill(level.chambers = chambers, index, index++);
    
-    //get num district seats per chamber, to properly scale the visualization
+    //count num district seats per chamber
     chamber_ids.forEach( function(c, counter) {
       var rel_chamber_recs = poldata.filter(d => d.chamber_id === c)
       var districts = Array.from( new Set(d3.values( rel_chamber_recs.filter(d => Number.isInteger(d.label) ).map(function(d) { return  d.label }))));
@@ -320,7 +318,7 @@ d3.csv( data_path , type, function(error, poldata) {
       let chamber_index = level.chambers.indexOf(chamber);
       level.chambers.fill( chamber.num_district = districts.length, chamber_index, chamber_index++);
 
-      //get at-large officials per chamber  
+      //count at-large officials per chamber  
       var al_recs = Array.from( new Set(d3.values( rel_chamber_recs.filter(d => !Number.isInteger(d.label) ).map(function(d) { return  d.official_sk }))));
       chamber['al_off'] = []
       al_recs.forEach( function(al, al_counter) {
@@ -329,12 +327,9 @@ d3.csv( data_path , type, function(error, poldata) {
     })
   });
 
-  console.log( levels )
-
-  //get number of districts per level 
+  //count number of districts per level 
   levels.forEach( function(l) {
     var sum = l.chambers.reduce(function(prevVal, elem) {
-      //console.log( elem.al_off.length )
       return prevVal + elem.num_district + elem.al_off.length;
     }, 0);
     l.num_officials = sum
@@ -385,7 +380,6 @@ d3.csv( data_path , type, function(error, poldata) {
 
 
   //draw arcs for each record //TODO enumerate at large seats? how to make them consistent accross terms?
-  //TODO link official tenure accross terms
   var arc_bar = d3.arc()
           .innerRadius(function(d){
             return levels.find(o => o.id === d.tier).radius_scale( d.valid_to ) ;
@@ -815,7 +809,8 @@ d3.csv( data_path , type, function(error, poldata) {
           .html( '<i class="fa fa-arrow-circle-up" aria-hidden="true"></i>   '+
           '<i class="fa fa-arrow-circle-down" aria-hidden="true"></i>   Change Government<br><br>'+
           '<i class="fa fa-arrow-circle-left" aria-hidden="true"></i>   '+
-          '<i class="fa fa-arrow-circle-right" aria-hidden="true"></i>   Change Official')
+          '<i class="fa fa-arrow-circle-right" aria-hidden="true"></i>   Change Official<br><br>'+
+          'Start Date: 01/01/2011 <br> End Date:  12/31/2018')
 
   });
 
