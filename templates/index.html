@@ -74,6 +74,10 @@
   top: 20px;
 }
 
+button {
+    width: 60px;
+  }
+
   div.tooltip {
     opacity: 0.7;
     display: flex;
@@ -105,14 +109,7 @@
     table-layout:fixed;
   }
 
-  button {
 
-    /*font: 12px 'Courgette', sans-serif; 
-    border-radius: 8px;
-    background-color: white;
-    border: 2px solid #4CAF50;*/
-    width: 60px;
-  }
 
   .legend { 
     opacity: 0.7;
@@ -269,11 +266,11 @@ function draw( data_path, state_label ) {
 
 
 var vis = d3.select('#viz-holder')
-    .append("div").attr("id", "viz-div") 
+    .append("div")
+    .attr("id", "viz-div") 
     .append('svg').attr("id", "viz")
     .attr("preserveAspectRatio", "xMinYMin meet")
     .attr("viewBox", "0 0 600 600")
-
 
 var width = 600/2;
 
@@ -294,7 +291,7 @@ d3.csv( data_path , type, function(error, poldata) {
             {id: "le", l:"Local Executives"},
             {id: "ll", l:"Local Legislatures"}]
 
-  //count num chambers per level
+  //get chambers per level
   levels.forEach( function(l)  {
     var rel_level_recs = poldata.filter(d => d.tier === l.id)
 
@@ -309,7 +306,7 @@ d3.csv( data_path , type, function(error, poldata) {
     let index = levels.indexOf(level);
     levels.fill(level.chambers = chambers, index, index++);
    
-    //count num district seats per chamber
+    //get num district seats per chamber, to properly scale the visualization
     chamber_ids.forEach( function(c, counter) {
       var rel_chamber_recs = poldata.filter(d => d.chamber_id === c)
       var districts = Array.from( new Set(d3.values( rel_chamber_recs.filter(d => Number.isInteger(d.label) ).map(function(d) { return  d.label }))));
@@ -318,7 +315,7 @@ d3.csv( data_path , type, function(error, poldata) {
       let chamber_index = level.chambers.indexOf(chamber);
       level.chambers.fill( chamber.num_district = districts.length, chamber_index, chamber_index++);
 
-      //count at-large officials per chamber  
+      //get at-large officials per chamber  
       var al_recs = Array.from( new Set(d3.values( rel_chamber_recs.filter(d => !Number.isInteger(d.label) ).map(function(d) { return  d.official_sk }))));
       chamber['al_off'] = []
       al_recs.forEach( function(al, al_counter) {
@@ -327,9 +324,12 @@ d3.csv( data_path , type, function(error, poldata) {
     })
   });
 
-  //count number of districts per level 
+  console.log( levels )
+
+  //get number of districts per level 
   levels.forEach( function(l) {
     var sum = l.chambers.reduce(function(prevVal, elem) {
+      //console.log( elem.al_off.length )
       return prevVal + elem.num_district + elem.al_off.length;
     }, 0);
     l.num_officials = sum
@@ -380,6 +380,7 @@ d3.csv( data_path , type, function(error, poldata) {
 
 
   //draw arcs for each record //TODO enumerate at large seats? how to make them consistent accross terms?
+  //TODO link official tenure accross terms
   var arc_bar = d3.arc()
           .innerRadius(function(d){
             return levels.find(o => o.id === d.tier).radius_scale( d.valid_to ) ;
@@ -635,7 +636,7 @@ d3.csv( data_path , type, function(error, poldata) {
 
     function chm_tt_html( div, name ) {
       html_input = "<h4>"+name+"</h4><table>"+
-                        "<tr><td>"  +"</td><td></td></tr>"+
+                        "<tr><td>No links in this chamber"  + "</td><td></td></tr>"+
                         "<tr><td>"+ "</td></tr>"+
                         "<tr><td></td><td></td></tr>"+
                         "</table>"
@@ -655,9 +656,9 @@ d3.csv( data_path , type, function(error, poldata) {
     function off_tt_html( div, official_obj, chm_name ) {
 
       html_input = "<h4>"+chm_name+"</h4>"+
-                        "<h4>"+official_obj.first_name + " " +official_obj.last_name+" "+
-                         (official_obj.party === 'r'? '<i class="gi gi-elephant"></i>' : (official_obj.party === 'd'? '<i class="gi gi-donkey"></i>' :   
-                         " ("+official_obj.party.toUpperCase()+") ") )  + "</h4><table>"+
+                        "<h4>" + (official_obj.party === 'r'? '<i class="gi gi-elephant"></i>' : (official_obj.party === 'd'? '<i class="gi gi-donkey"></i>' :   
+                         " ("+official_obj.party.toUpperCase()+") ") ) + " " 
+                        +official_obj.first_name + " " +official_obj.last_name+" "+ "</h4><table>"+
                        "<tr><td>"+ official_obj.valid_from.getFullYear() + " to " + official_obj.valid_to.getFullYear() +"</td>"+
                         "<td>"+official_obj.name_formal + " " +official_obj.label +"</td><td></td></tr>"+       
                         "<td></td><td></td></tr>"+
@@ -678,9 +679,9 @@ d3.csv( data_path , type, function(error, poldata) {
       dest_obj = poldata.find(o => o.id === focus_chm_links[focus_off].links[0] )
 
       html_input = "<h4>"+chm_name+"</h4>"+
-                        "<h4>"+start_obj.first_name + " " +start_obj.last_name+" "+
-                         (start_obj.party === 'r'? '<i class="gi gi-elephant"></i>' : (start_obj.party === 'd'? '<i class="gi gi-donkey"></i>' :   
-                         " ("+start_obj.party.toUpperCase()+") ") )+"</h4><table>"+
+                        "<h4>"+(start_obj.party === 'r'? '<i class="gi gi-elephant"></i>' : (start_obj.party === 'd'? '<i class="gi gi-donkey"></i>' :   
+                         " ("+start_obj.party.toUpperCase()+") ") )+ " "
+                        +start_obj.first_name + " " +start_obj.last_name+"</h4><table>"+
                         "<tr><td>"+ start_obj.valid_from.getFullYear() + " to " + start_obj.valid_to.getFullYear() +
                         " "+start_obj.name_formal + " " +start_obj.label +"</td><td></td></tr>"+
                         "<tr><td>"+dest_obj.valid_from.getFullYear() + " to " + dest_obj.valid_to.getFullYear() +
