@@ -466,6 +466,7 @@ d3.csv( data_path , type, function(error, poldata) {
     
 
   //global vars toggle chamber via arrow keys
+  var init = true;
   var focus_lev = 0;
   var focus_chm = 0;
   var focus_off = 0;
@@ -521,8 +522,12 @@ d3.csv( data_path , type, function(error, poldata) {
     //up-down toggle level
     if( keystroke === 38 ) {
       focus_off = 0;
-      focus_lev = Math.min( focus_lev += 1, max_lev) ;
-      focus_chm = Math.min( focus_chm, levels[focus_lev].chambers.length-1);
+      if (init !== true) {
+        focus_lev = Math.min( focus_lev += 1, max_lev) ;
+        focus_chm = Math.min( focus_chm, levels[focus_lev].chambers.length-1);
+      } else {
+        init = false;
+      }
     } else if ( keystroke === 40 ) {
       focus_off = 0;
       focus_lev = Math.max( focus_lev -= 1, 0);
