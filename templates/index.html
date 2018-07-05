@@ -812,7 +812,8 @@ d3.csv( data_path , type, function(error, poldata) {
         }).style("text-anchor", "start")
 
         legend.append('div')
-          .html( '<i class="fa fa-arrow-circle-up" aria-hidden="true"></i>   '+
+          .html( '<b>Instructions:</b> Use Arrow Keys or Mouse to View and Scroll <br><br> ' +
+          '<i class="fa fa-arrow-circle-up" aria-hidden="true"></i>   '+
           '<i class="fa fa-arrow-circle-down" aria-hidden="true"></i>   Change Government<br><br>'+
           '<i class="fa fa-arrow-circle-left" aria-hidden="true"></i>   '+
           '<i class="fa fa-arrow-circle-right" aria-hidden="true"></i>   Change Official<br><br>'+
