@@ -243,8 +243,8 @@ button {
 </div>
 
 <div class="row ">
-  <div class="col-md-2 col-sm-2 col-4 ">
-    <a href="https://www.cicerodata.com/"><img src="static/product_dark_xl.png" class="img-fluid" alt="Responsive image"></a>
+  <div class="col-md-3 col-sm-3 col-5 ">
+    <a href="https://www.cicerodata.com/"><img src="static/data-by-dark-inline.png" class="img-fluid" alt="Responsive image"></a>
   </div>
 </div>
 
@@ -254,9 +254,6 @@ button {
     Graphic by <a href="https://www.azavea.com/about/teammate/luke-mckinstry/">Luke McKinstry</a> | See Blog Post: <a href="https://www.azavea.com/blog/">Visualizing Turbulence in Politics with Cicero Data </a>
   </div>
 </div>
-
-
-
 
 
 <!-- <svg id="svg_donut" width="600" height="600"></svg> -->
@@ -293,7 +290,7 @@ var width = 600/2;
 
 d3.csv( data_path , type, function(error, poldata) {
 
-  console.log( poldata )
+  //console.log( poldata )
 
   var legendscale = d3.scaleOrdinal()
       .domain(["n", "r", "d", "i", "w", "v"])
@@ -341,12 +338,11 @@ d3.csv( data_path , type, function(error, poldata) {
     })
   });
 
-  console.log( levels )
+  //console.log( levels )
 
   //get number of districts per level 
   levels.forEach( function(l) {
     var sum = l.chambers.reduce(function(prevVal, elem) {
-      //console.log( elem.al_off.length )
       return prevVal + elem.num_district + elem.al_off.length;
     }, 0);
     l.num_officials = sum
@@ -357,7 +353,7 @@ d3.csv( data_path , type, function(error, poldata) {
   var yCeiling = new Date("2018/12/31")
 
   //radius scale for each level
-  const num_levels = Object.keys(levels).length; //TODO change this to just levels with officials?
+  const num_levels = Object.keys(levels).length; //change this to just levels with officials?
   const radius_level_padding = 10;
   radius_seg = (width-50 - (  num_levels )) / num_levels 
   levels.forEach( function(l, counter) {
@@ -377,7 +373,7 @@ d3.csv( data_path , type, function(error, poldata) {
     l.chambers.forEach( function(c, c_counter) {
       var name_formal =  Array.from( new Set(d3.values( poldata.filter(p => p.chamber_id === c.id).map(function(d) { return  d.name_formal }))))[0] ;
       
-      //idea is to make executive seats easier to see and differentiate, TODO maybe labeling is a better strategy here
+      //idea is to make executive seats easier to see and differentiate
       var exec_multiplier =  l.id.substring( 1,2) === 'e'? 3 : 1; 
 
       //get num officials in previous chambers on level, to determine radian where next chamber starts 
@@ -395,9 +391,7 @@ d3.csv( data_path , type, function(error, poldata) {
   })
 
 
-
-  //draw arcs for each record //TODO enumerate at large seats? how to make them consistent accross terms?
-  //TODO link official tenure accross terms
+  //draw arcs for each record
   var arc_bar = d3.arc()
           .innerRadius(function(d){
             return levels.find(o => o.id === d.tier).radius_scale( d.valid_to ) ;
@@ -428,7 +422,6 @@ d3.csv( data_path , type, function(error, poldata) {
           })
           .cornerRadius(2)
           .padAngle(.001)   
-          //TODO break this out into function
           
 
   //plot arcs
@@ -451,8 +444,6 @@ d3.csv( data_path , type, function(error, poldata) {
                 handle_click(d);                
               } )
               
-
-
     //plot links
     vis.selectAll("path").each(function(d, i) {
       d.links.forEach( function(l) {
@@ -460,7 +451,6 @@ d3.csv( data_path , type, function(error, poldata) {
           var dest = poldata.find(o => o.id === l && o.chamber_id !== d.chamber_id )
           var start_rec = levels.map(function(e) { return e.id; }).indexOf( d.tier )
           var end_rec = levels.map(function(e) { return e.id; }).indexOf( dest.tier )
-          //TODO var versus const
           if( start_rec > end_rec ) { 
             var s_cent = arc_bar.centroid( d ) 
             var e_cent = arc_bar.centroid( dest )
@@ -473,9 +463,6 @@ d3.csv( data_path , type, function(error, poldata) {
               .attr("class", "link")
               .attr("stroke", party_fill( dest ))
               .attr("transform", "translate(300,300)")
-              
-              // .on("mouseover", function() { highlight_link(d.id, dest.id ) })
-              // .on("mouseout", function() { release_link_highlight(d.id, dest.id ) })
           }
         }
       })
@@ -608,7 +595,6 @@ d3.csv( data_path , type, function(error, poldata) {
 
 
     function highlight_level( lev_num ) {
-      //var lev_id = Object.keys( levels )[lev_num].id 
       d3.select( '.level_arc#pathsh' + levels[lev_num].id ).style("opacity",.5);
     }
 
@@ -656,6 +642,7 @@ d3.csv( data_path , type, function(error, poldata) {
       return
     }
 
+    //tooltip for empty chamber
     function chm_tt_html( div, name ) {
       html_input = "<h4>"+name+"</h4><table>"+
                         "<tr><td>No links in this chamber"  + "</td><td></td></tr>"+
@@ -670,13 +657,10 @@ d3.csv( data_path , type, function(error, poldata) {
                   .duration(200)    
                   .style("opacity", .8);
       divtt.html(html_input) 
-              //.style("left",  (arc_bar.centroid( obj )[0] + 300) * (div_x /600)   + "px")
-              //.style("top", (arc_bar.centroid( obj )[1] + 300) * (div_x /600) + "px");
     }
 
-
+    //tooltip for official without links
     function off_tt_html( div, official_obj, chm_name ) {
-
       html_input = "<h4>"+chm_name+"</h4>"+
                         "<h4>" + (official_obj.party === 'r'? '<i class="gi gi-elephant"></i>' : (official_obj.party === 'd'? '<i class="gi gi-donkey"></i>' :   
                          " ("+official_obj.party.toUpperCase()+") ") ) + " " 
@@ -690,12 +674,10 @@ d3.csv( data_path , type, function(error, poldata) {
                   .duration(200)    
                   .style("opacity", .8);
       divtt.html(html_input) 
-              //.style("left",  (arc_bar.centroid( obj )[0] + 300) * (div_x /600)   + "px")
-              //.style("top", (arc_bar.centroid( obj )[1] + 300) * (div_x /600) + "px");
     }
 
 
-    //TODO modify for single tooltip instead of two
+    //tooltip for official with links
     function link_tt_html( div, focus_chm_links, chm_name ) {
       start_obj = poldata.find(o => o.id === focus_chm_links[focus_off].id )
       dest_obj = poldata.find(o => o.id === focus_chm_links[focus_off].links[0] )
@@ -717,19 +699,14 @@ d3.csv( data_path , type, function(error, poldata) {
                   .duration(200)    
                   .style("opacity", .8);
       divtt.html(html_input) 
-              //.style("left",  (arc_bar.centroid( obj )[0] + 300) * (div_x /600)   + "px")
-              //.style("top", (arc_bar.centroid( obj )[1] + 300) * (div_x /600) + "px");
+
     }
 
-
-    console.log( levels )
 
     //label each level
     levels.forEach( function(l) {
 
       var level_arc = d3.arc()
-        // .innerRadius( l.radius_scale( new Date("2015/01/01") ))
-        // .outerRadius( l.radius_scale( new Date("2015/03/30") ))
         .innerRadius( l.radius_scale( yFloor ))
         .outerRadius( l.radius_scale( yCeiling ))
         .startAngle( -pi/3) 
@@ -764,20 +741,10 @@ d3.csv( data_path , type, function(error, poldata) {
         .endAngle(  c.radians_scale( c.num_district + c.al_off.length )  ) //just radians
         .cornerRadius(2);
 
-      // vis.append("path")
-      //   //.attr("d", chamber_arc  )
-      //   .attr("class", "chamber_arc")
-      //   .attr("id", "pathsh" + c.id )
-      //   .attr("transform", "translate(300,300)")
-      //   .attr("stroke-width", "1px")
-      //   .attr("stroke", "green")
-      //   .style("fill", "orange" )
-      //   .style("opacity", "0")
-
       centroid = chamber_arc.centroid( c ) 
 
       vis.append("text")
-            .attr("class","chamber_label d-none d-md-block"  )
+            .attr("class","chamber_label"  )
             .attr("text-anchor", function(t) {
               return Math.abs(centroid[0]) < 100? "middle":  centroid[0]<0? "start" : "end";
             })
@@ -796,10 +763,6 @@ d3.csv( data_path , type, function(error, poldata) {
     var svgLegend = d3.select(".legend").append("svg")
             .attr("width", 160).attr("height", 110)
 
-    // svgLegend.append('text')
-    //         .attr("x", 20)
-    //         .attr("y", 10)
-    //     .text("Party Key")
 
     var svgLegendAccess = svgLegend.selectAll('.legend')
             .data( legendscale.domain() )
